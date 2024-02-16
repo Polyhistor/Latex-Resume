@@ -26,6 +26,32 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
+\newlength{\mylen}
+
+\makeatletter
+% Modify the cvsection command to accept an icon name as the first argument
+\RenewDocumentCommand{\cvsection}{o m}{%
+  % Check if an icon name is provided
+  \IfValueTF{#1}{%
+    % If an icon is provided, measure the width including the icon
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#1\hspace{0.0em}#2}
+    % Add space before the section title
+    \vspace{1.5ex}
+    % Print the section title with icon
+    {\Large\bfseries\color{heading}#1\hspace{0.2em}#2}\\[-1ex]
+  }{%
+    % If no icon is provided, proceed as before
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#2}
+    % Add space before the section title
+    \vspace{1.5ex}
+    % Print the section title without icon
+    {\Large\bfseries\color{heading}#2}\\[-1ex]
+  }
+  % Center the rule: adjust the length here if you want to change the thickness
+  \makebox[\mylen]{\rule{\mylen}{0.0pt}} % Use the measured width for the rule
+  \vspace{2ex} % Adjusted space after the title underline
+}
+\makeatother
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -56,6 +82,13 @@
 % \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
 % \renewcommand{\cvsubsectionfont}{\large\bfseries}
 
+% Define the length outside the command, to ensure it's only defined once
+
+
+
+
+
+
 % Change the bullets for itemize and rating marker
 % for \cvskill if you want to
 \renewcommand{\itemmarker}{{\small\textbullet}}
@@ -75,7 +108,8 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Marissa Mayer}
+
+\name{Pouya Ataei}
 \tagline{Business Woman \& Proud Geek}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
@@ -84,14 +118,9 @@
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{mmayer@yahoo-inc.com}
-%   \phone{000-00-0000}
-  \mailaddress{Address, Street, 00000 County}
-  \location{Sunnyvale, CA}
-  \homepage{marissamayr.tumblr.com}
-  \twitter{@marissamayer}
-  \linkedin{marissamayer}
-%   \github{github.com/mmayer} % I'm just making this up though.
+  \email{pouya.ataei.7@gmail.com}
+  \linkedin{pouya-ataei-bb1254ba}
+  \github{polyhistor} % I'm just making this up though.
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
@@ -121,11 +150,14 @@
 %% Set the left/right column width ratio to 6:4.
 \columnratio{0.6}
 
+\cvsection{Precursor}
+
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
 \begin{paracol}{2}
 
-\cvsection{Experience}
+\cvsection[\faBriefcase]{Work Experience}
+
 
 \cvevent{President \& CEO}{Yahoo!}{July 2012 -- Ongoing}{Sunnyvale, CA}
 \begin{itemize}
@@ -166,6 +198,7 @@
 % \end{itemize}
 
 \cvsection{A Day of My Life}
+
 
 % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
 % \wheelchart{outer radius}{inner radius}{

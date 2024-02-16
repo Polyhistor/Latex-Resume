@@ -1,0 +1,232 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{zou2013bilingual}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b0924b936369e14f1fb0840c77505126}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Will\bibnamedelima Y},
+           giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5670b2600fea169724521e252d9d09d}{%
+           family={Socher},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf0b6cd5345f783bafba8e0ac608fdcb}{%
+           family={Cer},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2214edb8305f7ccd7cdc310b3a8ae1b4}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{260460effb210d66eddbfbcc2df23a92}
+      \strng{fullhash}{bef66bbe2849c86ade392c9ceab893cd}
+      \strng{bibnamehash}{bef66bbe2849c86ade392c9ceab893cd}
+      \strng{authorbibnamehash}{bef66bbe2849c86ade392c9ceab893cd}
+      \strng{authornamehash}{260460effb210d66eddbfbcc2df23a92}
+      \strng{authorfullhash}{bef66bbe2849c86ade392c9ceab893cd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{EMNLP}
+      \field{title}{Bilingual Word Embeddings for Phrase-Based Machine Translation.}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{1393\bibrangedash 1398}
+      \range{pages}{6}
+    \endentry
+    \entry{Codishetal2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=26e41f7165c5e1fa0830964c789b8496}{%
+           family={Codish},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f846b16dbe0fda5c0817a59d97128880}{%
+           family={Marriott},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e1d213e738e838d7a0d144dedefef1}{%
+           family={Taboch},
+           familyi={T\bibinitperiod},
+           given={C.K.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9fa1a6b30ce7970ad213eee800d9c56}
+      \strng{fullhash}{03aef81f0e9541a9ea1071b762233dc6}
+      \strng{bibnamehash}{03aef81f0e9541a9ea1071b762233dc6}
+      \strng{authorbibnamehash}{03aef81f0e9541a9ea1071b762233dc6}
+      \strng{authornamehash}{a9fa1a6b30ce7970ad213eee800d9c56}
+      \strng{authorfullhash}{03aef81f0e9541a9ea1071b762233dc6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Journal of Logic Programming}
+      \field{title}{Improving program analyses by structure untupling}
+      \field{volume}{43}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{251\bibrangedash 263}
+      \range{pages}{13}
+    \endentry
+    \entry{Conway2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e631663fc0bfbe3faf4b587dbfe9801}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={Damian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Connecticut, USA}%
+      }
+      \list{publisher}{1}{%
+        {Manning Publications Co.}%
+      }
+      \strng{namehash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \strng{fullhash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \strng{bibnamehash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \strng{authorbibnamehash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \strng{authornamehash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \strng{authorfullhash}{0e631663fc0bfbe3faf4b587dbfe9801}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Object {O}riented {P}erl: {A} comprehensive guide to concepts and programming techniques}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{Huetal2000}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=30c3519915a07c272d6fd946f3eaa35a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69061a935cfcb9559a26a0cd0fdaead4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={H.R.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f80812a9bdd70234d758b941c682bd8}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {FL, USA}%
+      }
+      \list{publisher}{2}{%
+        {International Institute of Informatics}%
+        {Systemics}%
+      }
+      \strng{namehash}{d7b82988f345830c24933aaa58c956ca}
+      \strng{fullhash}{8799e44d5c4017e6a23b5c673fd74257}
+      \strng{bibnamehash}{8799e44d5c4017e6a23b5c673fd74257}
+      \strng{authorbibnamehash}{8799e44d5c4017e6a23b5c673fd74257}
+      \strng{authornamehash}{d7b82988f345830c24933aaa58c956ca}
+      \strng{authorfullhash}{8799e44d5c4017e6a23b5c673fd74257}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the World Multiconference on Systemics, Cybernetics and Informatics, (SCI 2000), Florida, USA, 23-26 July 2000}
+      \field{title}{Fast and robust equalization: A case study}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{398\bibrangedash 403}
+      \range{pages}{6}
+    \endentry
+    \entry{Meyer2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1c24758d867f50366cc4c583ba87fb79}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1c24758d867f50366cc4c583ba87fb79}
+      \strng{fullhash}{1c24758d867f50366cc4c583ba87fb79}
+      \strng{bibnamehash}{1c24758d867f50366cc4c583ba87fb79}
+      \strng{authorbibnamehash}{1c24758d867f50366cc4c583ba87fb79}
+      \strng{authornamehash}{1c24758d867f50366cc4c583ba87fb79}
+      \strng{authorfullhash}{1c24758d867f50366cc4c583ba87fb79}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Applied Artificial Intelligence}
+      \field{title}{A constraint-based framework for diagrammatic reasoning}
+      \field{volume}{14}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{327\bibrangedash 344}
+      \range{pages}{18}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
