@@ -25,6 +25,7 @@
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
+\usepackage{graphicx}
 
 \newlength{\mylen}
 
@@ -109,8 +110,13 @@
 
 \begin{document}
 
+% \photoR{2.5cm}{test-profile.jpg}
+
 \name{Pouya Ataei}
-\tagline{Business Woman \& Proud Geek}
+\tagline{Software Engineer \& Computer Scientist}
+
+\photoR{3cm}{profile-photo.jpg}
+
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
 % \photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
@@ -150,10 +156,87 @@
 %% Set the left/right column width ratio to 6:4.
 \columnratio{0.6}
 
-\cvsection{Precursor}
+\cvsection[\faBrain]{Precursor}
 
-% Start a 2-column paracol. Both the left and right columns will automatically
-% break across pages if things get too long.
+This identification is merely the idea of myself to provide with
+specious and precarious sense of permanence. For this idea is
+relatively fixed, being based upon carefully selected memories of
+my past, which have a preserved and fixed character. Social
+conventions therefore, encouraged me to form this idea of myself
+with equally abstract and symbolic roles and stereotypes
+
+\vspace{0.5cm}
+
+\begin{paracol}{2}
+
+\cvsection[\faHandHoldingHeart]{What I have to offer?}
+
+A passionte software engineer with 10+ years exprience developing
+robust code with stress on efficiency, resuasbility and scalability. I
+have held responsible positions in a number of companies
+specialising in software as a Software Engineer, Architect,
+System and Devops Engineer, Researcher and Teacher. I constantly
+perceive the multitudes of complexity within the simplicites and I’m
+always looking at things through the prism of creativity.
+
+
+\switchcolumn
+
+\cvsection[\faHandshake]{What I’m looking for? }
+
+\begin{itemize}
+  \item Company with a vibrant and positive environment.
+  \item Direct engineering hands-on involvement.
+  \item Time and opportunity to learn and apply emerging technologies.
+  \item Work hard, but not at the weekends.
+\end{itemize}
+
+\end{paracol}
+
+\vspace{0.5cm}
+
+\cvsection[\faCode]{Skills}
+
+\begin{paracol}{2}
+
+\cvskill{English}{5}
+\divider
+
+\cvskill{Spanish}{4}
+\divider
+
+\cvskill{German}{3.5} 
+\divider
+
+\cvskill{English}{5}
+\divider
+
+\cvskill{Spanish}{4}
+\divider
+
+\cvskill{German}{3.5} 
+
+\switchcolumn
+
+\cvskill{English}{5}
+\divider
+
+\cvskill{Spanish}{4}
+\divider
+
+\cvskill{German}{3.5} 
+\divider
+
+\cvskill{English}{5}
+\divider
+
+\cvskill{Spanish}{4}
+\divider
+
+\cvskill{German}{3.5} 
+
+\end{paracol}
+
 \begin{paracol}{2}
 
 \cvsection[\faBriefcase]{Work Experience}
@@ -237,48 +320,20 @@
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{Life Philosophy}
-\begin{quote}
-``If you don't have any shadows, you're not standing in the light.''
-\end{quote}
 
-\cvsection{Most Proud of}
 
-\cvachievement{\faTrophy}{Courage I had}{to take a sinking ship and try to make it float}
 
-\divider
+\cvsection{Skills}
 
-\cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
 
-\divider
-
-\cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
-
-\divider
-
-\cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
-
-\cvsection{Strengths}
-
-\cvtag{Hard-working (18/24)}
-\cvtag{Persuasive}\\
-\cvtag{Motivator \& Leader}
-
-\divider\smallskip
-
-\cvtag{UX}
-\cvtag{Mobile Devices \& Applications}
-\cvtag{Product Management \& Marketing}
-
-\cvsection{Languages}
 
 \cvskill{English}{5}
-% \divider
+\divider
 
 \cvskill{Spanish}{4}
-% \divider
+\divider
 
-\cvskill{German}{3.5} %% supports X.5 values.
+\cvskill{German}{3.5} 
 
 
 \cvsection{Education}

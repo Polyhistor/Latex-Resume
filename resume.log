@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  16 FEB 2024 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  23 FEB 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -884,33 +884,33 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )))
 \@quotelevel=\count454
 \@quotereset=\count455
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 110.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 111.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 10.0pt on input line 111.
  (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count456
@@ -930,7 +930,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 110.
+Package hyperref Info: Link coloring OFF on input line 111.
  (./resume.out) (./resume.out)
 \@outlinefile=\write6
 \openout6 = `resume.out'.
@@ -1002,97 +1002,83 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'resume.bbl' found.
  (./resume.bbl)
-Package biblatex Info: Reference section=0 on input line 110.
-Package biblatex Info: Reference segment=0 on input line 110.
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 145.
+(Font)              scaled to size 24.88pt on input line 151.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 145.
+(Font)              scaled to size 24.88pt on input line 151.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 145.
+(Font)              scaled to size 12.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 145.
+(Font)              scaled to size 12.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 145.
+(Font)              scaled to size 8.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 145.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 145.
+(Font)              scaled to size 8.0pt on input line 151.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 151.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 145.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 151.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 145.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 151.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 145.
+(Font)              <7> on input line 151.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 145.
+(Font)              <5> on input line 151.
+<profile-photo.jpg, id=17, 1541.76pt x 2055.68pt>
+File: profile-photo.jpg Graphic file (type jpg)
+<use profile-photo.jpg>
+Package pdftex.def Info: profile-photo.jpg  used on input line 151.
+(pdftex.def)             Requested size: 1541.75624pt x 2055.675pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 153.
+(Font)              scaled to size 14.4pt on input line 159.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 153.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 14.4pt on input line 159.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 172.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 162.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 162.
- (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 164.
+(Font)              scaled to size 9.0pt on input line 187.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 188.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 164.
+(Font)              scaled to size 9.0pt on input line 188.
 
+Overfull \hbox (1.87448pt too wide) in paragraph at lines 190--191
+[]\T1/lato-TLF/m/n/9 Time and op-por-tu-nity to learn and ap-ply emerg- 
+ []
+
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 202.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 245.
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 216.
+(hyperref)                removing `\\' on input line 299.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
  [][][][]
  []
 
 
-Overfull \hbox (26.09247pt too wide) in paragraph at lines 207--216
+Overfull \hbox (26.09247pt too wide) in paragraph at lines 290--299
  []|  [] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 226.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 230.
-(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 234.
- (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 241.
+(Font)              scaled to size 10.0pt on input line 309.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 317.
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [1
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 247--247
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 251--251
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 255--255
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 259--259
-[]|[]| 
- []
-
-[1
-
-{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc} <./profile-photo.jpg>] [2]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 297.
- [2] (./resume.aux)
+(Font)              scaled to size 9.0pt on input line 352.
+ [3{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resume.run.xml'.
@@ -1100,17 +1086,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41401 strings out of 476025
- 836428 string characters out of 5779036
- 1902388 words of memory out of 5000000
- 61179 multiletter control sequences out of 15000+600000
- 829119 words of font info for 73 fonts, out of 8000000 for 9000
+ 41414 strings out of 476025
+ 836754 string characters out of 5779036
+ 1900388 words of memory out of 5000000
+ 61191 multiletter control sequences out of 15000+600000
+ 805956 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,10n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (2 pages, 178483 bytes).
+Output written on resume.pdf (3 pages, 577802 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
