@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAR 2024 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  8 MAR 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,111 +1067,112 @@ LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 
 {/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./profile-photo.jpg>]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 330.
+(Font)              scaled to size 10.0pt on input line 334.
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
  []\T1/lato-TLF/m/n/9 Jun 2021 -- Sep 2021
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
  \T1/lato-TLF/m/n/9 Auckland, New Zealand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
  []\T1/lato-TLF/m/n/9 Jul 2020 -- Jun 2021
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
  \T1/lato-TLF/m/n/9 Auckland, New Zealand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
  []\T1/lato-TLF/m/n/9 Feb 2020 -- Jul 2020
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
  \T1/lato-TLF/m/n/9 Auckland, New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
- []\T1/lato-TLF/m/n/9 Jun 2019-- Feb 2020
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
- \T1/lato-TLF/m/n/9 Auckland, New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
- []\T1/lato-TLF/m/n/9 Jun 2019-- Feb 2020
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
- \T1/lato-TLF/m/n/9 Tehran, Iran
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+ []\T1/lato-TLF/m/n/9 Jun 2019-- Feb 2020
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+ \T1/lato-TLF/m/n/9 Auckland, New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+ []\T1/lato-TLF/m/n/9 Feb 2017-- June 2019
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+ \T1/lato-TLF/m/n/9 Tehran, Iran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
  []\T1/lato-TLF/m/n/9 June 2015-- Nov 2016
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
  \T1/lato-TLF/m/n/9 Bandar Sri Per-maisuri, Malaysia
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
  []\T1/lato-TLF/m/n/9 Feb 2015-- May 2015
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
  \T1/lato-TLF/m/n/9 Kuala Lumpur, Malaysia
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 503.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+(Font)              scaled to size 9.0pt on input line 511.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
 []|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-godb -
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 525--525
+Underfull \hbox (badness 8000) in paragraph at lines 533--533
  []|\T1/lato-TLF/m/n/9 April 2015|
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 529--529
+Underfull \hbox (badness 4673) in paragraph at lines 537--537
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 []|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 533--533
+Underfull \hbox (badness 4673) in paragraph at lines 541--541
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Overfull \hbox (3.51704pt too wide) in paragraph at lines 543--543
+Overfull \hbox (3.51704pt too wide) in paragraph at lines 551--551
 \T1/lato-TLF/m/n/10 lish-ing. Re-trieved from []$https : / / www . amazon . com / Nexus-[]Methodology-[]Trenchant-[]Approach-[]Toward / dp / 3659881392$[]  
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 551.
-(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [4{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
+[4]
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 559.
+ (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resume.run.xml'.
@@ -1179,17 +1180,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41088 strings out of 476025
- 830203 string characters out of 5779036
+ 41089 strings out of 476025
+ 830209 string characters out of 5779036
  1891388 words of memory out of 5000000
  60859 multiletter control sequences out of 15000+600000
  804885 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (4 pages, 605025 bytes).
+Output written on resume.pdf (5 pages, 607860 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
