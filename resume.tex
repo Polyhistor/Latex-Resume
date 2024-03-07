@@ -309,6 +309,21 @@ with equally abstract and symbolic roles and stereotypes
 \columnratio{0.6}
 
 
+\makeatletter
+% Define or renew the cvevent command
+\RenewDocumentCommand{\cvevent}{m m m m}{%
+  % Arguments: #1 = Position, #2 = Company, #3 = Date Range, #4 = Location
+  \vspace{1.5ex} % Space before the event
+  {\bfseries\large #1} at {\bfseries\large #2} % Position at Company
+  \hfill % Fill space
+  {\small\itshape #3} % Date range
+  \\ % New line
+  {\small\itshape #4} % Location
+  \par % End of paragraph
+  \vspace{1ex} % Space after the event before details begin
+}
+\makeatother
+
 
 \cvsection[\faBriefcase]{Work Experience}
 
@@ -335,7 +350,6 @@ different regions.
 
 \divider
 
-\vspace{0.5cm}
 
 \cvevent{Tech Lead}{Idexx Laboratories}{Jun 2021 -- Sep 2021}{Auckland, New Zealand}
 
@@ -354,8 +368,6 @@ different regions.
 \textit{Tech \& Tools: Laravel, Terraform, AWS, Apollo, Go, Rust, Node, React, PHP, SQL, Kafka, Python}
 
 \divider
-
-\vspace{0.5cm}
 
 \cvevent{Senior Fullstack Developer}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
 
@@ -398,7 +410,7 @@ different regions.
 
 \divider
 
-\vspace{0.5cm}
+
 
 \cvevent{Frontend Engineer}{Navigate Travel}{Jun 2019-- Feb 2020}{Auckland, New Zealand}
 
@@ -423,9 +435,7 @@ different regions.
 
 \divider
 
-\vspace{0.5cm}
-
-\cvevent{Founder, Lead Developer}{Navigate Travel}{Feb 2017-- June 2019}{Tehran, Iran}
+\cvevent{Founder, Lead Developer}{Pouyaraveshan Academy}{Feb 2017-- June 2019}{Tehran, Iran}
 
 \begin{itemize}
   \item Optimized SEO strategies, achieving an average website position of 8.5 and a click-through rate (CTR) of 6.5\%, significantly enhancing online visibility.
@@ -444,8 +454,6 @@ different regions.
 \textit{Tech \& Tools: ReactJS, NodeJs, Mongo, Adobe Connect, Mysql, PHP, Golang, C\#, Java}
 
 \divider
-
-\vspace{0.5cm}
 
 \cvevent{Full Stack Developer}{Cake Creative Digital Lab}{June 2015-- Nov 2016}{Bandar Sri Permaisuri, Malaysia}
 
@@ -467,9 +475,7 @@ different regions.
 
 \divider
 
-\vspace{0.5cm}
-
-\cvevent{Workshop Assistant, Python Developer }{Cake Creative Digital Lab}{Feb 2015-- May 2015}{Kuala Lumpur, Malaysia}
+\cvevent{Workshop Assistant, Python Developer }{Kidocode}{Feb 2015-- May 2015}{Kuala Lumpur, Malaysia}
 
 
 \begin{itemize}
