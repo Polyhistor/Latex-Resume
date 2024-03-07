@@ -1524,10 +1524,6 @@ INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
-INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 INPUT resume.aux
 INPUT ./resume.out
 INPUT ./resume.out
