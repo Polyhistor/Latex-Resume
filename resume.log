@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAR 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAR 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1046,87 +1046,137 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on in
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 244.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 314.
+(Font)              scaled to size 9.0pt on input line 316.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
  []\T1/lato-TLF/m/n/9 Sep 2021 -- Cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
  \T1/lato-TLF/m/n/9 Auckland, New Zealand
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 318.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 320.
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 318.
+(Font)              scaled to size 9.0pt on input line 320.
  [1
 
 {/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./profile-photo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
  []\T1/lato-TLF/m/n/9 Jun 2021 -- Sep 2021
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
  \T1/lato-TLF/m/n/9 Auckland, New Zealand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
- []\T1/lato-TLF/m/n/9 2005 -- 2010
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+ []\T1/lato-TLF/m/n/9 Jul 2020 -- Jun 2021
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
- \T1/lato-TLF/m/n/9 Palo Alto, CA
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+ \T1/lato-TLF/m/n/9 Auckland, New Zealand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
- []\T1/lato-TLF/m/n/9 Oct 2001 -- July 2005
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+ []\T1/lato-TLF/m/n/9 Feb 2020 -- Jul 2020
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
- \T1/lato-TLF/m/n/9 Palo Alto, CA
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+ \T1/lato-TLF/m/n/9 Auckland, New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+ []\T1/lato-TLF/m/n/9 Jun 2019-- Feb 2020
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+ \T1/lato-TLF/m/n/9 Auckland, New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+ []\T1/lato-TLF/m/n/9 Jun 2019-- Feb 2020
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+ \T1/lato-TLF/m/n/9 Tehran, Iran
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+ []\T1/lato-TLF/m/n/9 June 2015-- Nov 2016
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+ \T1/lato-TLF/m/n/9 Bandar Sri Per-maisuri, Malaysia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+ []\T1/lato-TLF/m/n/9 May 2015-- Nov 2016
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+ \T1/lato-TLF/m/n/9 Tehran, Iran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+ []\T1/lato-TLF/m/n/9 Feb 2015-- May 2015
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+ \T1/lato-TLF/m/n/9 Tehran, Iran
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 371.
+(hyperref)                removing `\\' on input line 489.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
  [][][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--371
+Underfull \hbox (badness 10000) in paragraph at lines 480--489
  []|  [] 
  []
 
-[2]
+[3] [4]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 381.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 389.
+(Font)              scaled to size 10.0pt on input line 499.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 507.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
  []\T1/lato-TLF/m/n/9 Sept 1997 -- June 1999
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
  []\T1/lato-TLF/m/n/9 Sept 1993 -- June 1997
  []
 
-[3{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
+[5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 419.
- [4] (./resume.aux)
+(Font)              scaled to size 9.0pt on input line 537.
+ [6] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resume.run.xml'.
@@ -1134,17 +1184,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41419 strings out of 476025
- 836858 string characters out of 5779036
+ 41421 strings out of 476025
+ 836870 string characters out of 5779036
  1891388 words of memory out of 5000000
  61196 multiletter control sequences out of 15000+600000
  805495 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (4 pages, 596687 bytes).
+Output written on resume.pdf (6 pages, 605254 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
