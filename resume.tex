@@ -50,6 +50,7 @@
 
 \newlength{\mylen}
 
+
 \makeatletter
 % Modify the cvsection command to accept an icon name as the first argument
 \RenewDocumentCommand{\cvsection}{o m}{%
@@ -461,14 +462,59 @@ marketing, contents, administration, student handling, system developments, and 
 \vspace{0.5cm}
 
 
-% \divider
+\renewcommand{\cvevent}[4]{%
+  \noindent
+  \begin{tabular}{@{}p{0.4\linewidth}p{0.28\linewidth}p{0.2433\linewidth}@{}}
+    \small\textbf{#1} & % Degree
+    \small{#2} & % Location
+    \raggedleft\arraybackslash\small{#3} % Date (right-aligned)
+  \end{tabular}
+  \par % End the tabular line and provide some space before the next line
+  \vspace{0.5em} % Adjust the vertical space after the event
+}
 
-% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
 
-% \begin{itemize}
-% \item Joined the company as employe \#20 and female employee \#1
-% \item Developed targeted advertisement in order to use user's search queries and show them related ads
-% \end{itemize}
+
+
+
+
+
+\cvsection{Education}
+
+\cvevent{B.S.C\ in Software Engineering (Dual Degree)}{Stanford University}{Jan 2012 -- April 2015}{}
+
+\divider
+
+\cvevent{B.S.C\ in Software Engineering (Dual Degree)}{Asia Pacific University of Technology}{Jan 2012 -- April 2015}{}
+
+\divider
+
+\cvevent{M.S.C\ in Software Engineering}{Stanford University}{Setember 2015 -- Feb 2017}{}
+
+\divider
+
+\cvevent{P.H.D\ in Computer Science}{Auckland University of Technology}{Feb 2019 -- May 2024}{}
+
+\divider
+
+\cvevent{Nano Degree\ in Data Architecture}{Udacity}{Dec 2022 -- Feb 2023}{}
+
+\vspace{0.5cm}
+
+\cvsection{Publications}
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
 
 \cvsection{A Day of My Life}
 
@@ -488,23 +534,6 @@ marketing, contents, administration, student handling, system developments, and 
   5/8em/accent!20/Baking cupcakes
 }
 
-% use ONLY \newpage if you want to force a page break for
-% ONLY the currentc column
-\newpage
-
-\cvsection{Publications}
-
-\nocite{*}
-
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
-
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 
 
 
@@ -512,22 +541,7 @@ marketing, contents, administration, student handling, system developments, and 
 
 
 
-\cvskill{English}{5}
-\divider
 
-\cvskill{Spanish}{4}
-\divider
-
-\cvskill{German}{3.5} 
-
-
-\cvsection{Education}
-
-\cvevent{M.S.\ in Computer Science}{Stanford University}{Sept 1997 -- June 1999}{}
-
-\divider
-
-\cvevent{B.S.\ in Symbolic Systems}{Stanford University}{Sept 1993 -- June 1997}{}
 
 \newpage
 
