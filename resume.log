@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  8 MAR 2024 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  8 MAR 2024 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,15 +1103,15 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41094 strings out of 476025
- 830287 string characters out of 5779036
+ 41095 strings out of 476025
+ 830315 string characters out of 5779036
  1891388 words of memory out of 5000000
- 60862 multiletter control sequences out of 15000+600000
- 827763 words of font info for 69 fonts, out of 8000000 for 9000
+ 60863 multiletter control sequences out of 15000+600000
+ 828071 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (5 pages, 614652 bytes).
+Output written on resume.pdf (5 pages, 614995 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
