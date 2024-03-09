@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  8 MAR 2024 11:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  9 MAR 2024 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,12 +1089,12 @@ Underfull \hbox (badness 4673) in paragraph at lines 547--547
  []
 
 
-Overfull \hbox (3.51704pt too wide) in paragraph at lines 557--557
+Overfull \hbox (3.51704pt too wide) in paragraph at lines 559--559
 \T1/lato-TLF/m/n/10 lish-ing. Re-trieved from []$https : / / www . amazon . com / Nexus-[]Methodology-[]Trenchant-[]Approach-[]Toward / dp / 3659881392$[]  
  []
 
 [4]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 565.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 567.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
