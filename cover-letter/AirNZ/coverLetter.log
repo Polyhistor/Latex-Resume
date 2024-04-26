@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  26 APR 2024 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  26 APR 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex
-(/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex
+**/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex
+(/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./altacv.cls
 Document Class: altacv 2021/10/04 AltaCV v1.6.4, yet another alternative class for a resume/curriculum vitae.
@@ -201,7 +201,7 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-** pdfx: No file coverLetterAirNZ.xmpdata . Metadata will be incomplete!
+** pdfx: No file coverLetter.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
@@ -609,8 +609,8 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 18.
- (./coverLetterAirNZ.aux)
-\openout1 = `coverLetterAirNZ.aux'.
+ (./coverLetter.aux)
+\openout1 = `coverLetter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -650,9 +650,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 18.
- (./coverLetterAirNZ.out) (./coverLetterAirNZ.out)
+ (./coverLetter.out) (./coverLetter.out)
 \@outlinefile=\write5
-\openout5 = `coverLetterAirNZ.out'.
+\openout5 = `coverLetter.out'.
 
 
 *geometry* driver: auto-detecting
@@ -695,27 +695,22 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 20.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 20.
-
-Overfull \hbox (10.53935pt too wide) in paragraph at lines 31--32
-[]\T1/lato-TLF/m/n/10 Throughout my ca-reer, I have con-sis-tently de-liv-ered high-quality code and col-lab-o-rated ef-fec-tively with cross-functional 
- []
-
 [1
 
-{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}] (./coverLetterAirNZ.aux)
-Package rerunfilecheck Info: File `coverLetterAirNZ.out' has not changed.
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}] (./coverLetter.aux)
+Package rerunfilecheck Info: File `coverLetter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  32039 strings out of 476025
- 645427 string characters out of 5779036
- 1857388 words of memory out of 5000000
+ 645332 string characters out of 5779036
+ 1861388 words of memory out of 5000000
  51962 multiletter control sequences out of 15000+600000
  579380 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,5n,120p,601b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,5n,120p,596b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on coverLetterAirNZ.pdf (1 page, 45546 bytes).
+Output written on coverLetter.pdf (1 page, 46573 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

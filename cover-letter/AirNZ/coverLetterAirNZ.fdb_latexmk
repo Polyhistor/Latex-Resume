@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1710978037 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex" "coverLetterAirNZ.pdf" "coverLetterAirNZ" 1710978037 0
-  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex" 1710978036 3078 db716ff65d75729c8f5737597c81c19c ""
+["pdflatex"] 1714091938 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex" "coverLetterAirNZ.pdf" "coverLetterAirNZ" 1714091939 0
+  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetterAirNZ.tex" 1714091938 1852 063fead7afd4bf5cd9592039c0afae9d ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1678549815 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -195,10 +195,10 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 8197b5e86c7bf6d7352283907f10d5c2 ""
   "altacv.cls" 1710977295 13471 8c5bef71a78cdd38222121e1432b6ec1 ""
-  "coverLetterAirNZ.aux" 1710978037 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
-  "coverLetterAirNZ.out" 1710978037 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "coverLetterAirNZ.tex" 1710978036 3078 db716ff65d75729c8f5737597c81c19c ""
-  "pdfa.xmpi" 1710978037 5042 2d892d787dfd9d01b22da4db2063ee87 "pdflatex"
+  "coverLetterAirNZ.aux" 1714091939 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
+  "coverLetterAirNZ.out" 1714091939 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "coverLetterAirNZ.tex" 1714091938 1852 063fead7afd4bf5cd9592039c0afae9d ""
+  "pdfa.xmpi" 1714091938 5042 5200facff3af7c7a6b5d08aa6363150f "pdflatex"
   (generated)
   "coverLetterAirNZ.aux"
   "coverLetterAirNZ.log"

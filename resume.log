@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  21 MAR 2024 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  26 APR 2024 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1045,56 +1045,56 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on in
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 245.
+ [1
+
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./profile-photo.jpg>]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 332.
+(Font)              scaled to size 9.0pt on input line 353.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 332.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 336.
+(Font)              scaled to size 9.0pt on input line 353.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 357.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 336.
- [1
-
-{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc} <./profile-photo.jpg>]
+(Font)              scaled to size 9.0pt on input line 357.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 349.
- [2] [3]
+(Font)              scaled to size 10.0pt on input line 370.
+ [2{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}] [3]
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 517.
+(Font)              scaled to size 9.0pt on input line 538.
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-godb -
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 541--541
+Underfull \hbox (badness 8000) in paragraph at lines 562--562
  []|\T1/lato-TLF/m/n/9 April 2015|
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 545--545
+Underfull \hbox (badness 4673) in paragraph at lines 566--566
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 549--549
+Underfull \hbox (badness 4673) in paragraph at lines 570--570
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Overfull \hbox (3.51704pt too wide) in paragraph at lines 561--561
+Overfull \hbox (3.51704pt too wide) in paragraph at lines 582--582
 \T1/lato-TLF/m/n/10 lish-ing. Re-trieved from []$https : / / www . amazon . com / Nexus-[]Methodology-[]Trenchant-[]Approach-[]Toward / dp / 3659881392$[]  
  []
 
 [4]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 569.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 590.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1105,13 +1105,13 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 Here is how much of TeX's memory you used:
  41095 strings out of 476025
  830315 string characters out of 5779036
- 1891388 words of memory out of 5000000
+ 1897388 words of memory out of 5000000
  60863 multiletter control sequences out of 15000+600000
  828071 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (5 pages, 617565 bytes).
+Output written on resume.pdf (5 pages, 618311 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
