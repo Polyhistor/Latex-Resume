@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  3 MAY 2024 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  3 MAY 2024 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/pataei/Desktop/Projects/latex-resume/resume.tex
-(/Users/pataei/Desktop/Projects/latex-resume/resume.tex
+**/Users/pataei/Desktop/Projects/latex-resume/resume1.tex
+(/Users/pataei/Desktop/Projects/latex-resume/resume1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./altacv.cls
 Document Class: altacv 2021/10/04 AltaCV v1.6.4, yet another alternative class for a resume/curriculum vitae.
@@ -201,7 +201,7 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-** pdfx: No file resume.xmpdata . Metadata will be incomplete!
+** pdfx: No file resume1.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
@@ -890,8 +890,8 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 133.
- (./resume.aux)
-\openout1 = `resume.aux'.
+ (./resume1.aux)
+\openout1 = `resume1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
 LaTeX Font Info:    ... okay on input line 133.
@@ -931,9 +931,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 133.
- (./resume.out) (./resume.out)
+ (./resume1.out) (./resume1.out)
 \@outlinefile=\write6
-\openout6 = `resume.out'.
+\openout6 = `resume1.out'.
 
 
 *geometry* driver: auto-detecting
@@ -997,11 +997,11 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `resume.bcf'.
+\openout5 = `resume1.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume.bbl' found.
- (./resume.bbl)
+Package biblatex Info: ... file 'resume1.bbl' found.
+ (./resume1.bbl)
 Package biblatex Info: Reference section=0 on input line 133.
 Package biblatex Info: Reference segment=0 on input line 133.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1094,23 +1094,23 @@ Overfull \hbox (3.51704pt too wide) in paragraph at lines 558--558
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 566.
-(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
-Package rerunfilecheck Info: File `resume.out' has not changed.
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd) [5{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume1.aux)
+Package rerunfilecheck Info: File `resume1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'resume.run.xml'.
-\openout1 = `resume.run.xml'.
+Package logreq Info: Writing requests to 'resume1.run.xml'.
+\openout1 = `resume1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  41095 strings out of 476025
- 830315 string characters out of 5779036
+ 830340 string characters out of 5779036
  1896388 words of memory out of 5000000
  60863 multiletter control sequences out of 15000+600000
  828071 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,8n,120p,1175b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,120p,1176b,4289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (5 pages, 619480 bytes).
+Output written on resume1.pdf (5 pages, 619437 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)

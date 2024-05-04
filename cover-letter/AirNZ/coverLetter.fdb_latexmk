@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1714618491 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" "coverLetter.pdf" "coverLetter" 1714618493 0
-  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" 1714618490 2484 1c079fd3a3c1dc24363fd6f341226d87 ""
+["pdflatex"] 1714786844 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" "coverLetter.pdf" "coverLetter" 1714786845 0
+  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" 1714786844 3352 9d7117ae445f801ada7e19e442ff7e50 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1678549815 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -157,6 +157,7 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/lato.sty" 1678549815 4549 25530e3700e22bf0cd2731b570ec622a ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1678549815 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/multirow/multirow.sty" 1678549815 6149 2398eec4faa1ee24ff761581e580ecf1 ""
+  "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/parskip/parskip.sty" 1678549815 4288 94714aa7f535440f33181fec52a31963 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/8bit.def" 1678549815 5962 2aa7a2da2d9394f9da33cf2a55c50b0a ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex" 1678549815 18025 2a8c02d866533f30ba38e1fc80d41d5e ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex" 1678549815 12650 63d8297b6f8c541fcf26e81843ce886e ""
@@ -195,10 +196,10 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 8197b5e86c7bf6d7352283907f10d5c2 ""
   "altacv.cls" 1710977295 13471 8c5bef71a78cdd38222121e1432b6ec1 ""
-  "coverLetter.aux" 1714618492 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
-  "coverLetter.out" 1714618492 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "coverLetter.tex" 1714618490 2484 1c079fd3a3c1dc24363fd6f341226d87 ""
-  "pdfa.xmpi" 1714618492 5042 b2269d8eeea67880368ac620388f5e3b "pdflatex"
+  "coverLetter.aux" 1714786845 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
+  "coverLetter.out" 1714786845 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "coverLetter.tex" 1714786844 3352 9d7117ae445f801ada7e19e442ff7e50 ""
+  "pdfa.xmpi" 1714786845 5042 7853afc9ce2f9f6a72c11e75eb767d10 "pdflatex"
   (generated)
   "coverLetter.aux"
   "coverLetter.log"

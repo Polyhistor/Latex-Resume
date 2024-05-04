@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  2 MAY 2024 14:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  4 MAY 2024 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,34 +602,36 @@ LaTeX Info: Redefining \ulcshape on input line 41.
 LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
-))
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 18.
+)) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 19.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 18.
+(Font)              scaled to size 10.0pt on input line 19.
  (./coverLetter.aux)
 \openout1 = `coverLetter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count308
@@ -649,7 +651,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 19.
  (./coverLetter.out) (./coverLetter.out)
 \@outlinefile=\write5
 \openout5 = `coverLetter.out'.
@@ -692,9 +694,14 @@ Package hyperref Info: Link coloring OFF on input line 18.
 \c@mv@tabular=\count314
 \c@mv@boldtabular=\count315
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 20.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 20.
+(Font)              scaled to size 17.28pt on input line 21.
+
+Overfull \hbox (10.44424pt too wide) in paragraph at lines 34--35
+[]\T1/lato-TLF/m/n/10 My tech-ni-cal ex-per-tise spans a wide ar-ray of tech-nolo-gies, in-clud-ing JavaScript/TypeScript, Re-act, Re-dux, Node, Golang, 
+ []
+
 [1
 
 {/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}] (./coverLetter.aux)
@@ -702,15 +709,15 @@ Package rerunfilecheck Info: File `coverLetter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32039 strings out of 476025
- 645332 string characters out of 5779036
- 1859388 words of memory out of 5000000
- 51962 multiletter control sequences out of 15000+600000
+ 32080 strings out of 476025
+ 646455 string characters out of 5779036
+ 1865388 words of memory out of 5000000
+ 52000 multiletter control sequences out of 15000+600000
  579380 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,5n,120p,596b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on coverLetter.pdf (1 page, 47584 bytes).
+Output written on coverLetter.pdf (1 page, 48206 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
