@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1714786844 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" "coverLetter.pdf" "coverLetter" 1714786845 0
-  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" 1714786844 3352 9d7117ae445f801ada7e19e442ff7e50 ""
+["pdflatex"] 1715390781 "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" "coverLetter.pdf" "coverLetter" 1715390783 0
+  "/Users/pataei/Desktop/Projects/latex-resume/cover-letter/AirNZ/coverLetter.tex" 1715390781 2871 c7498a10ac04b3b63035e5f53207f889 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1678549815 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1678549815 4609045 74543da1ab9350ba886fce0af49a2cfd ""
@@ -196,10 +196,10 @@
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 8197b5e86c7bf6d7352283907f10d5c2 ""
   "altacv.cls" 1710977295 13471 8c5bef71a78cdd38222121e1432b6ec1 ""
-  "coverLetter.aux" 1714786845 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
-  "coverLetter.out" 1714786845 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "coverLetter.tex" 1714786844 3352 9d7117ae445f801ada7e19e442ff7e50 ""
-  "pdfa.xmpi" 1714786845 5042 7853afc9ce2f9f6a72c11e75eb767d10 "pdflatex"
+  "coverLetter.aux" 1715390783 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
+  "coverLetter.out" 1715390783 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "coverLetter.tex" 1715390781 2871 c7498a10ac04b3b63035e5f53207f889 ""
+  "pdfa.xmpi" 1715390782 5042 de163af59d09e2608b437e0587345ee5 "pdflatex"
   (generated)
   "coverLetter.aux"
   "coverLetter.log"
