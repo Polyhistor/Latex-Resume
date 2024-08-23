@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.7.23)  23 AUG 2024 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.7.23)  23 AUG 2024 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,9 +1088,9 @@ Overfull \vbox (77.44983pt too high) has occurred while \output is active []
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./profile-photo.jpg>]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 328.
+(Font)              scaled to size 9.0pt on input line 326.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 328.
+(Font)              scaled to size 9.0pt on input line 326.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 332.
  (/usr/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
@@ -1124,12 +1124,12 @@ Overfull \hbox (19.328pt too wide) in paragraph at lines 366--367
 []\T1/lato-TLF/m/it/10 Tech & Tools: Lar-avel, Ter-raform, AWS, Apollo, Go, Rust, Node, Re-act, PHP, SQL, Kafka, Python, Ku-ber-netes, Elas-tic-search, Type-script  
  []
 
-
+[2{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
 Overfull \hbox (11.2379pt too wide) in paragraph at lines 395--396
 []\T1/lato-TLF/m/n/9 Began as a fron-tend de-vel-oper, but I rapidly ex-panded my role to en-com-pass CMS and back-end de-vel-op-ment, demon-strat-ing flex-i-bil-ity 
  []
 
-[2{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
+
 Overfull \hbox (19.30621pt too wide) in paragraph at lines 396--397
 \T1/lato-TLF/m/n/9 cart val-i-da-tion, prod-uct pages, and com-po-nent de-sign, along with op-ti-miz-ing SEO, im-ple-ment-ing an-a-lyt-ics, con-duct-ing UI and end-to-end 
  []
@@ -1206,12 +1206,12 @@ Underfull \hbox (badness 4673) in paragraph at lines 548--548
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
-
+[4]
 Overfull \hbox (24.16588pt too wide) in paragraph at lines 560--560
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya]. (2017). \T1/lato-TLF/m/it/10 The nexus method-ol-ogy: A tren-chant ap-proach to-ward big data\T1/lato-TLF/m/n/10 . LAP LAM-BERT Aca-demic Pub-lish-ing. 
  []
 
-[4]
+
 Overfull \hbox (8.46379pt too wide) in paragraph at lines 564--564
 [][][][]\T1/lato-TLF/m/n/10 Rada, B. B., Ataeib, P., Khak-bizc, Y., & Ak-barzadehd, N. (2017). The hype of emerg-ing tech-nolo-gies: Big data as a ser-vice. 
  []
@@ -1252,7 +1252,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  125i,8n,121p,1131b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (5 pages, 619485 bytes).
+Output written on resume.pdf (5 pages, 619635 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
