@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber resume"] 1714698694 "resume.bcf" "resume.bbl" "resume" 1724900114.16493 0
-  "./sample.bib" 1724405639.63838 3911 330673bb74cca35c843b288b28977bb2 ""
-  "resume.bcf" 1724900114.09145 114207 dedba88f5c767be58d73c466eba246f3 "pdflatex"
+["biber resume"] 1732417591.71324 "resume.bcf" "resume.bbl" "resume" 1732417591.71767 2
+  "resume.bcf" 1732417591.50634 114207 dedba88f5c767be58d73c466eba246f3 "pdflatex"
+  "sample.bib" 1726523210.03239 3912 a950a7692605b39d22d7dfcddcb46c28 ""
   (generated)
   "resume.bbl"
   "resume.blg"
   (rewritten before read)
-["pdflatex"] 1724900113.0114 "resume.tex" "resume.pdf" "resume" 1724900114.16513 0
+["pdflatex"] 1732417589.72094 "/home/pouya/Desktop/Projects/resume/resume.tex" "resume.pdf" "resume" 1732417591.7178 0
+  "/home/pouya/Desktop/Projects/resume/resume.tex" 1732417585.39957 26779 cb3f829f44ca969f646d6aa6b03a18db ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1716849630 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1716849630 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1716849630 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1716849630 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
-  "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc" 1716849630 2905 1556c73dc99638e0dfff2f132c244f30 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1716849630 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1716849630 3345 f5bff336afd6959239b79815a9c623d1 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -20,9 +20,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm" 1716849630 1380 a61d7c2860b3f6d342213a6b9b229e9e ""
   "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands1.tfm" 1716849630 1140 0a3461c8ac1b92031890aa540c40b3b4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm" 1716849630 1328 8843c76048ec1e1c4b2d1007558b8833 ""
-  "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm" 1716849630 1204 3c27bf26105e0c1f2d31dba92f1c652d ""
   "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1716849630 1316 1c2ee668ea88be9bd4f39690662cc344 ""
-  "/usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free3solid.tfm" 1716849630 1236 01f4577264ada23bfb25b6d983302f6b ""
   "/usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm" 1716849630 1752 aa8a9a51afbe0c049fcf83621d6260a5 ""
   "/usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm" 1716849630 87492 7b51503c59ec74593309019708c7ca72 ""
   "/usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm" 1716849630 1888 3ec6bb03fd856bf4662a97cf4e6d2192 ""
@@ -32,7 +30,6 @@
   "/usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF--base.tfm" 1716849630 1440 0ce64e417eb830e7eee4e40070126c6d ""
   "/usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF.tfm" 1716849630 1476 2ae9c811ee12207bc9693626a2fc2c0b ""
   "/usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1716849630 204258 177851ae99767090543ae24e73c92f2f ""
-  "/usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb" 1716849630 58496 99faf1e070706908acf67d1cfee72833 ""
   "/usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1716849630 295323 d099723373a00cc17d5ae0c9738bb5b3 ""
   "/usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb" 1716849630 440414 ec7bef9aca5d79a80bbd76185c8c7134 ""
   "/usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb" 1716849630 472156 f4bc4b13f4231ad168df6d155c6be129 ""
@@ -168,7 +165,6 @@
   "/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd" 1716849630 1206 a6047d8ca39642274359fe431b3f4af5 ""
   "/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd" 1716849630 980 f00df3fe21ca0934b441dacef142037f ""
   "/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd" 1716849630 980 1b42613a5245ed252c04030af746d737 ""
-  "/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd" 1716849630 980 2697c93582246b8da75635f956e941ff ""
   "/usr/share/texmf-dist/tex/latex/fontaxes/fontaxes.sty" 1716849630 14310 41fdb35c51be792ddf00696848d0cfef ""
   "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1716849630 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1716849630 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -246,17 +242,16 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1716849630 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/share/texmf-dist/tex/latex/xmpincl/xmpincl.sty" 1716849630 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1716849630 41588 b43d3e860a4f94167ee1e725ff526a72 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1721708801.69241 5312047 b07fcd2a9090df96fc745b92a3db793b ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1721708730 7112993 300a4eedd78ec8eddb1d5d082e4b8a62 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728538024.22204 5348759 dfe08144b61d8479865bf6763562e93d ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728537976 7143268 d39d1f519006938a227d3a377b867c40 ""
   "altacv.cls" 1724405639.62172 13471 8c5bef71a78cdd38222121e1432b6ec1 ""
-  "pdfa.xmpi" 1724900113.29144 5042 30a87dbcc24b7b27292db148dbc39e26 "pdflatex"
+  "pdfa.xmpi" 1732417590.23966 5042 465e3b81880905d77277a8569a539c3c "pdflatex"
   "profile-photo.jpg" 1724405639.62838 394082 cef0ed14f173390574366d92e98079a1 ""
   "pubs-authoryear.tex" 1724405639.62838 400 f911ccfa97a45ff2f56731af77d988f3 ""
-  "resume.aux" 1724900114.08812 1326 b991cdebd4f4bf179c6cc443bc3ed85f "pdflatex"
-  "resume.bbl" 1724405639.63505 20117 a70a6756c53a392e9bd4b8b7aa57fbb6 "biber resume"
-  "resume.out" 1724900113.77478 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.run.xml" 1724900114.09145 2442 39785532cbd4fd8b452099b042b0a037 "pdflatex"
-  "resume.tex" 1724900112.90144 25072 48cecb979609e97e28edaa0711ccdf29 ""
+  "resume.aux" 1732417591.50301 288 988a88fb5982a6d7ef43896cce409b68 "pdflatex"
+  "resume.bbl" 0 -1 0 "biber resume"
+  "resume.out" 1732417591.14967 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1732417585.39957 26779 cb3f829f44ca969f646d6aa6b03a18db ""
   (generated)
   "pdfa.xmpi"
   "resume.aux"
@@ -266,4 +261,3 @@
   "resume.pdf"
   "resume.run.xml"
   (rewritten before read)
-  "pdfa.xmpi"
