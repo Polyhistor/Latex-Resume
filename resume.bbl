@@ -19,6 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{ataei2024cybermycelium}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{fullhash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{bibnamehash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{authorbibnamehash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{authornamehash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{authorfullhash}{2cbfcf6c1f060edc403539a228818399}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Big Data}
+      \field{title}{Cybermycelium: a reference architecture for domain-driven distributed big data systems}
+      \field{volume}{7}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1448481}
+      \range{pages}{1}
+    \endentry
+    \entry{ataei2024filtering}{article}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=94a5404d38b99d329fa4b0cef39eacdd}{%
+           family={Regula},
+           familyi={R\bibinitperiod},
+           given={Sri},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1227c774bc1c967430244320104578c2}{%
+           family={Staegemann},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c1fbb51d79dc8660b7bb85115196a8}{%
+           family={Malgaonkar},
+           familyi={M\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{34ca5415c2aaa81836c7109c1f85160d}
+      \strng{fullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \strng{bibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \strng{authorbibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \strng{authornamehash}{34ca5415c2aaa81836c7109c1f85160d}
+      \strng{authorfullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI}
+      \field{number}{4}
+      \field{title}{Filtering Useful App Reviews Using Naı̈ve Bayes—Which Naı̈ve Bayes?}
+      \field{volume}{5}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{2237\bibrangedash 2259}
+      \range{pages}{23}
+    \endentry
     \entry{staegemann2024overview}{inproceedings}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=1227c774bc1c967430244320104578c2}{%
@@ -318,6 +402,7 @@
       \strng{authorbibnamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authornamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authorfullhash}{2cbfcf6c1f060edc403539a228818399}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}

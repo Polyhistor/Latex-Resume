@@ -31,6 +31,9 @@
 \usepackage{paracol}
 \usepackage{graphicx}
 \usepackage{fontawesome5}
+% \usepackage{biblatex}
+% \addbibresource{sample.bib}
+
 
 
 \renewcommand{\cvevent}[4]{%
@@ -50,7 +53,6 @@
 
 
 \newlength{\mylen}
-
 
 \makeatletter
 % Modify the cvsection command to accept an icon name as the first argument
@@ -273,8 +275,15 @@ with equally abstract symbolic roles, and stereotypes.
   \divider
   \cvskill{Data Structures \& Algorithms}{4}
   \divider
-  \cvskill{Big Data }{3.5}
+  \cvskill{Big Data }{4.5}
   \divider
+  \cvskill{Data Engineering}{4}
+  \divider
+  \cvskill{SQL/NoSql}{4.5}
+  \divider
+ 
+
+
 
   \switchcolumn
   \cvskill{Terraform, Pulumi, CDK}{4}
@@ -303,6 +312,10 @@ with equally abstract symbolic roles, and stereotypes.
   \divider
   \cvskill{AI}{4}
   \divider
+  \cvskill{TensorFlow/PyTorch}{3.5}
+  \divider
+  \cvskill{Vector Databases}{3.5}
+  \divider
   \end{paracol}
 
 \vspace{0.5cm}
@@ -325,7 +338,7 @@ with equally abstract symbolic roles, and stereotypes.
 }
 \makeatother
 
-\vspace{2cm}
+% \vspace{1cm}
 
 \cvsection[\faBriefcase]{Work Experience}
 
@@ -594,13 +607,13 @@ different regions.
 
 \nocite{*}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+  \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
-\divider
+  \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+ \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
 
-\divider
+ \divider
 
 \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 

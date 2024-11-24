@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.10)  24 NOV 2024 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.10)  24 NOV 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -888,33 +888,33 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )))
 \@quotelevel=\count457
 \@quotereset=\count458
-LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 134.
+LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input line 136.
  (/usr/share/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 134.
+(Font)              scaled to size 10.0pt on input line 136.
  (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count459
@@ -934,7 +934,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 134.
+Package hyperref Info: Link coloring OFF on input line 136.
 \@outlinefile=\write6
 \openout6 = `resume.out'.
 
@@ -1003,237 +1003,276 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `resume.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume.bbl' not found.
-
-No file resume.bbl.
-Package biblatex Info: Reference section=0 on input line 134.
-Package biblatex Info: Reference segment=0 on input line 134.
+Package biblatex Info: ... file 'resume.bbl' found.
+ (./resume.bbl)
+Package biblatex Info: Reference section=0 on input line 136.
+Package biblatex Info: Reference segment=0 on input line 136.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 177.
+(Font)              scaled to size 24.88pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 177.
+(Font)              scaled to size 24.88pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 177.
+(Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 177.
+(Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 177.
+(Font)              scaled to size 8.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 177.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 177.
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 177.
+(Font)              scaled to size 8.0pt on input line 179.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 179.
+ (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 179.
  (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 177.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 177.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 179.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 179.
  (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 177.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 179.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 177.
+(Font)              <7> on input line 179.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 177.
+(Font)              <5> on input line 179.
 <profile-photo.jpg, id=18, 1541.76pt x 2055.68pt>
 File: profile-photo.jpg Graphic file (type jpg)
 <use profile-photo.jpg>
-Package pdftex.def Info: profile-photo.jpg  used on input line 177.
+Package pdftex.def Info: profile-photo.jpg  used on input line 179.
 (pdftex.def)             Requested size: 1541.75624pt x 2055.675pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 185.
+(Font)              scaled to size 14.4pt on input line 187.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 185.
+(Font)              scaled to size 14.4pt on input line 187.
 
-Overfull \hbox (18.8429pt too wide) in paragraph at lines 188--195
+Overfull \hbox (18.8429pt too wide) in paragraph at lines 190--197
 \T1/lato-TLF/m/n/10 idea is rel-a-tively fixed, be-ing based upon care-fully se-lected mem-o-ries of my past, which have a pre-served and fixed char-ac-ter. 
  []
 
 
-Overfull \hbox (23.59781pt too wide) in paragraph at lines 188--195
+Overfull \hbox (23.59781pt too wide) in paragraph at lines 190--197
 \T1/lato-TLF/m/n/10 So-cial con-ven-tions there-fore, en-cour-aged me to form this idea of my-self with equally ab-stract sym-bolic roles, and stereo-types. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--195
+Underfull \hbox (badness 10000) in paragraph at lines 190--197
  
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 200.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 202.
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-Overfull \hbox (18.295pt too wide) in paragraph at lines 203--207
+Overfull \hbox (18.295pt too wide) in paragraph at lines 205--209
 \T1/lato-TLF/m/n/10 ar-chi-tect-ing enterprise-scale so-lu-tions. Through-out my ca-reer, I've suc-cess-fully de-signed and im-ple-mented high-performance 
  []
 
 
-Overfull \hbox (13.21281pt too wide) in paragraph at lines 203--207
+Overfull \hbox (13.21281pt too wide) in paragraph at lines 205--209
 \T1/lato-TLF/m/n/10 sys-tems serv-ing mil-lions of users, with ex-per-tise in dis-tributed Big Data and AI sys-tems de-vel-oped dur-ing both my aca-demic 
  []
 
 
-Overfull \hbox (6.09482pt too wide) in paragraph at lines 207--213
+Overfull \hbox (6.09482pt too wide) in paragraph at lines 209--215
 \T1/lato-TLF/m/n/10 also pur-su-ing my in-ter-ests in re-search and teach-ing. I thrive on solv-ing com-plex tech-ni-cal chal-lenges at scale and ap-proach 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 252.
+(Font)              scaled to size 10.0pt on input line 254.
 [1
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./profile-photo.jpg>]
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 333.
+(Font)              scaled to size 9.0pt on input line 346.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 333.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 336.
+(Font)              scaled to size 9.0pt on input line 346.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 349.
  (/usr/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 336.
+(Font)              scaled to size 9.0pt on input line 349.
 
-Overfull \hbox (6.76917pt too wide) in paragraph at lines 338--339
+Overfull \hbox (6.76917pt too wide) in paragraph at lines 351--352
 []\T1/lato-TLF/m/n/9 Drive tech-ni-cal ex-cel-lence through cloud-native ar-chi-tec-tures, lever-ag-ing AWS, Ku-ber-netes, and Kafka for ro-bust dis-tributed sys-tems.  
  []
 
 
-Overfull \hbox (12.98831pt too wide) in paragraph at lines 339--340
+Overfull \hbox (12.98831pt too wide) in paragraph at lines 352--353
 []\T1/lato-TLF/m/n/9 Oversee de-vel-op-ment across di-verse tech-nol-ogy stacks in-clud-ing Node.js, Go, C#/.NET, and Snowflake for data ware-hous-ing so-lu-tions.  
  []
 
 
-Overfull \hbox (0.10919pt too wide) in paragraph at lines 355--356
+Overfull \hbox (0.10919pt too wide) in paragraph at lines 368--369
 []\T1/lato-TLF/m/n/9 Successfully scaled our ter-mi-nal in-fras-truc-ture to han-dle over 300,000 re-quests in un-der 30 min-utes, dra-mat-i-cally im-prov-ing sys-tem 
  []
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
-Overfull \hbox (5.46873pt too wide) in paragraph at lines 379--380
+Overfull \hbox (5.46873pt too wide) in paragraph at lines 392--393
 []\T1/lato-TLF/m/n/9 Applied con-cepts from "Lead-ers Eat Last" and "The Ser-vant" to fos-ter a cul-ture of trust and col-lab-o-ra-tion, lever-ag-ing Team Topolo-gies 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 384.
+(Font)              scaled to size 10.0pt on input line 397.
 
-Overfull \hbox (7.95305pt too wide) in paragraph at lines 384--385
+Overfull \hbox (7.95305pt too wide) in paragraph at lines 397--398
 []\T1/lato-TLF/m/it/10 Tech & Tools: Archi-mate, TO-GAF, ADM, BDD, DDD, AWS, Kafka, Go, Graph, SQL ,Ter-raform, Ku-ber-netes, Elas-tic-search, Type-script  
  []
 
 
-Overfull \hbox (15.82771pt too wide) in paragraph at lines 394--395
+Overfull \hbox (15.82771pt too wide) in paragraph at lines 407--408
 []\T1/lato-TLF/m/n/9 Engineered an event-driven ar-chi-tec-ture lever-ag-ing Kafka, in-clud-ing the de-ploy-ment and rig-or-ous test-ing of a pro-to-type in col-lab-o-ra-tion 
  []
 
 
-Overfull \hbox (14.44621pt too wide) in paragraph at lines 395--396
+Overfull \hbox (14.44621pt too wide) in paragraph at lines 408--409
 []\T1/lato-TLF/m/n/9 Actively en-gaged in fea-ture de-vel-op-ment, tech-ni-cal debt re-duc-tion, and in-ci-dent man-age-ment, con-tribut-ing to con-tin-u-ous im-prove-ment 
  []
 
 
-Overfull \hbox (19.328pt too wide) in paragraph at lines 403--404
+Overfull \hbox (19.328pt too wide) in paragraph at lines 416--417
 []\T1/lato-TLF/m/it/10 Tech & Tools: Lar-avel, Ter-raform, AWS, Apollo, Go, Rust, Node, Re-act, PHP, SQL, Kafka, Python, Ku-ber-netes, Elas-tic-search, Type-script  
  []
 
 
-Overfull \hbox (11.2379pt too wide) in paragraph at lines 432--433
+Overfull \hbox (11.2379pt too wide) in paragraph at lines 445--446
 []\T1/lato-TLF/m/n/9 Began as a fron-tend de-vel-oper, but I rapidly ex-panded my role to en-com-pass CMS and back-end de-vel-op-ment, demon-strat-ing flex-i-bil-ity 
  []
 
 
-Overfull \hbox (19.30621pt too wide) in paragraph at lines 433--434
+Overfull \hbox (19.30621pt too wide) in paragraph at lines 446--447
 \T1/lato-TLF/m/n/9 cart val-i-da-tion, prod-uct pages, and com-po-nent de-sign, along with op-ti-miz-ing SEO, im-ple-ment-ing an-a-lyt-ics, con-duct-ing UI and end-to-end 
  []
 
 [3]
-Overfull \hbox (13.3752pt too wide) in paragraph at lines 454--455
+Overfull \hbox (13.3752pt too wide) in paragraph at lines 467--468
 []\T1/lato-TLF/m/n/9 Spearheaded the mi-gra-tion of three web-sites from Word-Press to Gatsby, in-te-grat-ing Re-act, Con-tent-ful, and Node (NestJS), suc-cess-fully 
  []
 
 
-Overfull \hbox (8.69067pt too wide) in paragraph at lines 477--478
+Overfull \hbox (8.69067pt too wide) in paragraph at lines 490--491
 []\T1/lato-TLF/m/n/9 Optimized SEO strate-gies, achiev-ing an av-er-age web-site po-si-tion of 8.5 and a click-through rate (CTR) of 6.5%, sig-nif-i-cantly en-hanc-ing 
  []
 
 
-Overfull \hbox (14.01431pt too wide) in paragraph at lines 479--480
+Overfull \hbox (14.01431pt too wide) in paragraph at lines 492--493
 []\T1/lato-TLF/m/n/9 Conducted com-puter sci-ence and soft-ware en-gi-neer-ing work-shops, cov-er-ing a wide ar-ray of tech-nolo-gies and em-pow-er-ing par-tic-i-pants 
  []
 
 
-Overfull \hbox (25.16075pt too wide) in paragraph at lines 481--482
+Overfull \hbox (25.16075pt too wide) in paragraph at lines 494--495
 []\T1/lato-TLF/m/n/9 Regularly de-vel-oped, main-tained, and en-hanced pou-yar-ave-shan.org, en-sur-ing an en-gag-ing user in-ter-face and ro-bust back-end func-tion-al-ity.  
  []
 
 
-Overfull \hbox (6.46782pt too wide) in paragraph at lines 482--483
+Overfull \hbox (6.46782pt too wide) in paragraph at lines 495--496
 []\T1/lato-TLF/m/n/9 Implemented and fine-tuned a Learn-ing Man-age-ment Sys-tem (LMS), both im-prov-ing client ex-pe-ri-ence and stream-lin-ing or-ga-ni-za-tional 
  []
 
 
-Overfull \hbox (0.18567pt too wide) in paragraph at lines 501--502
+Overfull \hbox (0.18567pt too wide) in paragraph at lines 514--515
 []\T1/lato-TLF/m/n/9 Conceptualized and pro-to-typed an av-er-age of 25 new prod-uct fea-tures an-nu-ally, sig-nif-i-cantly con-tribut-ing to prod-uct en-hance-ment.  
  []
 
 
-Overfull \hbox (13.39778pt too wide) in paragraph at lines 504--505
+Overfull \hbox (13.39778pt too wide) in paragraph at lines 517--518
 []\T1/lato-TLF/m/n/9 Collaborated with the de-vel-op-ment team to as-cer-tain user re-quire-ments, for-mu-late use cases, pri-or-i-tize tasks, and draft com-pre-hen-sive 
  []
 
 
-Overfull \hbox (14.85574pt too wide) in paragraph at lines 505--506
+Overfull \hbox (14.85574pt too wide) in paragraph at lines 518--519
 []\T1/lato-TLF/m/n/9 Conducted thor-ough anal-y-ses of web-based sys-tems to iden-tify and rec-tify de-fects, bol-ster per-for-mance, and for-tify se-cu-rity mea-sures. 
  []
 
 [4]
-Overfull \hbox (22.47867pt too wide) in paragraph at lines 521--522
+Overfull \hbox (22.47867pt too wide) in paragraph at lines 534--535
 []\T1/lato-TLF/m/n/9 Engaged in youth ed-u-ca-tion ini-tia-tives, teach-ing pro-gram-ming fun-da-men-tals through both hands-on (plugged) and the-o-ret-i-cal (un-plugged) 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 553.
+(Font)              scaled to size 9.0pt on input line 566.
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--577
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 []|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-godb -
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 577--577
+Underfull \hbox (badness 8000) in paragraph at lines 590--590
  []|\T1/lato-TLF/m/n/9 April 2015|
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 581--581
+Underfull \hbox (badness 4673) in paragraph at lines 594--594
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--585
+Underfull \hbox (badness 10000) in paragraph at lines 598--598
 []|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 585--585
+Underfull \hbox (badness 4673) in paragraph at lines 598--598
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Package biblatex Warning: Type 'book' not found on input line 597.
+Overfull \hbox (24.16588pt too wide) in paragraph at lines 610--610
+[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya]. (2017). \T1/lato-TLF/m/it/10 The nexus method-ol-ogy: A tren-chant ap-proach to-ward big data\T1/lato-TLF/m/n/10 . LAP LAM-BERT Aca-demic Pub-lish-ing. 
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 597.
+/home/pouya/Desktop/Projects/resume/resume.tex:614: LaTeX Error: Unicode character ̈ (U+0308)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.614 ...gular]}{Journal Articles}}, type=article]
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-Package biblatex Warning: Type 'article' not found on input line 601.
+/home/pouya/Desktop/Projects/resume/resume.tex:614: LaTeX Error: Unicode character ̈ (U+0308)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.614 ...gular]}{Journal Articles}}, type=article]
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-LaTeX Warning: Empty bibliography on input line 601.
+Overfull \hbox (24.6568pt too wide) in paragraph at lines 614--614
+[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Staege-mann, D., & Mal-gaonkar, S. (2024). Fil-ter-ing use-ful app re-views us-ing na^^Yve bayes^^Vwhich 
+ []
 
 
-Package biblatex Warning: Type 'inproceedings' not found on input line 605.
+Overfull \hbox (8.46379pt too wide) in paragraph at lines 614--614
+[][][][]\T1/lato-TLF/m/n/10 Rada, B. B., Ataeib, P., Khak-bizc, Y., & Ak-barzadehd, N. (2017). The hype of emerg-ing tech-nolo-gies: Big data as a ser-vice. 
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 605.
+Overfull \hbox (21.16869pt too wide) in paragraph at lines 614--614
+[][][][]\T1/lato-TLF/m/n/10 Bashari Rad, B., Ak-barzadeh, N., Ataei, P., & Khak-biz, Y. (2016). Se-cu-rity and pri-vacy chal-lenges in big data era. \T1/lato-TLF/m/it/10 In-ter-na-tional 
+ []
 
-[5] [6] (./resume.aux)
+[5]
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 618.
+ (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+Overfull \hbox (0.49487pt too wide) in paragraph at lines 618--618
+\T1/lato-TLF/m/n/10 test-ing big data ap-pli-ca-tions. In \T1/lato-TLF/m/it/10 Pro-ceed-ings of ninth in-ter-na-tional congress on in-for-ma-tion and com-mu-ni-ca-tion tech-nol-ogy\T1/lato-TLF/m/n/10 , 
+ []
+
+
+Overfull \hbox (6.6208pt too wide) in paragraph at lines 618--618
+[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [P.], & Litch-field, A. [A.]. (2021, De-cem-ber). Neomycelia: A soft-ware ref-er-ence ar-chi-tec-ture-for big data sys-tems. 
+ []
+
+[6{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1260,17 +1299,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40541 strings out of 476000
- 797580 string characters out of 5792232
- 1966187 words of memory out of 5000000
- 62019 multiletter control sequences out of 15000+600000
- 872983 words of font info for 71 fonts, out of 8000000 for 9000
+ 40839 strings out of 476000
+ 804908 string characters out of 5792232
+ 1968187 words of memory out of 5000000
+ 62296 multiletter control sequences out of 15000+600000
+ 873853 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  125i,8n,121p,1167b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (6 pages, 601771 bytes).
+</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
+Output written on resume.pdf (6 pages, 625281 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
