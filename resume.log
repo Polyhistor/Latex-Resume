@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.10)  24 NOV 2024 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.10)  30 NOV 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -935,6 +935,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 136.
+ (./resume.out) (./resume.out)
 \@outlinefile=\write6
 \openout6 = `resume.out'.
 
@@ -1100,175 +1101,148 @@ Overfull \hbox (12.98831pt too wide) in paragraph at lines 352--353
 []\T1/lato-TLF/m/n/9 Oversee de-vel-op-ment across di-verse tech-nol-ogy stacks in-clud-ing Node.js, Go, C#/.NET, and Snowflake for data ware-hous-ing so-lu-tions.  
  []
 
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 362.
 
-Overfull \hbox (0.10919pt too wide) in paragraph at lines 368--369
+Overfull \hbox (0.10919pt too wide) in paragraph at lines 372--373
 []\T1/lato-TLF/m/n/9 Successfully scaled our ter-mi-nal in-fras-truc-ture to han-dle over 300,000 re-quests in un-der 30 min-utes, dra-mat-i-cally im-prov-ing sys-tem 
  []
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
-Overfull \hbox (5.46873pt too wide) in paragraph at lines 392--393
+Overfull \hbox (5.46873pt too wide) in paragraph at lines 402--403
 []\T1/lato-TLF/m/n/9 Applied con-cepts from "Lead-ers Eat Last" and "The Ser-vant" to fos-ter a cul-ture of trust and col-lab-o-ra-tion, lever-ag-ing Team Topolo-gies 
  []
 
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 397.
 
-Overfull \hbox (7.95305pt too wide) in paragraph at lines 397--398
+Overfull \hbox (7.95305pt too wide) in paragraph at lines 407--408
 []\T1/lato-TLF/m/it/10 Tech & Tools: Archi-mate, TO-GAF, ADM, BDD, DDD, AWS, Kafka, Go, Graph, SQL ,Ter-raform, Ku-ber-netes, Elas-tic-search, Type-script  
  []
 
 
-Overfull \hbox (15.82771pt too wide) in paragraph at lines 407--408
+Overfull \hbox (15.82771pt too wide) in paragraph at lines 417--418
 []\T1/lato-TLF/m/n/9 Engineered an event-driven ar-chi-tec-ture lever-ag-ing Kafka, in-clud-ing the de-ploy-ment and rig-or-ous test-ing of a pro-to-type in col-lab-o-ra-tion 
  []
 
 
-Overfull \hbox (14.44621pt too wide) in paragraph at lines 408--409
+Overfull \hbox (14.44621pt too wide) in paragraph at lines 418--419
 []\T1/lato-TLF/m/n/9 Actively en-gaged in fea-ture de-vel-op-ment, tech-ni-cal debt re-duc-tion, and in-ci-dent man-age-ment, con-tribut-ing to con-tin-u-ous im-prove-ment 
  []
 
 
-Overfull \hbox (19.328pt too wide) in paragraph at lines 416--417
+Overfull \hbox (19.328pt too wide) in paragraph at lines 426--427
 []\T1/lato-TLF/m/it/10 Tech & Tools: Lar-avel, Ter-raform, AWS, Apollo, Go, Rust, Node, Re-act, PHP, SQL, Kafka, Python, Ku-ber-netes, Elas-tic-search, Type-script  
  []
 
 
-Overfull \hbox (11.2379pt too wide) in paragraph at lines 445--446
+Overfull \hbox (11.2379pt too wide) in paragraph at lines 455--456
 []\T1/lato-TLF/m/n/9 Began as a fron-tend de-vel-oper, but I rapidly ex-panded my role to en-com-pass CMS and back-end de-vel-op-ment, demon-strat-ing flex-i-bil-ity 
  []
 
 
-Overfull \hbox (19.30621pt too wide) in paragraph at lines 446--447
+Overfull \hbox (19.30621pt too wide) in paragraph at lines 456--457
 \T1/lato-TLF/m/n/9 cart val-i-da-tion, prod-uct pages, and com-po-nent de-sign, along with op-ti-miz-ing SEO, im-ple-ment-ing an-a-lyt-ics, con-duct-ing UI and end-to-end 
  []
 
 [3]
-Overfull \hbox (13.3752pt too wide) in paragraph at lines 467--468
+Overfull \hbox (13.3752pt too wide) in paragraph at lines 477--478
 []\T1/lato-TLF/m/n/9 Spearheaded the mi-gra-tion of three web-sites from Word-Press to Gatsby, in-te-grat-ing Re-act, Con-tent-ful, and Node (NestJS), suc-cess-fully 
  []
 
 
-Overfull \hbox (8.69067pt too wide) in paragraph at lines 490--491
+Overfull \hbox (8.69067pt too wide) in paragraph at lines 500--501
 []\T1/lato-TLF/m/n/9 Optimized SEO strate-gies, achiev-ing an av-er-age web-site po-si-tion of 8.5 and a click-through rate (CTR) of 6.5%, sig-nif-i-cantly en-hanc-ing 
  []
 
 
-Overfull \hbox (14.01431pt too wide) in paragraph at lines 492--493
+Overfull \hbox (14.01431pt too wide) in paragraph at lines 502--503
 []\T1/lato-TLF/m/n/9 Conducted com-puter sci-ence and soft-ware en-gi-neer-ing work-shops, cov-er-ing a wide ar-ray of tech-nolo-gies and em-pow-er-ing par-tic-i-pants 
  []
 
 
-Overfull \hbox (25.16075pt too wide) in paragraph at lines 494--495
+Overfull \hbox (25.16075pt too wide) in paragraph at lines 504--505
 []\T1/lato-TLF/m/n/9 Regularly de-vel-oped, main-tained, and en-hanced pou-yar-ave-shan.org, en-sur-ing an en-gag-ing user in-ter-face and ro-bust back-end func-tion-al-ity.  
  []
 
 
-Overfull \hbox (6.46782pt too wide) in paragraph at lines 495--496
+Overfull \hbox (6.46782pt too wide) in paragraph at lines 505--506
 []\T1/lato-TLF/m/n/9 Implemented and fine-tuned a Learn-ing Man-age-ment Sys-tem (LMS), both im-prov-ing client ex-pe-ri-ence and stream-lin-ing or-ga-ni-za-tional 
  []
 
 
-Overfull \hbox (0.18567pt too wide) in paragraph at lines 514--515
+Overfull \hbox (0.18567pt too wide) in paragraph at lines 524--525
 []\T1/lato-TLF/m/n/9 Conceptualized and pro-to-typed an av-er-age of 25 new prod-uct fea-tures an-nu-ally, sig-nif-i-cantly con-tribut-ing to prod-uct en-hance-ment.  
  []
 
 
-Overfull \hbox (13.39778pt too wide) in paragraph at lines 517--518
+Overfull \hbox (13.39778pt too wide) in paragraph at lines 527--528
 []\T1/lato-TLF/m/n/9 Collaborated with the de-vel-op-ment team to as-cer-tain user re-quire-ments, for-mu-late use cases, pri-or-i-tize tasks, and draft com-pre-hen-sive 
  []
 
-
-Overfull \hbox (14.85574pt too wide) in paragraph at lines 518--519
+[4]
+Overfull \hbox (14.85574pt too wide) in paragraph at lines 528--529
 []\T1/lato-TLF/m/n/9 Conducted thor-ough anal-y-ses of web-based sys-tems to iden-tify and rec-tify de-fects, bol-ster per-for-mance, and for-tify se-cu-rity mea-sures. 
  []
 
-[4]
-Overfull \hbox (22.47867pt too wide) in paragraph at lines 534--535
+
+Overfull \hbox (22.47867pt too wide) in paragraph at lines 544--545
 []\T1/lato-TLF/m/n/9 Engaged in youth ed-u-ca-tion ini-tia-tives, teach-ing pro-gram-ming fun-da-men-tals through both hands-on (plugged) and the-o-ret-i-cal (un-plugged) 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 566.
+(Font)              scaled to size 9.0pt on input line 576.
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--590
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-godb -
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 590--590
+Underfull \hbox (badness 8000) in paragraph at lines 600--600
  []|\T1/lato-TLF/m/n/9 April 2015|
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 594--594
+Underfull \hbox (badness 4673) in paragraph at lines 604--604
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
 []|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 598--598
+Underfull \hbox (badness 4673) in paragraph at lines 608--608
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Overfull \hbox (24.16588pt too wide) in paragraph at lines 610--610
+Overfull \hbox (24.16588pt too wide) in paragraph at lines 620--620
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya]. (2017). \T1/lato-TLF/m/it/10 The nexus method-ol-ogy: A tren-chant ap-proach to-ward big data\T1/lato-TLF/m/n/10 . LAP LAM-BERT Aca-demic Pub-lish-ing. 
  []
 
 
-/home/pouya/Desktop/Projects/resume/resume.tex:614: LaTeX Error: Unicode character ̈ (U+0308)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.614 ...gular]}{Journal Articles}}, type=article]
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/home/pouya/Desktop/Projects/resume/resume.tex:614: LaTeX Error: Unicode character ̈ (U+0308)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.614 ...gular]}{Journal Articles}}, type=article]
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (24.6568pt too wide) in paragraph at lines 614--614
-[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Staege-mann, D., & Mal-gaonkar, S. (2024). Fil-ter-ing use-ful app re-views us-ing na^^Yve bayes^^Vwhich 
+Overfull \hbox (24.6518pt too wide) in paragraph at lines 624--624
+[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Staege-mann, D., & Mal-gaonkar, S. (2024). Fil-ter-ing use-ful app re-views us-ing naive bayes^^Vwhich 
  []
 
-
-Overfull \hbox (8.46379pt too wide) in paragraph at lines 614--614
+[5]
+Overfull \hbox (8.46379pt too wide) in paragraph at lines 624--624
 [][][][]\T1/lato-TLF/m/n/10 Rada, B. B., Ataeib, P., Khak-bizc, Y., & Ak-barzadehd, N. (2017). The hype of emerg-ing tech-nolo-gies: Big data as a ser-vice. 
  []
 
 
-Overfull \hbox (21.16869pt too wide) in paragraph at lines 614--614
+Overfull \hbox (21.16869pt too wide) in paragraph at lines 624--624
 [][][][]\T1/lato-TLF/m/n/10 Bashari Rad, B., Ak-barzadeh, N., Ataei, P., & Khak-biz, Y. (2016). Se-cu-rity and pri-vacy chal-lenges in big data era. \T1/lato-TLF/m/it/10 In-ter-na-tional 
  []
 
-[5]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 618.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Overfull \hbox (0.49487pt too wide) in paragraph at lines 618--618
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 628.
+(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+Overfull \hbox (0.49487pt too wide) in paragraph at lines 628--628
 \T1/lato-TLF/m/n/10 test-ing big data ap-pli-ca-tions. In \T1/lato-TLF/m/it/10 Pro-ceed-ings of ninth in-ter-na-tional congress on in-for-ma-tion and com-mu-ni-ca-tion tech-nol-ogy\T1/lato-TLF/m/n/10 , 
  []
 
 
-Overfull \hbox (6.6208pt too wide) in paragraph at lines 618--618
+Overfull \hbox (6.6208pt too wide) in paragraph at lines 628--628
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [P.], & Litch-field, A. [A.]. (2021, De-cem-ber). Neomycelia: A soft-ware ref-er-ence ar-chi-tec-ture-for big data sys-tems. 
  []
 
@@ -1277,37 +1251,22 @@ Overfull \hbox (6.6208pt too wide) in paragraph at lines 618--618
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                resume
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'resume.run.xml'.
 \openout1 = `resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40839 strings out of 476000
- 804908 string characters out of 5792232
+ 40856 strings out of 476000
+ 805104 string characters out of 5792232
  1968187 words of memory out of 5000000
- 62296 multiletter control sequences out of 15000+600000
+ 62309 multiletter control sequences out of 15000+600000
  873853 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  125i,8n,121p,1167b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (6 pages, 625281 bytes).
+Output written on resume.pdf (6 pages, 626759 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

@@ -408,6 +408,12 @@ INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT ./resume.out
+INPUT ./resume.out
+INPUT resume.out
+INPUT resume.out
+INPUT ./resume.out
+INPUT ./resume.out
 OUTPUT resume.out
 INPUT /usr/share/texmf-dist/tex/latex/biblatex-apa6/english-apa6.lbx
 INPUT /usr/share/texmf-dist/tex/latex/biblatex-apa6/english-apa6.lbx
@@ -499,6 +505,7 @@ INPUT /usr/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/share/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-TS1-TLF.vf
@@ -506,7 +513,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF--base.t
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
@@ -522,6 +528,7 @@ INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc
 INPUT resume.aux
 INPUT ./resume.out
 INPUT ./resume.out
+INPUT resume.run.xml
 OUTPUT resume.run.xml
 INPUT /usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb
