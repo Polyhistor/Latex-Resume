@@ -517,9 +517,9 @@ INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd

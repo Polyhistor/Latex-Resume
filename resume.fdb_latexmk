@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber resume"] 1732937165.19042 "resume.bcf" "resume.bbl" "resume" 1736972589.8232 0
-  "resume.bcf" 1736972589.67671 114207 dedba88f5c767be58d73c466eba246f3 "pdflatex"
+["biber resume"] 1732937165.19042 "resume.bcf" "resume.bbl" "resume" 1736972716.09135 0
+  "resume.bcf" 1736972715.95476 114207 dedba88f5c767be58d73c466eba246f3 "pdflatex"
   "sample.bib" 1732937165.03285 4488 837df29cea0daa75236cedccf09c5d4f ""
   (generated)
   "resume.bbl"
   "resume.blg"
   (rewritten before read)
-["pdflatex"] 1736972587.49266 "/home/pouya/Desktop/Projects/resume/resume.tex" "resume.pdf" "resume" 1736972589.82355 0
-  "/home/pouya/Desktop/Projects/resume/resume.tex" 1736972587.23668 27634 59033f660118e1a0f698c3fa8813e024 ""
+["pdflatex"] 1736972714.02544 "/home/pouya/Desktop/Projects/resume/resume.tex" "resume.pdf" "resume" 1736972716.09171 0
+  "/home/pouya/Desktop/Projects/resume/resume.tex" 1736972709.43802 28235 d3594fa1af0e81cfec360dcc2d607518 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1727349926 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1727349926 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1727349926 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -250,14 +250,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733471825.75304 5348759 dfe08144b61d8479865bf6763562e93d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1733471730 7143292 2bd5d639b3b62837345d996c345e89a4 ""
   "altacv.cls" 1724405639.62172 13471 8c5bef71a78cdd38222121e1432b6ec1 ""
-  "pdfa.xmpi" 1736972588.10336 5042 c11b51e77b817fc04808a19f2a9cd658 "pdflatex"
+  "pdfa.xmpi" 1736972714.51141 5042 8071bb3ceafba6686233450aef9d0dc9 "pdflatex"
   "profile-photo.jpg" 1724405639.62838 394082 cef0ed14f173390574366d92e98079a1 ""
   "pubs-authoryear.tex" 1724405639.62838 400 f911ccfa97a45ff2f56731af77d988f3 ""
-  "resume.aux" 1736972589.67337 1528 a7822744d81ef5cc5281b791f202c693 "pdflatex"
+  "resume.aux" 1736972715.94809 1528 6aad19f76811fcdfdb18c382b169e4b9 "pdflatex"
   "resume.bbl" 1732937165.69953 23371 ee0853760c827c1e4e9dc559c5eba4a1 "biber resume"
-  "resume.out" 1736972589.0867 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.run.xml" 1736972589.67671 2442 39785532cbd4fd8b452099b042b0a037 "pdflatex"
-  "resume.tex" 1736972587.23668 27634 59033f660118e1a0f698c3fa8813e024 ""
+  "resume.out" 1736972715.36142 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.run.xml" 1736972715.95476 2442 39785532cbd4fd8b452099b042b0a037 "pdflatex"
+  "resume.tex" 1736972709.43802 28235 d3594fa1af0e81cfec360dcc2d607518 ""
   (generated)
   "pdfa.xmpi"
   "resume.aux"
