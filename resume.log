@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.3.6)  11 MAR 2025 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.3.6)  11 MAR 2025 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1216,16 +1216,26 @@ Overfull \hbox (24.16588pt too wide) in paragraph at lines 622--622
  []
 
 
+Overfull \hbox (8.41177pt too wide) in paragraph at lines 626--626
+[][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Haer-tel, C., & Staege-mann, D. (2024). Im-pact of big data an-a-lyt-ics on busi-ness per-for-mance: 
+ []
+
+
 Overfull \hbox (24.6518pt too wide) in paragraph at lines 626--626
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Staege-mann, D., & Mal-gaonkar, S. (2024). Fil-ter-ing use-ful app re-views us-ing naive bayes^^Vwhich 
  []
 
 
+Overfull \hbox (8.72179pt too wide) in paragraph at lines 626--626
+[][][][]\T1/lato-TLF/m/n/10 Atemkeng, M., Ham-lomo, S., Wel-man, B., Oyetunji, N., Ataei, P., & Fendji, J. L. K. (2024). Ethics of soft-ware pro-gram-ming 
+ []
+
+[5]
 Overfull \hbox (8.46379pt too wide) in paragraph at lines 626--626
 [][][][]\T1/lato-TLF/m/n/10 Rada, B. B., Ataeib, P., Khak-bizc, Y., & Ak-barzadehd, N. (2017). The hype of emerg-ing tech-nolo-gies: Big data as a ser-vice. 
  []
 
-[5]
+
 Overfull \hbox (21.16869pt too wide) in paragraph at lines 626--626
 [][][][]\T1/lato-TLF/m/n/10 Bashari Rad, B., Ak-barzadeh, N., Ataei, P., & Khak-biz, Y. (2016). Se-cu-rity and pri-vacy chal-lenges in big data era. \T1/lato-TLF/m/it/10 In-ter-na-tional 
  []
@@ -1253,17 +1263,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40856 strings out of 476000
- 805104 string characters out of 5792234
+ 40871 strings out of 476000
+ 805632 string characters out of 5792234
  1969187 words of memory out of 5000000
- 62309 multiletter control sequences out of 15000+600000
+ 62321 multiletter control sequences out of 15000+600000
  873853 words of font info for 74 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  125i,8n,121p,1167b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (6 pages, 625575 bytes).
+Output written on resume.pdf (6 pages, 626446 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

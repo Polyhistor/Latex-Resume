@@ -52,8 +52,51 @@
       \field{pages}{1448481}
       \range{pages}{1}
     \endentry
+    \entry{ataei2024impact}{article}{}
+      \name{author}{4}{ul=3}{%
+        {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=94a5404d38b99d329fa4b0cef39eacdd}{%
+           family={Regula},
+           familyi={R\bibinitperiod},
+           given={Sri},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fc03446d36b67f5ffad69899c250be8}{%
+           family={Haertel},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1227c774bc1c967430244320104578c2}{%
+           family={Staegemann},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{860b4bb2e28fe8e680c57e9ba926a810}
+      \strng{fullhash}{05c20e01169fe0ecb3877e83884c52da}
+      \strng{bibnamehash}{05c20e01169fe0ecb3877e83884c52da}
+      \strng{authorbibnamehash}{05c20e01169fe0ecb3877e83884c52da}
+      \strng{authornamehash}{860b4bb2e28fe8e680c57e9ba926a810}
+      \strng{authorfullhash}{05c20e01169fe0ecb3877e83884c52da}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Impact of big data analytics on business performance: A systematic literature review}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
     \entry{ataei2024filtering}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=3}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
            familyi={A\bibinitperiod},
@@ -82,11 +125,11 @@
       \list{publisher}{1}{%
         {MDPI}%
       }
-      \strng{namehash}{34ca5415c2aaa81836c7109c1f85160d}
+      \strng{namehash}{fd31508ca26934702ec515f80cff325f}
       \strng{fullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \strng{bibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \strng{authorbibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
-      \strng{authornamehash}{34ca5415c2aaa81836c7109c1f85160d}
+      \strng{authornamehash}{fd31508ca26934702ec515f80cff325f}
       \strng{authorfullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -102,6 +145,106 @@
       \true{nocite}
       \field{pages}{2237\bibrangedash 2259}
       \range{pages}{23}
+    \endentry
+    \entry{ataei2024big}{inproceedings}{}
+      \name{author}{4}{ul=2}{%
+        {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=2fbd41a751e841b375ae49e445063e81}{%
+           family={Thorpe},
+           familyi={T\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94a5404d38b99d329fa4b0cef39eacdd}{%
+           family={Regula},
+           familyi={R\bibinitperiod},
+           given={Sri},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1227c774bc1c967430244320104578c2}{%
+           family={Staegemann},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a9623c869a05636e14889a664520d80}
+      \strng{fullhash}{29c138540becf6c048a0282c34be26c9}
+      \strng{bibnamehash}{29c138540becf6c048a0282c34be26c9}
+      \strng{authorbibnamehash}{29c138540becf6c048a0282c34be26c9}
+      \strng{authornamehash}{7a9623c869a05636e14889a664520d80}
+      \strng{authorfullhash}{29c138540becf6c048a0282c34be26c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Big Data Projects Fail? A Systematic Literature Review}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{atemkeng2024ethics}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a5e42fa82c5270947974aa2ac122cf51}{%
+           family={Atemkeng},
+           familyi={A\bibinitperiod},
+           given={Marcellin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=296050be805409e7f201f6984786a75b}{%
+           family={Hamlomo},
+           familyi={H\bibinitperiod},
+           given={Sisipho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3afca1498b4972a239188b2356247cf}{%
+           family={Welman},
+           familyi={W\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b809002a476e8a42f9fbcdf7f63f08ef}{%
+           family={Oyetunji},
+           familyi={O\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f97dadfdcb5951bcd13d87448e2604f}{%
+           family={Fendji},
+           familyi={F\bibinitperiod},
+           given={Jean\bibnamedelimb Louis\bibnamedelima KE},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca125dbd5e0a63e0dd441848ede2df56}
+      \strng{fullhash}{c7973245508db990410ea6d65bdfea31}
+      \strng{bibnamehash}{c7973245508db990410ea6d65bdfea31}
+      \strng{authorbibnamehash}{c7973245508db990410ea6d65bdfea31}
+      \strng{authornamehash}{ca125dbd5e0a63e0dd441848ede2df56}
+      \strng{authorfullhash}{c7973245508db990410ea6d65bdfea31}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2408.10554}
+      \field{title}{Ethics of Software Programming with Generative AI: Is Programming without Generative AI always radical?}
+      \field{year}{2024}
+      \true{nocite}
     \endentry
     \entry{staegemann2024overview}{inproceedings}{}
       \name{author}{9}{}{%
