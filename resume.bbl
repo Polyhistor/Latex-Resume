@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{ydnt/global//global/global}
-    \entry{ataei2024cybermycelium}{article}{}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{ataei2024cybermycelium}{article}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -33,10 +33,12 @@
       }
       \strng{namehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{fullhash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{fullhashraw}{2cbfcf6c1f060edc403539a228818399}
       \strng{bibnamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authorbibnamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authornamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authorfullhash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{authorfullhashraw}{2cbfcf6c1f060edc403539a228818399}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -52,7 +54,7 @@
       \field{pages}{1448481}
       \range{pages}{1}
     \endentry
-    \entry{ataei2024impact}{article}{}
+    \entry{ataei2024impact}{article}{}{}
       \name{author}{4}{ul=3}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -81,10 +83,12 @@
       }
       \strng{namehash}{860b4bb2e28fe8e680c57e9ba926a810}
       \strng{fullhash}{05c20e01169fe0ecb3877e83884c52da}
+      \strng{fullhashraw}{05c20e01169fe0ecb3877e83884c52da}
       \strng{bibnamehash}{05c20e01169fe0ecb3877e83884c52da}
       \strng{authorbibnamehash}{05c20e01169fe0ecb3877e83884c52da}
       \strng{authornamehash}{860b4bb2e28fe8e680c57e9ba926a810}
       \strng{authorfullhash}{05c20e01169fe0ecb3877e83884c52da}
+      \strng{authorfullhashraw}{05c20e01169fe0ecb3877e83884c52da}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -95,7 +99,7 @@
       \field{year}{2024}
       \true{nocite}
     \endentry
-    \entry{ataei2024filtering}{article}{}
+    \entry{ataei2024filtering}{article}{}{}
       \name{author}{4}{ul=3}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -127,10 +131,12 @@
       }
       \strng{namehash}{fd31508ca26934702ec515f80cff325f}
       \strng{fullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \strng{fullhashraw}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \strng{bibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \strng{authorbibnamehash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \strng{authornamehash}{fd31508ca26934702ec515f80cff325f}
       \strng{authorfullhash}{93f68f3da6dbe4ef6abfaf0f56b39bec}
+      \strng{authorfullhashraw}{93f68f3da6dbe4ef6abfaf0f56b39bec}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -146,7 +152,7 @@
       \field{pages}{2237\bibrangedash 2259}
       \range{pages}{23}
     \endentry
-    \entry{ataei2024big}{inproceedings}{}
+    \entry{ataei2024big}{inproceedings}{}{}
       \name{author}{4}{ul=2}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -175,10 +181,12 @@
       }
       \strng{namehash}{7a9623c869a05636e14889a664520d80}
       \strng{fullhash}{29c138540becf6c048a0282c34be26c9}
+      \strng{fullhashraw}{29c138540becf6c048a0282c34be26c9}
       \strng{bibnamehash}{29c138540becf6c048a0282c34be26c9}
       \strng{authorbibnamehash}{29c138540becf6c048a0282c34be26c9}
       \strng{authornamehash}{7a9623c869a05636e14889a664520d80}
       \strng{authorfullhash}{29c138540becf6c048a0282c34be26c9}
+      \strng{authorfullhashraw}{29c138540becf6c048a0282c34be26c9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -189,7 +197,7 @@
       \field{year}{2024}
       \true{nocite}
     \endentry
-    \entry{atemkeng2024ethics}{article}{}
+    \entry{atemkeng2024ethics}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a5e42fa82c5270947974aa2ac122cf51}{%
            family={Atemkeng},
@@ -230,10 +238,12 @@
       }
       \strng{namehash}{ca125dbd5e0a63e0dd441848ede2df56}
       \strng{fullhash}{c7973245508db990410ea6d65bdfea31}
+      \strng{fullhashraw}{c7973245508db990410ea6d65bdfea31}
       \strng{bibnamehash}{c7973245508db990410ea6d65bdfea31}
       \strng{authorbibnamehash}{c7973245508db990410ea6d65bdfea31}
       \strng{authornamehash}{ca125dbd5e0a63e0dd441848ede2df56}
       \strng{authorfullhash}{c7973245508db990410ea6d65bdfea31}
+      \strng{authorfullhashraw}{c7973245508db990410ea6d65bdfea31}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -246,7 +256,7 @@
       \field{year}{2024}
       \true{nocite}
     \endentry
-    \entry{staegemann2024overview}{inproceedings}{}
+    \entry{staegemann2024overview}{inproceedings}{}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=1227c774bc1c967430244320104578c2}{%
            family={Staegemann},
@@ -308,10 +318,12 @@
       }
       \strng{namehash}{eb0f10f68eb75d9809e1ef2ace5086f7}
       \strng{fullhash}{f9baa04c52a0de70be06ae3589d93651}
+      \strng{fullhashraw}{f9baa04c52a0de70be06ae3589d93651}
       \strng{bibnamehash}{e8eb524c4fb0727db99cd2f357565da7}
       \strng{authorbibnamehash}{e8eb524c4fb0727db99cd2f357565da7}
       \strng{authornamehash}{eb0f10f68eb75d9809e1ef2ace5086f7}
       \strng{authorfullhash}{f9baa04c52a0de70be06ae3589d93651}
+      \strng{authorfullhashraw}{f9baa04c52a0de70be06ae3589d93651}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -325,7 +337,7 @@
       \field{year}{2024}
       \true{nocite}
     \endentry
-    \entry{ataei2023towards}{inproceedings}{}
+    \entry{ataei2023towards}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -342,10 +354,12 @@
       }
       \strng{namehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{fullhash}{956b7c6489f4419e5a5b4e0cd62c247a}
+      \strng{fullhashraw}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{bibnamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authorbibnamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authornamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authorfullhash}{956b7c6489f4419e5a5b4e0cd62c247a}
+      \strng{authorfullhashraw}{956b7c6489f4419e5a5b4e0cd62c247a}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -358,7 +372,7 @@
       \field{year}{2023}
       \true{nocite}
     \endentry
-    \entry{ataei2023application}{article}{}
+    \entry{ataei2023application}{article}{}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -378,10 +392,12 @@
       }
       \strng{namehash}{8aa288f708817c80e8971ee19a1ae1ae}
       \strng{fullhash}{8aa288f708817c80e8971ee19a1ae1ae}
+      \strng{fullhashraw}{8aa288f708817c80e8971ee19a1ae1ae}
       \strng{bibnamehash}{8aa288f708817c80e8971ee19a1ae1ae}
       \strng{authorbibnamehash}{8aa288f708817c80e8971ee19a1ae1ae}
       \strng{authornamehash}{8aa288f708817c80e8971ee19a1ae1ae}
       \strng{authorfullhash}{8aa288f708817c80e8971ee19a1ae1ae}
+      \strng{authorfullhashraw}{8aa288f708817c80e8971ee19a1ae1ae}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -397,7 +413,7 @@
       \field{pages}{1\bibrangedash 49}
       \range{pages}{49}
     \endentry
-    \entry{ataei2022state}{article}{}
+    \entry{ataei2022state}{article}{}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -417,10 +433,12 @@
       }
       \strng{namehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{fullhash}{956b7c6489f4419e5a5b4e0cd62c247a}
+      \strng{fullhashraw}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{bibnamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authorbibnamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authornamehash}{956b7c6489f4419e5a5b4e0cd62c247a}
       \strng{authorfullhash}{956b7c6489f4419e5a5b4e0cd62c247a}
+      \strng{authorfullhashraw}{956b7c6489f4419e5a5b4e0cd62c247a}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -433,7 +451,7 @@
       \field{year}{2022}
       \true{nocite}
     \endentry
-    \entry{AtaeiApsec}{inproceedings}{}
+    \entry{AtaeiApsec}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=fccc02d98096d2d781ce35759f0819ea}{%
            family={Ataei},
@@ -456,10 +474,12 @@
       }
       \strng{namehash}{6adb3b4fff98b4c5f2304f4db444864a}
       \strng{fullhash}{6adb3b4fff98b4c5f2304f4db444864a}
+      \strng{fullhashraw}{6adb3b4fff98b4c5f2304f4db444864a}
       \strng{bibnamehash}{6adb3b4fff98b4c5f2304f4db444864a}
       \strng{authorbibnamehash}{6adb3b4fff98b4c5f2304f4db444864a}
       \strng{authornamehash}{6adb3b4fff98b4c5f2304f4db444864a}
       \strng{authorfullhash}{6adb3b4fff98b4c5f2304f4db444864a}
+      \strng{authorfullhashraw}{6adb3b4fff98b4c5f2304f4db444864a}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -484,7 +504,7 @@
       \endverb
       \keyw{q-factor;distributed databases;prototypes;computer architecture;big data;software systems;complexity theory}
     \endentry
-    \entry{AtaeiACIS}{inproceedings}{}
+    \entry{AtaeiACIS}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -504,10 +524,12 @@
       }
       \strng{namehash}{746d5f2bda0b367121bd6c2d0416e5a3}
       \strng{fullhash}{746d5f2bda0b367121bd6c2d0416e5a3}
+      \strng{fullhashraw}{746d5f2bda0b367121bd6c2d0416e5a3}
       \strng{bibnamehash}{746d5f2bda0b367121bd6c2d0416e5a3}
       \strng{authorbibnamehash}{746d5f2bda0b367121bd6c2d0416e5a3}
       \strng{authornamehash}{746d5f2bda0b367121bd6c2d0416e5a3}
       \strng{authorfullhash}{746d5f2bda0b367121bd6c2d0416e5a3}
+      \strng{authorfullhashraw}{746d5f2bda0b367121bd6c2d0416e5a3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -524,7 +546,7 @@
       \verb 10.5130/acis2020.bf
       \endverb
     \endentry
-    \entry{ataei2017nexus}{book}{}
+    \entry{ataei2017nexus}{book}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
            family={Ataei},
@@ -541,10 +563,12 @@
       }
       \strng{namehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{fullhash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{fullhashraw}{2cbfcf6c1f060edc403539a228818399}
       \strng{bibnamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authorbibnamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authornamehash}{2cbfcf6c1f060edc403539a228818399}
       \strng{authorfullhash}{2cbfcf6c1f060edc403539a228818399}
+      \strng{authorfullhashraw}{2cbfcf6c1f060edc403539a228818399}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -565,7 +589,7 @@
       \verb https://www.amazon.com/Nexus-Methodology-Trenchant-Approach-Toward/dp/3659881392
       \endverb
     \endentry
-    \entry{rad2017evaluating}{inproceedings}{}
+    \entry{rad2017evaluating}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4de3c18d6104532e8e041481f10691cd}{%
            family={Rad},
@@ -582,10 +606,12 @@
       }
       \strng{namehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{fullhash}{24c75c558c638f7e3438a23372d30bf2}
+      \strng{fullhashraw}{24c75c558c638f7e3438a23372d30bf2}
       \strng{bibnamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authorbibnamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authornamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authorfullhash}{24c75c558c638f7e3438a23372d30bf2}
+      \strng{authorfullhashraw}{24c75c558c638f7e3438a23372d30bf2}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -604,7 +630,7 @@
       \field{pages}{168}
       \range{pages}{1}
     \endentry
-    \entry{rad2017big}{inproceedings}{}
+    \entry{rad2017big}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4de3c18d6104532e8e041481f10691cd}{%
            family={Rad},
@@ -621,10 +647,12 @@
       }
       \strng{namehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{fullhash}{24c75c558c638f7e3438a23372d30bf2}
+      \strng{fullhashraw}{24c75c558c638f7e3438a23372d30bf2}
       \strng{bibnamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authorbibnamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authornamehash}{24c75c558c638f7e3438a23372d30bf2}
       \strng{authorfullhash}{24c75c558c638f7e3438a23372d30bf2}
+      \strng{authorfullhashraw}{24c75c558c638f7e3438a23372d30bf2}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -643,7 +671,7 @@
       \field{pages}{38}
       \range{pages}{1}
     \endentry
-    \entry{Rada2017}{article}{}
+    \entry{Rada2017}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=3520cd79043c68c84def25dd372fd577}{%
            family={Rada},
@@ -672,10 +700,12 @@
       }
       \strng{namehash}{171b52c36a9c5b8910f24ab9c239d2eb}
       \strng{fullhash}{5b2acccae0e3dd4d30595bbb22ec7057}
+      \strng{fullhashraw}{5b2acccae0e3dd4d30595bbb22ec7057}
       \strng{bibnamehash}{5b2acccae0e3dd4d30595bbb22ec7057}
       \strng{authorbibnamehash}{5b2acccae0e3dd4d30595bbb22ec7057}
       \strng{authornamehash}{171b52c36a9c5b8910f24ab9c239d2eb}
       \strng{authorfullhash}{5b2acccae0e3dd4d30595bbb22ec7057}
+      \strng{authorfullhashraw}{5b2acccae0e3dd4d30595bbb22ec7057}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -692,7 +722,7 @@
       \field{pages}{1\bibrangedash 18}
       \range{pages}{18}
     \endentry
-    \entry{AtaeiSecurity}{article}{}
+    \entry{AtaeiSecurity}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=88980b5a06a83e091ff7651c89f24762}{%
            family={Bashari\bibnamedelima Rad},
@@ -721,10 +751,12 @@
       }
       \strng{namehash}{e4699a5c770e3dffdcaec2ad5b5fa880}
       \strng{fullhash}{a6d05328c2bb7e943eb5fd21cfabd731}
+      \strng{fullhashraw}{a6d05328c2bb7e943eb5fd21cfabd731}
       \strng{bibnamehash}{a6d05328c2bb7e943eb5fd21cfabd731}
       \strng{authorbibnamehash}{a6d05328c2bb7e943eb5fd21cfabd731}
       \strng{authornamehash}{e4699a5c770e3dffdcaec2ad5b5fa880}
       \strng{authorfullhash}{a6d05328c2bb7e943eb5fd21cfabd731}
+      \strng{authorfullhashraw}{a6d05328c2bb7e943eb5fd21cfabd731}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
