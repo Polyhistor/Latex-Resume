@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>resume-manager-solution-architects.bcf</file>
+      <file>resume-lead-research-scientist.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>resume-manager-solution-architects.bbl</file>
+      <file>resume-lead-research-scientist.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>resume-manager-solution-architects</infile>
+      <infile>resume-lead-research-scientist</infile>
     </cmdline>
     <input>
-      <file>resume-manager-solution-architects.bcf</file>
+      <file>resume-lead-research-scientist.bcf</file>
     </input>
     <output>
-      <file>resume-manager-solution-architects.bbl</file>
+      <file>resume-lead-research-scientist.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>resume-manager-solution-architects.bbl</file>
+      <file>resume-lead-research-scientist.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>resume-manager-solution-architects.bcf</file>
+      <file>resume-lead-research-scientist.bcf</file>
     </requires>
     <requires type="editable">
       <file>sample.bib</file>

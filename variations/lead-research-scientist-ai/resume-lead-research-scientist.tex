@@ -16,6 +16,7 @@
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
 \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\usepackage[none]{hyphenat}
 
 
 
@@ -30,6 +31,9 @@
 \usepackage{paracol}
 \usepackage{graphicx}
 \usepackage{fontawesome5}
+% \usepackage{biblatex}
+% \addbibresource{sample.bib}
+
 
 
 \renewcommand{\cvevent}[4]{%
@@ -49,7 +53,6 @@
 
 
 \newlength{\mylen}
-
 
 \makeatletter
 % Modify the cvsection command to accept an icon name as the first argument
@@ -135,7 +138,7 @@
 % \photoR{2.5cm}{test-profile.jpg}
 
 \name{Dr. Pouya Ataei}
-\tagline{Engineering Leader \& Solutions Architect (PhD in Big Data)}
+\tagline{AI Research Leader \& Computer Scientist (PhD in Big Data)}
 
 \photoR{3cm}{profile-photo.jpg}
 
@@ -181,121 +184,120 @@
 %% Set the left/right column width ratio to 6:4.
 \columnratio{0.6}
 
-\cvsection[\faBrain]{Executive Summary}
+% \cvsection[\faBrain]{Precursor}
+
+% \begin{raggedright}
+% This identification is merely the idea of myself to provide with
+% specious and precarious sense of permanence. For this idea is
+% relatively fixed, being based upon carefully selected memories of
+% my past, which have a preserved and fixed character. Social
+% conventions therefore, encouraged me to form this idea of myself
+% with equally abstract symbolic roles, and stereotypes. 
+% \end{raggedright}
+
+% \vspace{0.5cm}
+
+% \begin{paracol}{2}
+
+\cvsection[\faHandHoldingHeart]{What I have to offer?}
 
 \begin{raggedright}
-Engineering leader with 13+ years of experience architecting enterprise-scale solutions and building high-performing technical teams. Successfully transitioned from hands-on engineering to leadership roles, managing teams of 35+ engineers while maintaining deep technical expertise in Big Data, cloud platforms, and AI systems. Experienced in partnering with stakeholders to deliver business value through technical innovation, with a proven track record of scaling teams from inception to maturity. My approach combines analytical precision with creative problem-solving, always focusing on customer success and sustainable growth.
+  I am a Computer Scientist with a PhD in Big Data and 13+ years of experience bridging cutting-edge 
+  research with practical product implementation. My doctoral research focused on distributed systems 
+  and AI architectures, resulting in multiple peer-reviewed publications at prestigious conferences 
+  including AMCIS, ACIS, and APSEC. As Principal Data Engineer at Vector, I currently lead the 
+  development of large-scale ML models for energy analytics and demand forecasting.
+  
+  \vspace{0.5cm}
+  Throughout my career, I've successfully transitioned from hands-on research to leading teams of 35+ 
+  engineers, always maintaining a balance between scientific rigor and practical impact. I'm passionate 
+  about coaching researchers, translating academic breakthroughs into scalable solutions, and have 
+  extensive experience with neural architectures, distributed training, and model deployment at scale.
 \end{raggedright}
+
+\vspace{0.4cm}
+% \switchcolumn
+
+\cvsection[\faHandshake]{What I'm looking for? }
+
+\begin{raggedright}
+
+- Leading and mentoring world-class research scientists
+
+- Bridging foundational model innovation with product impact
+
+- Contributing to the global AI community through publications
+
+- Hands-on involvement in cutting-edge AI research
+
+- Collaborative environment fostering scientific excellence
+
+- Opportunity to shape research strategy and vision
+
+\end{raggedright}
+
+
 
 \vspace{0.5cm}
 
-\begin{paracol}{2}
-
-\cvsection[\faHandHoldingHeart]{What I Bring to the Table}
-
-\begin{raggedright}
-• \textbf{Team Leadership}: Managing 35+ engineers across multiple teams, with experience building teams from scratch and scaling them effectively
-
-• \textbf{Technical Depth}: PhD in Big Data with hands-on experience in distributed systems, event-driven architectures, and cloud platforms
-
-• \textbf{Business Acumen}: Engaged with representatives from Databricks, AWS, Confluent, and other major vendors to drive architectural decisions
-
-• \textbf{Solution Architecture}: Designed enterprise-scale systems serving millions of users with focus on performance and reliability
-
-• \textbf{Mentorship Focus}: Passionate about developing talent, having mentored engineers from junior to senior levels throughout my career
-  \end{raggedright}
-
-
-\switchcolumn
-
-\cvsection[\faHandshake]{What I'm Looking For}
-
-\begin{raggedright}
-
-• Building and leading teams of talented solutions architects
-
-• Partnering with sales organizations to drive technical strategy
-
-• Working with cutting-edge data and AI technologies
-
-• Creating customer-focused solutions that deliver real business value
-
-• Opportunity to shape technical culture and processes
-
-• Balance between strategic leadership and technical involvement
-
-\end{raggedright}
-
-
-% \begin{itemize}
-%   \item Company with a vibrant and positive environment.
-%   \item Direct engineering hands-on involvement.
-%   \item Time and opportunity to learn and apply emerging technologies.
-%   \item Work hard, but not at the weekends.
-% \end{itemize}
-
-\end{paracol}
-
-\vspace{0.5cm}
-
-\cvsection[\faCode]{Skills}
+\cvsection[\faCode]{Technical \& Research Expertise}
 
 \columnratio{0.5}
 
 \begin{paracol}{2}
-  \cvskill{Team Leadership \& Management}{4.5}
-  \divider
-  \cvskill{Solution Architecture}{4.5}
-  \divider
   \cvskill{Python}{4.5}
   \divider
-  \cvskill{Big Data \& Data Engineering}{4.5}
+  \cvskill{TensorFlow/PyTorch}{4}
   \divider
-  \cvskill{AWS}{4.5}
+  \cvskill{Generative AI (GANs, Diffusion)}{4}
   \divider
-  \cvskill{Databricks/Spark}{4}
+  \cvskill{VAEs \& Autoregressive Models}{3.5}
   \divider
-  \cvskill{Kafka/Event Streaming}{4}
+  \cvskill{Deep Learning}{4.5}
   \divider
-  \cvskill{Software Architecture}{4.5}
+  \cvskill{Machine Learning}{4.5}
   \divider
-  \cvskill{Distributed Systems}{4}
+  \cvskill{Distributed Training}{4}
   \divider
-  \cvskill{AI/Machine Learning}{4}
+  \cvskill{Model Optimization}{4}
   \divider
-  \cvskill{Terraform, Pulumi, CDK}{4}
+  \cvskill{Scientific Computing (NumPy, SciPy)}{4.5}
   \divider
-  \cvskill{Kubernetes/Docker}{4}
+  \cvskill{Research Methodology}{4.5}
   \divider
-  \cvskill{Javascript/Typescript}{4.5}
+  \cvskill{Big Data \& Analytics}{4.5}
+  \divider
+  \cvskill{Data Engineering}{4}
+  \divider
+  \cvskill{Team Leadership}{4.5}
   \divider
 
   \switchcolumn
-  \cvskill{React \& Frontend Architecture}{4.5}
+  \cvskill{Research Mentorship}{4.5}
   \divider
-  \cvskill{Node/Bun/Deno}{4.5}
+  \cvskill{AWS/GCP for ML}{4.5}
   \divider
-  \cvskill{Golang}{3.5}
+  \cvskill{Kubernetes/Docker}{4}
   \divider
-  \cvskill{Google Cloud, Azure}{4}
-  \divider
-  \cvskill{SQL/NoSQL Databases}{4}
+  \cvskill{MLOps \& Model Deployment}{4}
   \divider
   \cvskill{Vector Databases}{4}
   \divider
-  \cvskill{Elasticsearch, MongoDB}{4}
+  \cvskill{Javascript/Typescript}{4.5}
   \divider
-  \cvskill{Pre-Sales \& Technical Selling}{4}
+  \cvskill{C++/CUDA}{3}
   \divider
-  \cvskill{Stakeholder Management}{4.5}
+  \cvskill{Distributed Systems}{4}
   \divider
-  \cvskill{Mentoring \& Coaching}{4.5}
+  \cvskill{Academic Writing}{4.5}
   \divider
-  \cvskill{Agile/Scrum Methodologies}{4.5}
+  \cvskill{Conference Presentations}{4.5}
   \divider
-  \cvskill{Technical Documentation}{4.5}
+  \cvskill{Cross-functional Collaboration}{4.5}
   \divider
-  \cvskill{Digital Transformation}{4}
+  \cvskill{Product-Research Translation}{4}
+  \divider
+  \cvskill{Agile/Scrum}{4.5}
   \divider
   \end{paracol}
 
@@ -319,24 +321,27 @@ Engineering leader with 13+ years of experience architecting enterprise-scale so
 }
 \makeatother
 
-\vspace{2cm}
+% \vspace{1cm}
 
 \cvsection[\faBriefcase]{Work Experience}
+
 
 \cvevent{Principal Data Engineer}{Vector Limited}{May 2025 -- Current}{Auckland, New Zealand}
 
 \begin{itemize}
-  \item Lead the design and implementation of large-scale, serverless data architectures for ingesting, processing, and analyzing energy data from smart meters and network performance systems.
+  \item Lead the design and implementation of large-scale, serverless data architectures for ingesting, processing, and analyzing energy data from smart meters, DER telemetry, and network performance systems.
   \item Bridge data science and software engineering by developing and operationalizing energy analytics models that support demand forecasting, asset optimization, and grid flexibility.
   \item Drive AWS cloud cost efficiency through best practices in Glue, Athena, S3, DynamoDB, and event-driven architectures.
   \item Implement automated data validation, lineage tracking, and observability to maintain data quality and ensure compliance with regulatory frameworks.
-  \item Architect and deploy energy data algorithms while ensuring efficient and scalable model inference integrated with data platform services.
+  \item Design and scale Diverge's data platform to support both real-time and batch energy analytics with a focus on performance, security, and cost-efficiency.
+  \item Architect and deploy energy data algorithms while ensuring efficient and scalable model inference integrated with Diverge's services.
+  \item Lead test automation strategies that embed data quality checks into CI/CD pipelines and foster an architectural culture that promotes iterative, autonomous development.
   \item Mentor junior engineers, fostering a high-performance engineering culture aligned with the company's long-term technology vision.
 \end{itemize}
 
 \vspace{0.5cm}
 
-\textit{Tech \& Tools: AWS (Lambda, DynamoDB, S3, Glue, Athena), Python, Serverless Architecture, Data Engineering, Machine Learning, Event-Driven Architecture, Data Science}
+\textit{Tech \& Tools: AWS (Lambda, DynamoDB, S3, Glue, Athena), Python, Serverless Architecture, Data Engineering, Machine Learning, CI/CD, Event-Driven Architecture, Data Science}
 
 \divider
 
@@ -348,19 +353,45 @@ Engineering leader with 13+ years of experience architecting enterprise-scale so
   \item Design and implement event-driven architectures using Kafka and AWS EventBridge, enabling real-time data processing and system integration at scale.
   \item Establish and enforce engineering excellence through comprehensive TypeScript guidelines, Clean Architecture principles, and Domain-Driven Design practices across all teams.
   \item Implement Value Stream Management and Flow Framework methodologies to optimize delivery pipelines and enhance team productivity while reducing cognitive load.
+  \item Architect and implement advanced observability solutions using OpenTelemetry, significantly enhancing system monitoring and performance tracking capabilities.
+  \item Drive technical excellence through cloud-native architectures, leveraging AWS, Kubernetes, and Kafka for robust distributed systems.
+  \item Oversee development across diverse technology stacks including Node.js, Go, C\#/.NET, and Snowflake for data warehousing solutions.
+  \item Guide architectural decisions and technology choices to support the organization's growth and scalability goals.
+  \end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: AWS, OpenTelemetry, Node.js, Kubernetes, Docker, Terraform, GitLab CI/CD, Microservices, Python, Bash, Vector Databases, TensorFlow}
+
+\divider
+
+\cvevent{Development Team Leader - Cloud Architecture}{Invenco by GVR}{July 2024 -- Sep 2024}{Auckland, New Zealand}
+
+\begin{itemize}
+\item Lead a cross-functional team in developing and maintaining cloud-based payment solutions, fostering innovation and continuous improvement.
+\item Architect and implement scalable cloud services, ensuring high performance and security standards are met.
+\item Created and implemented a comprehensive observability plan using OpenTelemetry, significantly enhancing system monitoring and troubleshooting capabilities.
+\item Successfully scaled our terminal infrastructure to handle over 300,000 requests in under 30 minutes, dramatically improving system capacity and responsiveness.
+\item Drive adoption of modern software engineering practices, including microservices architecture and serverless computing.
+\item Collaborate with stakeholders to define technical roadmaps, balancing immediate needs with long-term strategic goals.
+\item Mentor team members, facilitating their professional growth and fostering a collaborative work environment.
+\item Spearhead the integration of DevOps practices, improving deployment frequency and reducing time-to-market for new features.
+\item Stay abreast of emerging technologies, evaluating their potential impact on the organization's cloud strategy.
 \end{itemize}
 
 \vspace{0.5cm}
 
-\textit{Tech \& Tools: AWS, OpenTelemetry, Node.js, Kubernetes, Docker, Terraform, Kafka, Microservices, Python, Snowflake}
+\textit{Tech \& Tools: AWS, Kubernetes, Kafka, OpenTelemetry, Node.js, Go, C\#/.NET, Snowflake, Terraform, Docker, GitLab CI/CD, Python, Bash, Vector Databases, TensorFlow}
 
 \divider
+
+% \vspace{0.5cm}
 
 \cvevent{Lead Development Architect}{Idexx Laboratories}{Sep 2021 -- July 2024}{Auckland, New Zealand}
 
 
 \begin{itemize}
-\item Stood responsible as one of the company’s lead architects, taking part in critical technological decissions across
+\item Stood responsible as one of the company's lead architects, taking part in critical technological decissions across
 different regions.
 \item Worked on an event-driven architecture using Kafka, deployed and tested an archetype with consultants from Confluent. 
 \item Presented the company and engaged with representatives from Databricks, Heap, Apollo, AWS, Gitlab, Confluent, BizzDesign and others.
@@ -375,7 +406,7 @@ different regions.
 
 \vspace{0.5cm}
 
-\textit{Tech \& Tools: Archimate, TOGAF, ADM, BDD, DDD, AWS, Kafka, Go, Graph, SQL ,Terraform, Kubernetes, Elasticsearch, GraphQL, React, Typescript}
+\textit{Tech \& Tools: Archimate, TOGAF, ADM, BDD, DDD, AWS, Kafka, Go, Graph, SQL ,Terraform, Kubernetes, Elasticsearch, Typescript}
 
 \divider
 
@@ -383,7 +414,7 @@ different regions.
 \cvevent{Tech Lead}{Idexx Laboratories}{Jun 2021 -- Sep 2021}{Auckland, New Zealand}
 
 \begin{itemize}
-  \item Served as a key lead architect, driving critical technological decisions and strategies across various regions, emphasizing my pivotal role in shaping the company’s technological landscape.
+  \item Served as a key lead architect, driving critical technological decisions and strategies across various regions, emphasizing my pivotal role in shaping the company's technological landscape.
   \item Designed and deployed a distributed data layer, introducing a declarative client-driven API to enhance system flexibility and client interaction efficiency.
   \item Engineered an event-driven architecture leveraging Kafka, including the deployment and rigorous testing of a prototype in collaboration with Confluent consultants, showcasing my expertise in modern, scalable system design.
   \item Actively engaged in feature development, technical debt reduction, and incident management, contributing to continuous improvement in system reliability and development practices.
@@ -398,7 +429,7 @@ different regions.
 
 \divider
 
-\cvevent{Senior Fullstack Developer \& Tech Lead}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
+\cvevent{Senior Fullstack Developer}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
 
 
 \begin{itemize}
@@ -412,13 +443,13 @@ different regions.
 
   \vspace{0.5cm}
 
-  \textit{Tech \& Tools: React, AWS, Go, Laravel, Kubernetes, Terraform, PHP, Node, Typescript}
+  \textit{Tech \& Tools: React, Typescript, AWS, Go, Laravel, Kubernetes, Terraform, PHP, Node}
 
   \divider
 
 
 
-\cvevent{Full Stack Developer}{Infosys}{Feb 2020 -- Jul 2020}{Auckland, New Zealand}
+\cvevent{Fullstack Developer}{Infosys}{Feb 2020 -- Jul 2020}{Auckland, New Zealand}
 
 
 \begin{itemize}
@@ -449,7 +480,7 @@ different regions.
   \item Enhanced the performance and SEO of existing WordPress sites, implementing advanced optimization strategies to improve search engine rankings and user engagement.
   \item Developed a cross-browser, responsive web application that combines dynamic and static elements, delivering an exceptional user experience on all devices.
   \item Managed API concurrency issues, dynamically updating product prices, names, and descriptions to ensure real-time accuracy and responsiveness.
-  \item Contributed to refining the company’s SEO strategy, leading to measurable improvements in web visibility and traffic.
+  \item Contributed to refining the company's SEO strategy, leading to measurable improvements in web visibility and traffic.
   \item Collaborated in the UI/UX design process, creating intuitive and user-friendly interfaces that enhance customer satisfaction and engagement.
   \item Leveraged emerging technologies in both front-end and back-end development, significantly increasing application performance and speed.
   \item Implemented a polyglot persistence architecture, enhancing system efficiency and scalability to support growing data demands and diverse data types.
@@ -481,7 +512,7 @@ different regions.
 
 \vspace{0.5cm}
 
-\textit{Tech \& Tools: ReactJS, NodeJs, Mongo, Adobe Connect, Mysql, PHP, Golang, C\#, Java}
+\textit{Tech \& Tools: ReactJS, NodeJs, Mongo, Adobe Connect, Mysql, PHP, Golang, C\#, .Net Core, Java}
 
 \divider
 
@@ -501,7 +532,7 @@ different regions.
 
 \vspace{0.5cm}
 
-\textit{Tech \& Tools: Wordpress, Magento, Opencart, AngularJS, Vanilla JS, PHP, C\#, Golang}
+\textit{Tech \& Tools: Wordpress, Magento, Opencart, AngularJS, Vanilla JS, PHP, C\#, .Net Core, Golang}
 
 \divider
 
@@ -556,7 +587,7 @@ different regions.
 
 \divider
 
-\cvevent{P.H.D\ in Computer Science}{Auckland University of Technology}{Feb 2019 -- May 2024}{}
+\cvevent{P.H.D\ in Computer Science}{Auckland University of Technology}{Feb 2019 -- September 2024}{}
 
 \divider
 
@@ -595,6 +626,8 @@ different regions.
 \begin{itemize}
   \item Ataei, P. (2024). Cybermycelium: a reference architecture for domain-driven distributed big data systems. \textit{Frontiers in Big Data}, 7, 1448481.
   \item Ataei, P., Regula, S., Haertel, C., \& Staegemann, D. (2024). Impact of big data analytics on business performance: A systematic literature review. \textit{International Journal of Information Management}.
+  \item Ataei, P., Regula, S., \& Staegemann, D. (2024). Filtering Useful App Reviews Using Naive Bayes—Which Naive Bayes? \textit{AI}, 5(4), 2237-2259.
+  \item Atemkeng, M., Hamlomo, S., Welman, B., Oyetunji, N., Ataei, P., \& Fendji, J. L. K. (2024). Ethics of Software Programming with Generative AI. \textit{arXiv preprint arXiv:2408.10554}.
   \item Ataei, P., \& Staegemann, D. (2023). Application of microservices patterns to big data systems. \textit{Journal of Big Data}, 10(1), 1-49.
   \item Ataei, P., \& Litchfield, A. (2022). The state of big data reference architectures: a systematic literature review. \textit{IEEE Access}.
   \item Bashari Rad, B., \& Ataei, P. (2017). The big data ecosystem and its environs. \textit{International Journal of Computer Science and Network Security}, 17(3), 38.
@@ -607,9 +640,11 @@ different regions.
 
 \textbf{\faUsers~Conference Proceedings}
 \begin{itemize}
+  \item Ataei, P., Thorpe, S., Regula, S., \& Staegemann, D. (2024). Why Big Data Projects Fail? A Systematic Literature Review. \textit{ICICT 2024}.
   \item Ataei, P., \& Litchfield, A. (2023). Towards a domain-driven distributed reference architecture for big data systems. \textit{AMCIS 2023}.
   \item Ataei, P., \& Litchfield, A. (2021). NeoMycelia: A software reference architecture for big data systems. \textit{28th Asia-Pacific Software Engineering Conference (APSEC)}, 452-462.
   \item Ataei, P., \& Litchfield, A. (2020). Big Data Reference Architectures: A Systematic Literature Review. \textit{31st Australasian Conference on Information Systems (ACIS)}, 1-11.
+  \item Staegemann, D., Ataei, P., et al. (2024). An Overview on Testing Big Data Applications. \textit{Ninth International Congress on Information and Communication Technology}, Lecture Notes in Networks and Systems.
 \end{itemize}
 
 
@@ -638,6 +673,8 @@ different regions.
   \item Asia-Pacific Software Engineering Conference - APSEC, Taiwan \hfill 2021
   \item Kafka and Terraform Meetup - Confluent, New Zealand \hfill 2023 
   \item Geekle- World Global React Conference \hfill Multiple (Latest in 2023)
+  \item American Conference on Information Systems - AMCIS, USA \hfill 2024
+  \item Many other conferences. 
 
 \end{itemize}
 
