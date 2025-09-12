@@ -1,0 +1,640 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.6.4, 13 Nov 2021) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+
+
+
+%% AltaCV uses the fontawesome5 package.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+
+
+\renewcommand{\cvevent}[4]{%
+  \textbf{#1} % Job title
+  \hfill % This will push the right minipage to the right
+  \begin{minipage}[t]{.5\linewidth}
+    \raggedleft % Aligns content to the right
+    \small#3 % Location
+    \\ % New line for the date right below location
+    #4 % Date
+  \end{minipage}
+  \vspace{\baselineskip} % Adds some space after the event
+}
+
+
+
+
+
+\newlength{\mylen}
+
+
+\makeatletter
+% Modify the cvsection command to accept an icon name as the first argument
+\RenewDocumentCommand{\cvsection}{o m}{%
+  % Check if an icon name is provided
+  \IfValueTF{#1}{%
+    % If an icon is provided, measure the width including the icon
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#1\hspace{0.0em}#2}
+    % Add space before the section title
+    \vspace{1.5ex}
+    % Print the section title with icon
+    {\Large\bfseries\color{heading}#1\hspace{0.2em}#2}\\[-1ex]
+  }{%
+    % If no icon is provided, proceed as before
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#2}
+    % Add space before the section title
+    \vspace{1.5ex}
+    % Print the section title without icon
+    {\Large\bfseries\color{heading}#2}\\[-1ex]
+  }
+  % Center the rule: adjust the length here if you want to change the thickness
+  \makebox[\mylen]{\rule{\mylen}{0.0pt}} % Use the measured width for the rule
+  \vspace{2ex} % Adjusted space after the title underline
+}
+\makeatother
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+% \colorlet{tagline}{PastelRed}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Define the length outside the command, to ensure it's only defined once
+
+
+
+
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+\input{pubs-authoryear}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+% \input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+
+% \photoR{2.5cm}{test-profile.jpg}
+
+\name{Dr. Pouya Ataei}
+\tagline{Engineering Leader \& Solutions Architect (PhD in Big Data)}
+
+\photoR{3cm}{profile-photo.jpg}
+
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%% You can add multiple photos on the left or right
+% \photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
+% \photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{pouya.ataei.7@gmail.com}
+  \linkedin{pouya-ataei-bb1254ba}
+  \github{polyhistor} 
+  \NewInfoField{researchgate}{\faResearchgate}[https://www.researchgate.net/profile/]
+  \researchgate{Pouya-Ataei}
+  
+%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+	%%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+\cvsection[\faBrain]{Executive Summary}
+
+\begin{raggedright}
+Engineering leader with 13+ years of experience architecting enterprise-scale solutions and building high-performing technical teams. Successfully transitioned from hands-on engineering to leadership roles, managing teams of 35+ engineers while maintaining deep technical expertise in Big Data, cloud platforms, and AI systems. Experienced in partnering with stakeholders to deliver business value through technical innovation, with a proven track record of scaling teams from inception to maturity. My approach combines analytical precision with creative problem-solving, always focusing on customer success and sustainable growth.
+\end{raggedright}
+
+\vspace{0.5cm}
+
+\begin{paracol}{2}
+
+\cvsection[\faHandHoldingHeart]{What I Bring to the Table}
+
+\begin{raggedright}
+• \textbf{Team Leadership}: Managing 35+ engineers across multiple teams, with experience building teams from scratch and scaling them effectively
+
+• \textbf{Technical Depth}: PhD in Big Data with hands-on experience in distributed systems, event-driven architectures, and cloud platforms
+
+• \textbf{Business Acumen}: Engaged with representatives from Databricks, AWS, Confluent, and other major vendors to drive architectural decisions
+
+• \textbf{Solution Architecture}: Designed enterprise-scale systems serving millions of users with focus on performance and reliability
+
+• \textbf{Mentorship Focus}: Passionate about developing talent, having mentored engineers from junior to senior levels throughout my career
+  \end{raggedright}
+
+
+\switchcolumn
+
+\cvsection[\faHandshake]{What I'm Looking For}
+
+\begin{raggedright}
+
+• Building and leading teams of talented solutions architects
+
+• Partnering with sales organizations to drive technical strategy
+
+• Working with cutting-edge data and AI technologies
+
+• Creating customer-focused solutions that deliver real business value
+
+• Opportunity to shape technical culture and processes
+
+• Balance between strategic leadership and technical involvement
+
+\end{raggedright}
+
+
+% \begin{itemize}
+%   \item Company with a vibrant and positive environment.
+%   \item Direct engineering hands-on involvement.
+%   \item Time and opportunity to learn and apply emerging technologies.
+%   \item Work hard, but not at the weekends.
+% \end{itemize}
+
+\end{paracol}
+
+\vspace{0.5cm}
+
+\cvsection[\faCode]{Skills}
+
+\columnratio{0.5}
+
+\begin{paracol}{2}
+  \cvskill{Team Leadership \& Management}{4.5}
+  \divider
+  \cvskill{Solution Architecture}{4.5}
+  \divider
+  \cvskill{Python}{4.5}
+  \divider
+  \cvskill{Big Data \& Data Engineering}{4.5}
+  \divider
+  \cvskill{AWS}{4.5}
+  \divider
+  \cvskill{Databricks/Spark}{4}
+  \divider
+  \cvskill{Kafka/Event Streaming}{4}
+  \divider
+  \cvskill{Software Architecture}{4.5}
+  \divider
+  \cvskill{Distributed Systems}{4}
+  \divider
+  \cvskill{AI/Machine Learning}{4}
+  \divider
+  \cvskill{Terraform, Pulumi, CDK}{4}
+  \divider
+  \cvskill{Kubernetes/Docker}{4}
+  \divider
+  \cvskill{Javascript/Typescript}{4.5}
+  \divider
+
+  \switchcolumn
+  \cvskill{React \& Frontend Architecture}{4.5}
+  \divider
+  \cvskill{Node/Bun/Deno}{4.5}
+  \divider
+  \cvskill{Golang}{3.5}
+  \divider
+  \cvskill{Google Cloud, Azure}{4}
+  \divider
+  \cvskill{SQL/NoSQL Databases}{4}
+  \divider
+  \cvskill{Vector Databases}{4}
+  \divider
+  \cvskill{Elasticsearch, MongoDB}{4}
+  \divider
+  \cvskill{Pre-Sales \& Technical Selling}{4}
+  \divider
+  \cvskill{Stakeholder Management}{4.5}
+  \divider
+  \cvskill{Mentoring \& Coaching}{4.5}
+  \divider
+  \cvskill{Agile/Scrum Methodologies}{4.5}
+  \divider
+  \cvskill{Technical Documentation}{4.5}
+  \divider
+  \cvskill{Digital Transformation}{4}
+  \divider
+  \end{paracol}
+
+\vspace{0.5cm}
+
+\columnratio{0.6}
+
+
+\makeatletter
+% Define or renew the cvevent command
+\RenewDocumentCommand{\cvevent}{m m m m}{%
+  % Arguments: #1 = Position, #2 = Company, #3 = Date Range, #4 = Location
+  \vspace{1.5ex} % Space before the event
+  {\bfseries\large #1} at {\bfseries\large #2} % Position at Company
+  \hfill % Fill space
+  {\small\itshape\faCalendar #3} % Date range
+  \\ % New line
+  {\small\itshape #4} % Location
+  \par % End of paragraph
+  \vspace{1ex} % Space after the event before details begin
+}
+\makeatother
+
+\vspace{2cm}
+
+\cvsection[\faBriefcase]{Work Experience}
+
+\cvevent{Principal Data Engineer}{Vector Limited}{May 2025 -- Current}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Lead the design and implementation of large-scale, serverless data architectures for ingesting, processing, and analyzing energy data from smart meters and network performance systems.
+  \item Bridge data science and software engineering by developing and operationalizing energy analytics models that support demand forecasting, asset optimization, and grid flexibility.
+  \item Drive AWS cloud cost efficiency through best practices in Glue, Athena, S3, DynamoDB, and event-driven architectures.
+  \item Implement automated data validation, lineage tracking, and observability to maintain data quality and ensure compliance with regulatory frameworks.
+  \item Architect and deploy energy data algorithms while ensuring efficient and scalable model inference integrated with data platform services.
+  \item Mentor junior engineers, fostering a high-performance engineering culture aligned with the company's long-term technology vision.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: AWS (Lambda, DynamoDB, S3, Glue, Athena), Python, Serverless Architecture, Data Engineering, Machine Learning, Event-Driven Architecture, Data Science}
+
+\divider
+
+\cvevent{Engineering Manager}{Invenco by GVR}{Sep 2024 -- May 2025}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Lead the strategic 'Engage' domain, managing 35 engineers across 4 cross-functional teams, overseeing critical distributed systems that operate at world-class scale (8 out of 10 petrol stations in USA).
+  \item Serve as the principal architect for the entire 'Engage' domain, holding sole responsibility for architectural decisions and technical direction across all systems and services.
+  \item Design and implement event-driven architectures using Kafka and AWS EventBridge, enabling real-time data processing and system integration at scale.
+  \item Establish and enforce engineering excellence through comprehensive TypeScript guidelines, Clean Architecture principles, and Domain-Driven Design practices across all teams.
+  \item Implement Value Stream Management and Flow Framework methodologies to optimize delivery pipelines and enhance team productivity while reducing cognitive load.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: AWS, OpenTelemetry, Node.js, Kubernetes, Docker, Terraform, Kafka, Microservices, Python, Snowflake}
+
+\divider
+
+\cvevent{Lead Development Architect}{Idexx Laboratories}{Sep 2021 -- July 2024}{Auckland, New Zealand}
+
+
+\begin{itemize}
+\item Stood responsible as one of the company’s lead architects, taking part in critical technological decissions across
+different regions.
+\item Worked on an event-driven architecture using Kafka, deployed and tested an archetype with consultants from Confluent. 
+\item Presented the company and engaged with representatives from Databricks, Heap, Apollo, AWS, Gitlab, Confluent, BizzDesign and others.
+\item Created a scientific methodology for software delivery. 
+\item Introduced novel data-driven approaches to decision making. 
+\item Designed infrastructure, appications and integrations on daily basis. 
+\item Coached and mentored junior, intermediate and senior engineers, providing guidance on best practices, and best ways to learn. 
+\item Supported various teams in various feature development through high-level models and also hands-on coding.
+\item Completed various leadership courses, including CASCADE, and practiced servant leadership principles, prioritizing team growth and well-being.
+\item Applied concepts from "Leaders Eat Last" and "The Servant" to foster a culture of trust and collaboration, leveraging Team Topologies and Domain-Driven Design to streamline communication and align team efforts.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: Archimate, TOGAF, ADM, BDD, DDD, AWS, Kafka, Go, Graph, SQL ,Terraform, Kubernetes, Elasticsearch, GraphQL, React, Typescript}
+
+\divider
+
+
+\cvevent{Tech Lead}{Idexx Laboratories}{Jun 2021 -- Sep 2021}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Served as a key lead architect, driving critical technological decisions and strategies across various regions, emphasizing my pivotal role in shaping the company’s technological landscape.
+  \item Designed and deployed a distributed data layer, introducing a declarative client-driven API to enhance system flexibility and client interaction efficiency.
+  \item Engineered an event-driven architecture leveraging Kafka, including the deployment and rigorous testing of a prototype in collaboration with Confluent consultants, showcasing my expertise in modern, scalable system design.
+  \item Actively engaged in feature development, technical debt reduction, and incident management, contributing to continuous improvement in system reliability and development practices.
+  \item Presented scientific approaches and innovative solutions across different teams to address existing challenges and develop new features, fostering a culture of continuous learning and cross-team collaboration.
+\end{itemize}
+
+
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: Laravel, Terraform, AWS, Apollo, Go, Rust, Node, React, PHP, SQL, Kafka, Python, Kubernetes, Elasticsearch, Typescript}
+
+\divider
+
+\cvevent{Senior Fullstack Developer \& Tech Lead}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
+
+
+\begin{itemize}
+  \item Elevated from Senior Frontend Developer to Frontend Tech Lead within Ezyvet, taking comprehensive responsibility for all frontend applications, demonstrating rapid professional growth and trust in my leadership and technical capabilities.
+  \item Championed the integration of best practices and cutting-edge technologies into the team's workflow, significantly enhancing project outcomes and efficiency. Actively contributed to the development and refactoring of complex features, reinforcing the team's adaptability and technical prowess.
+  \item Orchestrated a major refactor of the frontend codebase, quintupling its modifiability, performance, and security, which substantially boosted the application's reliability and user satisfaction.
+  \item Spearheaded the recruitment process for new talent, playing a pivotal role in interviewing, onboarding, and mentoring new hires, thereby fortifying the team's capabilities and fostering a culture of continuous learning and improvement.
+  \item Addressed critical engineering challenges in both the frontend and platform domains, implementing solutions that dramatically optimized our deployment pipeline—cutting build and deployment times from an average of 45 minutes to just 8 minutes, greatly accelerating product iteration cycles and enhancing team productivity.
+\end{itemize}
+
+
+  \vspace{0.5cm}
+
+  \textit{Tech \& Tools: React, AWS, Go, Laravel, Kubernetes, Terraform, PHP, Node, Typescript}
+
+  \divider
+
+
+
+\cvevent{Full Stack Developer}{Infosys}{Feb 2020 -- Jul 2020}{Auckland, New Zealand}
+
+
+\begin{itemize}
+  \item Deployed to Vodafone to take part in the development of a new E-shop.
+  \item Began as a frontend developer, but I rapidly expanded my role to encompass CMS and backend development, demonstrating flexibility and a broad skill set.
+  \item Was one of the main engineers that worked on the frontend and the e-commerce backend. The work included checkout processes, cart validation, product pages, and component design, along with optimizing SEO, implementing analytics, conducting UI and end-to-end testing, and driving integration projects.
+  \item Worked on various legacy Oracle systems and written integration and anti-corruption layers.
+  \item Collaborated closely with a diverse range of stakeholders on a daily basis, focusing on the development of innovative concepts, and the identification and resolution of bugs and defects, ensuring continual improvement and operational excellence.
+\end{itemize}
+
+
+
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: React, Flask, DynamoDB, Jenkins, AWS, BigCommerce, Java, Python, Javascript}
+
+
+\divider
+
+
+
+\cvevent{Frontend Engineer}{Navigate Travel}{Jun 2019-- Feb 2020}{Auckland, New Zealand}
+
+
+\begin{itemize}
+  \item Spearheaded the migration of three websites from WordPress to Gatsby, integrating React, Contentful, and Node (NestJS), successfully transitioning 900 blog posts with a keen focus on SEO optimizations and schema markups.
+  \item Enhanced the performance and SEO of existing WordPress sites, implementing advanced optimization strategies to improve search engine rankings and user engagement.
+  \item Developed a cross-browser, responsive web application that combines dynamic and static elements, delivering an exceptional user experience on all devices.
+  \item Managed API concurrency issues, dynamically updating product prices, names, and descriptions to ensure real-time accuracy and responsiveness.
+  \item Contributed to refining the company’s SEO strategy, leading to measurable improvements in web visibility and traffic.
+  \item Collaborated in the UI/UX design process, creating intuitive and user-friendly interfaces that enhance customer satisfaction and engagement.
+  \item Leveraged emerging technologies in both front-end and back-end development, significantly increasing application performance and speed.
+  \item Implemented a polyglot persistence architecture, enhancing system efficiency and scalability to support growing data demands and diverse data types.
+\end{itemize}
+
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: Gatsby, Contentful, React, Node, Sass, Graphql, Netlify, Vercel, Gitlab Pipelines, AWS, Google Cloud}
+
+ 
+
+\divider
+
+\cvevent{Founder, Lead Fullstack Developer}{Pouyaraveshan Academy}{Feb 2017-- June 2019}{Tehran, Iran}
+
+\begin{itemize}
+  \item Implemented servant leadership principles from "The Servant" to empower and uplift team members, creating a collaborative and growth-oriented environment, drawing from insights in the book "Leaders Eat Last".
+  \item Optimized SEO strategies, achieving an average website position of 8.5 and a click-through rate (CTR) of 6.5\%, significantly enhancing online visibility.
+  \item Directed a team to launch an early version of our website's Accelerated Mobile Pages (AMP), resulting in a 70\% increase in traffic.
+  \item Conducted computer science and software engineering workshops, covering a wide array of technologies and empowering participants with new skills.
+  \item Oversaw key operations including marketing, content creation, administration, student engagement, system development, and orchestration, driving comprehensive organizational growth.
+  \item Regularly developed, maintained, and enhanced pouyaraveshan.org, ensuring an engaging user interface and robust backend functionality.
+  \item Implemented and fine-tuned a Learning Management System (LMS), both improving client experience and streamlining organizational processes through automation.
+  \item Implemented an online learning system using Adobe Connect and custom built backends. I have then integrated this system with our LMS, and POS systems. 
+\end{itemize}
+
+
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: ReactJS, NodeJs, Mongo, Adobe Connect, Mysql, PHP, Golang, C\#, Java}
+
+\divider
+
+\cvevent{Full Stack Developer}{Cake Creative Digital Lab}{June 2015-- Nov 2016}{Kuala Lumpur, Malaysia}
+
+\begin{itemize}
+  \item Engaged in diverse web development projects, including front-end design and e-commerce, enhancing system customization and exclusivity.
+  \item Reduced rework by 22\% and cut costs by 15\% by engineering a reusable utilities library.
+  \item Achieved high user experience scores across all web development projects, ensuring an intuitive and effective user interface.
+  \item Optimized project performance to consistently meet or exceed a 95\% Google Pagespeed score.
+  \item Conceptualized and prototyped an average of 25 new product features annually, significantly contributing to product enhancement.
+  \item Led the development of a website that garnered the 2015 Malaysia Website Award for outstanding UI/UX and structure.
+  \item Played a key role in the full project lifecycle, from development and maintenance to deployment, emphasizing robust and scalable solutions.
+  \item Collaborated with the development team to ascertain user requirements, formulate use cases, prioritize tasks, and draft comprehensive documentation.
+  \item Conducted thorough analyses of web-based systems to identify and rectify defects, bolster performance, and fortify security measures.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: Wordpress, Magento, Opencart, AngularJS, Vanilla JS, PHP, C\#, Golang}
+
+\divider
+
+\cvevent{Workshop Assistant, Python Developer }{Kidocode}{Feb 2015-- May 2015}{Kuala Lumpur, Malaysia}
+
+
+\begin{itemize}
+  \item Completed a 3-month internship, during which I facilitated Python, NoSQL, Cloud, and Web Development workshops at various universities in Kuala Lumpur, enhancing educational outreach and technology adoption.
+  \item Diagnosed and resolved student's coding issues during workshop sessions, ensuring smooth and effective learning experiences.
+  \item Played a role in the development of the company's loyalty campaign platform, coding various aspects from database to frontend.
+  \item Engaged in youth education initiatives, teaching programming fundamentals through both hands-on (plugged) and theoretical (unplugged) methods, fostering early interest in technology.
+\end{itemize}
+
+
+\vspace{0.5cm}
+
+\textit{Tech \& Tools: Django, Numbpy, Matplotlib, AngularJS, Mongo, Python}
+
+
+\vspace{0.5cm}
+
+
+
+\renewcommand{\cvevent}[4]{%
+  \noindent
+  \begin{tabular}{@{}p{0.4\linewidth}p{0.28\linewidth}p{0.2433\linewidth}@{}}
+    \small\textbf{#1} & % Degree
+    \small{#2} & % Location
+    \raggedleft\arraybackslash\small{#3} % Date (right-aligned)
+  \end{tabular}
+  \par % End the tabular line and provide some space before the next line
+  \vspace{0.5em} % Adjust the vertical space after the event
+}
+
+
+
+
+
+
+
+\cvsection[\faGraduationCap]{Education}
+
+\cvevent{B.S.C\ in Software Engineering (Dual Degree)}{Staffordshire University}{Jan 2012 -- April 2015}{}
+
+\divider
+
+\cvevent{B.S.C\ in Software Engineering (Dual Degree)}{Asia Pacific University of Technology}{Jan 2012 -- April 2015}{}
+
+\divider
+
+\cvevent{M.S.C\ in Software Engineering}{Staffordshire University}{Setember 2015 -- Feb 2017}{}
+
+\divider
+
+\cvevent{P.H.D\ in Computer Science}{Auckland University of Technology}{Feb 2019 -- May 2024}{}
+
+\divider
+
+\cvevent{Nano Degree\ in Data Architecture}{Udacity}{Dec 2022 -- Feb 2023}{}
+
+
+
+\vspace{0.5cm}
+
+\cvsection[\faCertificate]{Certificates}
+
+\cvevent{PyResearcher - Sixty Hours (Python - Mongodb - Numpy - Matplotlib - Pandas)}{Pycademy}{April 2015}{}
+
+\divider
+
+\cvevent{MCPS: Microsoft Certified Professional}{Microsoft}{October 2015}{}
+
+\divider
+
+\cvevent{MS: Programming in HTML5 with JavaScript and CSS3}{Microsoft}{October 2015}{}
+
+
+
+\vspace{0.5cm}
+
+\cvsection[\faFlask]{Publications}
+
+
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+
+\vspace{0.5cm}
+
+\cvsection[\faAtom]{Community Engagement}
+
+\begin{itemize}
+  \item \textbf{IEEE Computer Society}\\
+        Academic Contributor \hfill Jan 2021 - Present
+  \item \textbf{Association for Information Systems (AIS)}\\
+        Academic Contributor \hfill May 2019 - Present
+\end{itemize}
+
+\vspace{5mm} % Adjusted for better spacing
+
+\cvsection[\faFilePowerpoint]{Presentations Delivered}
+
+\begin{itemize}
+ 
+
+  \item International Conference on Control, Electronics and Computer Technology - ICCEIT 2017, India \hfill 2017
+  \item International Conference on Control, Electronics, and Computer Technology - ICCECT 2017, Malaysia \hfill 2017
+  \item Australasian Conference on Information Systems - ACIS, New Zealand \hfill 2019
+  \item American Conference on Information Systems - AMCIS, USA \hfill 2020
+  \item Asia-Pacific Software Engineering Conference - APSEC, Taiwan \hfill 2021
+  \item Kafka and Terraform Meetup - Confluent, New Zealand \hfill 2023 
+  \item Geekle- World Global React Conference \hfill Multiple (Latest in 2023)
+
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
