@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.5)  19 DEC 2025 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.5)  19 DEC 2025 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1734,13 +1734,13 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 Here is how much of TeX's memory you used:
  40851 strings out of 474487
  807007 string characters out of 5749024
- 1649842 words of memory out of 5000000
+ 1648842 words of memory out of 5000000
  63223 multiletter control sequences out of 15000+600000
  874621 words of font info for 74 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  125i,8n,121p,1219b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (7 pages, 496286 bytes).
+Output written on resume.pdf (7 pages, 496024 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
