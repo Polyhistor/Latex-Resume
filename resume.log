@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.5)  19 DEC 2025 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.5)  20 DEC 2025 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/pouya/Desktop/projects/resume/resume.tex
+**/home/pouya/Desktop/projects/resume/resume
 (/home/pouya/Desktop/projects/resume/resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1674,45 +1674,50 @@ Underfull \hbox (badness 4673) in paragraph at lines 619--619
  []
 
 
+Underfull \hbox (badness 3260) in paragraph at lines 623--623
+ []|\T1/lato-TLF/m/n/9 December 2025|
+ []
+
+
 
 [5]
-Overfull \hbox (24.16588pt too wide) in paragraph at lines 631--631
+Overfull \hbox (24.16588pt too wide) in paragraph at lines 635--635
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya]. (2017). \T1/lato-TLF/m/it/10 The nexus method-ol-ogy: A tren-chant ap-proach to-ward big data\T1/lato-TLF/m/n/10 . LAP LAM-BERT Aca-demic Pub-lish-ing. 
  []
 
 
-Overfull \hbox (8.41177pt too wide) in paragraph at lines 635--635
+Overfull \hbox (8.41177pt too wide) in paragraph at lines 639--639
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Haer-tel, C., & Staege-mann, D. (2024). Im-pact of big data an-a-lyt-ics on busi-ness per-for-mance: 
  []
 
 
-Overfull \hbox (24.6518pt too wide) in paragraph at lines 635--635
+Overfull \hbox (24.6518pt too wide) in paragraph at lines 639--639
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [Pouya], Reg-ula, S., Staege-mann, D., & Mal-gaonkar, S. (2024). Fil-ter-ing use-ful app re-views us-ing naive bayes^^Vwhich 
  []
 
 
-Overfull \hbox (8.72179pt too wide) in paragraph at lines 635--635
+Overfull \hbox (8.72179pt too wide) in paragraph at lines 639--639
 [][][][]\T1/lato-TLF/m/n/10 Atemkeng, M., Ham-lomo, S., Wel-man, B., Oyetunji, N., Ataei, P., & Fendji, J. L. K. (2024). Ethics of soft-ware pro-gram-ming 
  []
 
 
-Overfull \hbox (8.46379pt too wide) in paragraph at lines 635--635
+Overfull \hbox (8.46379pt too wide) in paragraph at lines 639--639
 [][][][]\T1/lato-TLF/m/n/10 Rada, B. B., Ataeib, P., Khak-bizc, Y., & Ak-barzadehd, N. (2017). The hype of emerg-ing tech-nolo-gies: Big data as a ser-vice. 
  []
 
 
-Overfull \hbox (21.16869pt too wide) in paragraph at lines 635--635
+Overfull \hbox (21.16869pt too wide) in paragraph at lines 639--639
 [][][][]\T1/lato-TLF/m/n/10 Bashari Rad, B., Ak-barzadeh, N., Ataei, P., & Khak-biz, Y. (2016). Se-cu-rity and pri-vacy chal-lenges in big data era. \T1/lato-TLF/m/it/10 In-ter-na-tional 
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 639.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 643.
 (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Overfull \hbox (0.49487pt too wide) in paragraph at lines 639--639
+Overfull \hbox (0.49487pt too wide) in paragraph at lines 643--643
 \T1/lato-TLF/m/n/10 test-ing big data ap-pli-ca-tions. In \T1/lato-TLF/m/it/10 Pro-ceed-ings of ninth in-ter-na-tional congress on in-for-ma-tion and com-mu-ni-ca-tion tech-nol-ogy\T1/lato-TLF/m/n/10 , 
  []
 
 
-Overfull \hbox (6.6208pt too wide) in paragraph at lines 639--639
+Overfull \hbox (6.6208pt too wide) in paragraph at lines 643--643
 [][][][]\T1/lato-TLF/m/n/10 Ataei, P. [P.], & Litch-field, A. [A.]. (2021, De-cem-ber). Neomycelia: A soft-ware ref-er-ence ar-chi-tec-ture-for big data sys-tems. 
  []
 
@@ -1732,17 +1737,17 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40851 strings out of 474487
- 807007 string characters out of 5749024
- 1648842 words of memory out of 5000000
- 63223 multiletter control sequences out of 15000+600000
+ 40856 strings out of 474487
+ 807218 string characters out of 5749024
+ 1648881 words of memory out of 5000000
+ 63227 multiletter control sequences out of 15000+600000
  874621 words of font info for 74 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
- 125i,8n,121p,1219b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,121p,1215b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume.pdf (7 pages, 496024 bytes).
+Output written on resume.pdf (7 pages, 496712 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,47 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{ataei2025terramycelium}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
+           family={Ataei},
+           familyi={A\bibinitperiod},
+           given={Pouya},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=a5e42fa82c5270947974aa2ac122cf51}{%
+           family={Atemkeng},
+           familyi={A\bibinitperiod},
+           given={Marcellin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{fullhash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{fullhashraw}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{bibnamehash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{authorbibnamehash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{authornamehash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{authorfullhash}{50d4ffbd079bd2186d5bd726e7679294}
+      \strng{authorfullhashraw}{50d4ffbd079bd2186d5bd726e7679294}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big Data}
+      \field{number}{1}
+      \field{title}{Terramycelium: a reference architecture for adaptive big data systems}
+      \field{volume}{12}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{260}
+      \range{pages}{1}
+    \endentry
     \entry{ataei2024cybermycelium}{article}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=2cbfcf6c1f060edc403539a228818399}{%
