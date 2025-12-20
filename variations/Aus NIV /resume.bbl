@@ -529,7 +529,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{2021 28th Asia-Pacific Software Engineering Conference (APSEC)}
       \field{month}{12}
-      \field{title}{NeoMycelia: A software reference architecturefor big data systems}
+      \field{title}{NeoMycelia: A software reference architecture for big data systems}
       \field{year}{2021}
       \true{nocite}
       \field{pages}{452\bibrangedash 462}
