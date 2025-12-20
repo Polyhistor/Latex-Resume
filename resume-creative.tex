@@ -1,203 +1,89 @@
 %%%%%%%%%%%%%%%%%
-% This is an example CV created using altacv.cls (v1.6.4, 13 Nov 2021) written by
-% LianTze Lim (liantze@gmail.com), based on the
-% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
+% CREATIVE RESUME with Spider Chart Skills Visualization
+% Based on altacv.cls (v1.6.4, 13 Nov 2021)
+% Original by LianTze Lim (liantze@gmail.com)
 %%%%%%%%%%%%%%%%
-
-%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
-% \documentclass[10pt,a4paper,normalphoto]{altacv}
 
 \documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
 \usepackage[none]{hyphenat}
 
-
-
-
-%% AltaCV uses the fontawesome5 package.
-%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
-
-% Change the page layout if you need to
 \geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
 
-% The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 \usepackage{graphicx}
 \usepackage{fontawesome5}
-% \usepackage{biblatex}
-% \addbibresource{sample.bib}
-
-
 
 \renewcommand{\cvevent}[4]{%
-  \textbf{#1} % Job title
-  \hfill % This will push the right minipage to the right
+  \textbf{#1}
+  \hfill
   \begin{minipage}[t]{.5\linewidth}
-    \raggedleft % Aligns content to the right
-    \small#3 % Location
-    \\ % New line for the date right below location
-    #4 % Date
+    \raggedleft
+    \small#3
+    \\
+    #4
   \end{minipage}
-  \vspace{\baselineskip} % Adds some space after the event
+  \vspace{\baselineskip}
 }
-
-
-
-
 
 \newlength{\mylen}
 
 \makeatletter
-% Modify the cvsection command to accept an icon name as the first argument
 \RenewDocumentCommand{\cvsection}{o m}{%
-  % Check if an icon name is provided
   \IfValueTF{#1}{%
-    % If an icon is provided, measure the width including the icon
     \settowidth{\mylen}{\Large\bfseries\color{heading}#1\hspace{0.0em}#2}
-    % Add space before the section title
     \vspace{1.5ex}
-    % Print the section title with icon
     {\Large\bfseries\color{heading}#1\hspace{0.2em}#2}\\[-1ex]
   }{%
-    % If no icon is provided, proceed as before
     \settowidth{\mylen}{\Large\bfseries\color{heading}#2}
-    % Add space before the section title
     \vspace{1.5ex}
-    % Print the section title without icon
     {\Large\bfseries\color{heading}#2}\\[-1ex]
   }
-  % Center the rule: adjust the length here if you want to change the thickness
-  \makebox[\mylen]{\rule{\mylen}{0.0pt}} % Use the measured width for the rule
-  \vspace{2ex} % Adjusted space after the title underline
+  \makebox[\mylen]{\rule{\mylen}{0.0pt}}
+  \vspace{2ex}
 }
 \makeatother
 
-% Change the font if you want to, depending on whether
-% you're using pdflatex or xelatex/lualatex
 \ifxetexorluatex
-  % If using xelatex or lualatex:
   \setmainfont{Lato}
 \else
-  % If using pdflatex:
   \usepackage[default]{lato}
 \fi
 
-% Change the colours if you want to
 \definecolor{VividPurple}{HTML}{3E0097}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
-% \colorlet{name}{black}
-% \colorlet{tagline}{PastelRed}
 \colorlet{heading}{VividPurple}
 \colorlet{headingrule}{VividPurple}
-% \colorlet{subheading}{PastelRed}
 \colorlet{accent}{VividPurple}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
-% Change some fonts, if necessary
-% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
-% \renewcommand{\personalinfofont}{\footnotesize}
-% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-% \renewcommand{\cvsubsectionfont}{\large\bfseries}
-
-% Define the length outside the command, to ensure it's only defined once
-
-
-
-
-
-
-% Change the bullets for itemize and rating marker
-% for \cvskill if you want to
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
 
-%% Use (and optionally edit if necessary) this .tex if you
-%% want to use an author-year reference style like APA(6)
-%% for your publication list
 \input{pubs-authoryear}
-
-%% Use (and optionally edit if necessary) this .tex if you
-%% want an originally numerical reference style like IEEE
-%% for your publication list
-% \input{pubs-num}
-
-%% sample.bib contains your publications
 \addbibresource{sample.bib}
 
 \begin{document}
-
-% \photoR{2.5cm}{test-profile.jpg}
 
 \name{Dr. Pouya Ataei}
 \tagline{Software Engineer \& Computer Scientist (PhD in Big Data)}
 
 \photoR{3cm}{profile-photo.png}
 
-% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
-%% You can add multiple photos on the left or right
-% \photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
-% \photoL{2cm}{Yacht_High,Suitcase_High}
 \personalinfo{%
-  % Not all of these are required!
-  % You can add your own with \printinfo{symbol}{detail}
   \email{pouya.ataei.7@gmail.com}
   \linkedin{pouya-ataei-bb1254ba}
   \github{polyhistor} 
   \NewInfoField{researchgate}{\faResearchgate}[https://www.researchgate.net/profile/]
   \researchgate{Pouya-Ataei}
-  
-%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
-  %% You can add your own arbitrary detail with
-  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
-  % \printinfo{\faPaw}{Hey ho!}
-  %% Or you can declare your own field with
-  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-  % \gitlab{your_id}
-	%%
-  %% For services and platforms like Mastodon where there isn't a
-  %% straightforward relation between the user ID/nickname and the hyperlink,
-  %% you can use \printinfo directly e.g.
-  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
-  %% But if you absolutely want to create new dedicated info fields for
-  %% such platforms, then use \NewInfoField* with a star:
-  % \NewInfoField*{mastodon}{\faMastodon}
-  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
-  %% the full hyperlink.
-  % \mastodon{@username@instance}{https://instance.url/@username}
 }
 
 \makecvheader
 
-%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
-%% Set the left/right column width ratio to 6:4.
 \columnratio{0.6}
-
-% \cvsection[\faBrain]{Precursor}
-
-% \begin{raggedright}
-% This identification is merely the idea of myself to provide with
-% specious and precarious sense of permanence. For this idea is
-% relatively fixed, being based upon carefully selected memories of
-% my past, which have a preserved and fixed character. Social
-% conventions therefore, encouraged me to form this idea of myself
-% with equally abstract symbolic roles, and stereotypes. 
-% \end{raggedright}
-
-% \vspace{0.5cm}
-
-% \begin{paracol}{2}
 
 \cvsection[\faHandHoldingHeart]{What I have to offer?}
 
@@ -216,7 +102,6 @@
 \end{raggedright}
 
 \vspace{0.4cm}
-% \switchcolumn
 
 \cvsection[\faHandshake]{What I'm looking for? }
 
@@ -224,116 +109,180 @@
 
 - Company with a vibrant and positive environment.
 
-% - Direct engineering hands-on involvement.
-
 - Time and opportunity to learn and apply emerging technologies/concepts/methodologies.
 
 - Friends to build good products with.
 
-% - Solution architecture and leadership opportunity.
-
 \end{raggedright}
 
-
-
 \vspace{0.5cm}
 
-\cvsection[\faCode]{Skills}
+%% ========================================
+%% COMPACT SKILLS SECTION - SIDE BY SIDE CHARTS
+%% ========================================
 
-\columnratio{0.5}
+\cvsection[\faCode]{Skills Overview}
 
-\begin{paracol}{2}
-  \cvskill{Javascript/Typescript}{4.5}
-  \divider
-  \cvskill{React, Redux, and the Ecosystem}{4.5}
-  \divider
-  \cvskill{HTML5 \& CSS3}{4.5}
-  \divider
-  % \cvskill{Frontend Architecture}{4.5}
-  \divider
-  \cvskill{Node/Bun/Deno}{4.5}
-  \divider
-  \cvskill{Golang}{3.5}
-  \divider
-  \cvskill{Rust}{3}
-  \divider
-  \cvskill{C/C++}{3}
-  \divider
-  \cvskill{Software Architecture}{4.5}
-  \divider
-  \cvskill{Distributed Systems}{4}
-  \divider
-  \cvskill{Design Patterns}{4}
-  \divider
-  \cvskill{Data Structures \& Algorithms}{4}
-  \divider
-  \cvskill{Big Data }{4.5}
-  \divider
-  \cvskill{Data Engineering}{4}
-  \divider
-  % \cvskill{Machine Learning/Deep Learning}{4}
-  % \divider
- 
+\definecolor{crystalCore}{RGB}{62,0,151}
+\definecolor{crystalMid}{RGB}{90,40,180}
+\definecolor{crystalGlow}{RGB}{180,150,255}
+\definecolor{leaderFill}{RGB}{0,100,150}
+\definecolor{leaderGlow}{RGB}{50,150,200}
 
+\begin{center}
+\begin{minipage}[c]{0.48\textwidth}
+\centering
+\textbf{\color{crystalCore}\large Technical Skills}\\[0.3cm]
+\begin{tikzpicture}[scale=0.85]
+  % Background grid
+  \foreach \level in {1,2,3,4,5} {
+    \draw[gray!15, line width=0.4pt] 
+      (90:\level*0.68) -- (50:\level*0.68) -- (10:\level*0.68) -- (-30:\level*0.68) -- 
+      (-70:\level*0.68) -- (-110:\level*0.68) -- (-150:\level*0.68) -- (170:\level*0.68) -- 
+      (130:\level*0.68) -- cycle;
+  }
+  \foreach \angle in {90,50,10,-30,-70,-110,-150,170,130} {
+    \draw[gray!15, line width=0.4pt] (0,0) -- (\angle:3.45);
+  }
+  
+  % Values
+  \def\frontend{4.5} \def\backend{4.5} \def\cloud{4} \def\data{4.5}
+  \def\ml{4} \def\architecture{4.5} \def\databases{4} \def\devops{4} \def\research{4.5}
+  
+  % Fill
+  \fill[crystalMid, opacity=0.15] 
+    (90:\frontend*0.68) -- (50:\backend*0.68) -- (10:\cloud*0.68) -- (-30:\data*0.68) --
+    (-70:\ml*0.68) -- (-110:\architecture*0.68) -- (-150:\databases*0.68) -- 
+    (170:\devops*0.68) -- (130:\research*0.68) -- cycle;
+  
+  % Border
+  \draw[crystalGlow, line width=2.5pt, opacity=0.4] 
+    (90:\frontend*0.68) -- (50:\backend*0.68) -- (10:\cloud*0.68) -- (-30:\data*0.68) --
+    (-70:\ml*0.68) -- (-110:\architecture*0.68) -- (-150:\databases*0.68) -- 
+    (170:\devops*0.68) -- (130:\research*0.68) -- cycle;
+  \draw[crystalCore, line width=1.5pt] 
+    (90:\frontend*0.68) -- (50:\backend*0.68) -- (10:\cloud*0.68) -- (-30:\data*0.68) --
+    (-70:\ml*0.68) -- (-110:\architecture*0.68) -- (-150:\databases*0.68) -- 
+    (170:\devops*0.68) -- (130:\research*0.68) -- cycle;
+  
+  % Vertices
+  \foreach \angle/\value in {90/\frontend, 50/\backend, 10/\cloud, -30/\data, -70/\ml, -110/\architecture, -150/\databases, 170/\devops, 130/\research} {
+    \fill[crystalCore] (\angle:\value*0.68) circle (2.5pt);
+    \fill[white] (\angle:\value*0.68) circle (1pt);
+  }
+  
+  % Labels with icons
+  \node[above, font=\scriptsize\bfseries, text=crystalCore] at (90:3.8) {\faDesktop\ Frontend};
+  \node[above right, font=\scriptsize\bfseries, text=crystalCore] at (50:3.8) {\faServer\ Backend};
+  \node[right, font=\scriptsize\bfseries, text=crystalCore] at (10:3.8) {\faCloud\ Cloud};
+  \node[right, font=\scriptsize\bfseries, text=crystalCore] at (-30:3.8) {\faDatabase\ Data};
+  \node[below right, font=\scriptsize\bfseries, text=crystalCore] at (-70:3.8) {\faBrain\ ML/AI};
+  \node[below left, font=\scriptsize\bfseries, text=crystalCore] at (-110:3.8) {\faSitemap\ Arch};
+  \node[left, font=\scriptsize\bfseries, text=crystalCore] at (-150:3.8) {\faTable\ DB};
+  \node[left, font=\scriptsize\bfseries, text=crystalCore] at (170:3.8) {\faCogs\ DevOps};
+  \node[above left, font=\scriptsize\bfseries, text=crystalCore] at (130:3.8) {\faFlask\ Research};
+\end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.48\textwidth}
+\centering
+\textbf{\color{leaderFill}\large Leadership Skills}\\[0.3cm]
+\begin{tikzpicture}[scale=0.78]
+  % Background grid
+  \foreach \level in {1,2,3,4,5} {
+    \draw[gray!15, line width=0.4pt] 
+      (90:\level*0.72) -- (30:\level*0.72) -- (-30:\level*0.72) -- 
+      (-90:\level*0.72) -- (-150:\level*0.72) -- (150:\level*0.72) -- cycle;
+  }
+  \foreach \angle in {90,30,-30,-90,-150,150} {
+    \draw[gray!15, line width=0.4pt] (0,0) -- (\angle:3.6);
+  }
+  
+  % Values - reordered: short labels on right side
+  \def\leadership{4.5} \def\strategy{4} \def\collaboration{4.5}
+  \def\problemsolving{5} \def\communication{4.5} \def\mentoring{4.5}
+  
+  % Fill (clockwise: Leadership, Strategy, Collaboration, Problem Solving, Communication, Mentoring)
+  \fill[leaderFill, opacity=0.15] 
+    (90:\leadership*0.72) -- (30:\strategy*0.72) -- (-30:\collaboration*0.72) -- 
+    (-90:\problemsolving*0.72) -- (-155:\communication*0.72) -- (150:\mentoring*0.72) -- cycle;
+  
+  % Border
+  \draw[leaderGlow, line width=2.5pt, opacity=0.4] 
+    (90:\leadership*0.72) -- (30:\strategy*0.72) -- (-30:\collaboration*0.72) -- 
+    (-90:\problemsolving*0.72) -- (-150:\communication*0.72) -- (150:\mentoring*0.72) -- cycle;
+  \draw[leaderFill, line width=1.5pt] 
+    (90:\leadership*0.72) -- (30:\strategy*0.72) -- (-30:\collaboration*0.72) -- 
+    (-90:\problemsolving*0.72) -- (-150:\communication*0.72) -- (150:\mentoring*0.72) -- cycle;
+  
+  % Vertices
+  \foreach \angle/\value in {90/\leadership, 30/\strategy, -30/\collaboration, -90/\problemsolving, -150/\communication, 150/\mentoring} {
+    \fill[leaderFill] (\angle:\value*0.72) circle (2.5pt);
+    \fill[white] (\angle:\value*0.72) circle (1pt);
+  }
+  
+  % Labels with icons - smaller scale allows full words
+  \node[above, font=\scriptsize\bfseries, text=leaderFill] at (90:4.0) {\faUserTie\ Leadership};
+  \node[right, font=\scriptsize\bfseries, text=leaderFill] at (30:3.8) {\faChessKnight\ Strategy};
+  \node[right, font=\scriptsize\bfseries, text=leaderFill] at (-33:3.8) {\faUsers\ Collaboration};
+  \node[below, font=\scriptsize\bfseries, text=leaderFill] at (-90:4.0) {\faPuzzlePiece\ Problem Solving};
+  \node[left, font=\scriptsize\bfseries, text=leaderFill] at (-150:4.3) {\faComments\ Communication};
+  \node[left, font=\scriptsize\bfseries, text=leaderFill] at (150:4.2) {\faChalkboardTeacher\ Mentoring};
+\end{tikzpicture}
+\end{minipage}
+\end{center}
 
+\vspace{0.3cm}
 
-  \switchcolumn
-  \cvskill{Terraform, Pulumi, CDK}{4}
-  \divider
-  \cvskill{Kafka/Redpanda}{4}
-  \divider
-  % \cvskill{AWS}{4.5}
-  % \divider
-  \cvskill{AWS,Google Cloud, Azure, Vercel}{4}
-  \divider
-  \cvskill{Kubernetes/Docker}{4}
-  \divider
-  \cvskill{PHP}{3.5}
-  \divider
-  \cvskill{C\#/Java}{3.5}
-  \divider
-  \cvskill{Python}{4.5}
-  \divider
-  \cvskill{Linux/Bash/Awk}{4}
-  \divider
-  \cvskill{SQL/NoSql}{4}
-  \divider
-  \cvskill{ES, MongoDB, Vector Databases}{4}
-  \divider
-  \cvskill{Qualitative/Quantitative Research}{4.5}
-  \divider
-  \cvskill{Machine Learning, Deep Learning}{4}
-  \divider
-  \cvskill{TensorFlow/PyTorch}{3.5}
-  \divider
-  % \cvskill{Vector Databases}{3.5}
-  % \divider
-  \end{paracol}
+% Compact skill lists (no icons - icons are on the spider chart)
+\begin{center}
+\footnotesize
+\begin{minipage}[t]{0.48\textwidth}
+\definecolor{techColor}{RGB}{62,0,151}
+\textbf{\color{techColor}Frontend:} React, Redux, HTML5, CSS3, Node/Bun/Deno\\
+\textbf{\color{techColor}Backend:} JS, TS, Go, Rust, Python, C/C++, PHP, C\#, Java\\
+\textbf{\color{techColor}Cloud:} AWS, GCP, Azure, Vercel\\
+\textbf{\color{techColor}Data:} Big Data, Data Engineering, Kafka, Spark\\
+\textbf{\color{techColor}ML/AI:} TensorFlow, PyTorch, ML/DL, NLP\\
+\textbf{\color{techColor}Arch:} Software Architecture, Distributed Systems, DDD\\
+\textbf{\color{techColor}DB:} SQL, NoSQL, Elasticsearch, MongoDB, Vector DBs\\
+\textbf{\color{techColor}DevOps:} Terraform, Pulumi, Kubernetes, Docker\\
+\textbf{\color{techColor}Research:} Qualitative \& Quantitative Methods
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\definecolor{leaderColor}{RGB}{0,100,150}
+\textbf{\color{leaderColor}Leadership:} Servant Leadership, Team Building\\
+\textbf{\color{leaderColor}Communication:} Technical Writing, Presentations\\
+\textbf{\color{leaderColor}Mentoring:} Coaching, Knowledge Transfer\\
+\textbf{\color{leaderColor}Strategy:} Technical Roadmaps, Architecture Decisions\\
+\textbf{\color{leaderColor}Problem Solving:} Critical Thinking, Root Cause Analysis\\
+\textbf{\color{leaderColor}Collaboration:} Cross-team Communication, Stakeholder Mgmt
+\end{minipage}
+\end{center}
 
-\vspace{0.5cm}
+\vspace{0.3cm}
 
-\columnratio{0.6}
-
+%% ========================================
+%% REST OF RESUME (Work Experience, Education, etc.)
+%% ========================================
 
 \makeatletter
-% Define or renew the cvevent command
 \RenewDocumentCommand{\cvevent}{m m m m}{%
-  % Arguments: #1 = Position, #2 = Company, #3 = Date Range, #4 = Location
-  \vspace{1.5ex} % Space before the event
-  {\bfseries\large #1} at {\bfseries\large #2} % Position at Company
-  \hfill % Fill space
-  {\small\itshape\faCalendar #3} % Date range
-  \\ % New line
-  {\small\itshape #4} % Location
-  \par % End of paragraph
-  \vspace{1ex} % Space after the event before details begin
+  \vspace{1.5ex}
+  {\bfseries\large #1} at {\bfseries\large #2}
+  \hfill
+  {\small\itshape\faCalendar #3}
+  \\
+  {\small\itshape #4}
+  \par
+  \vspace{1ex}
 }
 \makeatother
 
-% \vspace{1cm}
+\newpage
 
 \cvsection[\faBriefcase]{Work Experience}
-
 
 \cvevent{Principal Data Engineer}{Vector Limited}{May 2025 -- Current}{Auckland, New Zealand}
 
@@ -366,7 +315,7 @@
   \item Drive technical excellence through cloud-native architectures, leveraging AWS, Kubernetes, and Kafka for robust distributed systems.
   \item Oversee development across diverse technology stacks including Node.js, Go, C\#/.NET, and Snowflake for data warehousing solutions.
   \item Guide architectural decisions and technology choices to support the organization's growth and scalability goals.
-  \end{itemize}
+\end{itemize}
 
 \vspace{0.5cm}
 
@@ -394,14 +343,10 @@
 
 \divider
 
-% \vspace{0.5cm}
-
 \cvevent{Lead Development Architect}{Idexx Laboratories}{Sep 2021 -- July 2024}{Auckland, New Zealand}
 
-
 \begin{itemize}
-\item Stood responsible as one of the company's lead architects, taking part in critical technological decisions across
-different regions.
+\item Stood responsible as one of the company's lead architects, taking part in critical technological decisions across different regions.
 \item Worked on an event-driven architecture using Kafka, deployed and tested an archetype with consultants from Confluent. 
 \item Presented the company and engaged with representatives from Databricks, Heap, Apollo, AWS, Gitlab, Confluent, BizzDesign and others.
 \item Created a scientific methodology for software delivery. 
@@ -419,7 +364,6 @@ different regions.
 
 \divider
 
-
 \cvevent{Tech Lead}{Idexx Laboratories}{Jun 2021 -- Sep 2021}{Auckland, New Zealand}
 
 \begin{itemize}
@@ -430,8 +374,6 @@ different regions.
   \item Presented scientific approaches and innovative solutions across different teams to address existing challenges and develop new features, fostering a culture of continuous learning and cross-team collaboration.
 \end{itemize}
 
-
-
 \vspace{0.5cm}
 
 \textit{Tech \& Tools: Laravel, Terraform, AWS, Apollo, Go, Rust, Node, React, PHP, SQL, Kafka, Python, Kubernetes, Elasticsearch, Typescript}
@@ -439,7 +381,6 @@ different regions.
 \divider
 
 \cvevent{Senior Fullstack Developer}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
-
 
 \begin{itemize}
   \item Elevated from Senior Frontend Developer to Frontend Tech Lead within Ezyvet, taking comprehensive responsibility for all frontend applications, demonstrating rapid professional growth and trust in my leadership and technical capabilities.
@@ -449,17 +390,13 @@ different regions.
   \item Addressed critical engineering challenges in both the frontend and platform domains, implementing solutions that dramatically optimized our deployment pipeline—cutting build and deployment times from an average of 45 minutes to just 8 minutes, greatly accelerating product iteration cycles and enhancing team productivity.
 \end{itemize}
 
+\vspace{0.5cm}
 
-  \vspace{0.5cm}
+\textit{Tech \& Tools: React, Typescript, AWS, Go, Laravel, Kubernetes, Terraform, PHP, Node}
 
-  \textit{Tech \& Tools: React, Typescript, AWS, Go, Laravel, Kubernetes, Terraform, PHP, Node}
-
-  \divider
-
-
+\divider
 
 \cvevent{Fullstack Developer}{Infosys}{Feb 2020 -- Jul 2020}{Auckland, New Zealand}
-
 
 \begin{itemize}
   \item Deployed to Vodafone to take part in the development of a new E-shop.
@@ -469,20 +406,13 @@ different regions.
   \item Collaborated closely with a diverse range of stakeholders on a daily basis, focusing on the development of innovative concepts, and the identification and resolution of bugs and defects, ensuring continual improvement and operational excellence.
 \end{itemize}
 
-
-
-
 \vspace{0.5cm}
 
 \textit{Tech \& Tools: React, Flask, DynamoDB, Jenkins, AWS, BigCommerce, Java, Python, Javascript}
 
-
 \divider
 
-
-
 \cvevent{Frontend Engineer}{Navigate Travel}{Jun 2019-- Feb 2020}{Auckland, New Zealand}
-
 
 \begin{itemize}
   \item Spearheaded the migration of three websites from WordPress to Gatsby, integrating React, Contentful, and Node (NestJS), successfully transitioning 900 blog posts with a keen focus on SEO optimizations and schema markups.
@@ -495,29 +425,24 @@ different regions.
   \item Implemented a polyglot persistence architecture, enhancing system efficiency and scalability to support growing data demands and diverse data types.
 \end{itemize}
 
-
 \vspace{0.5cm}
 
 \textit{Tech \& Tools: Gatsby, Contentful, React, Node, Sass, Graphql, Netlify, Vercel, Gitlab Pipelines, AWS, Google Cloud}
-
- 
 
 \divider
 
 \cvevent{Founder, Lead Fullstack Developer}{Pouyaraveshan Academy}{Feb 2017-- June 2019}{Tehran, Iran}
 
 \begin{itemize}
-  \item Implemented servant leadership principles from "The Servant" to empower and uplift team members, creating a collaborative and growth-oriented environment, drawing from insights in the book "Leaders Eat Last".
+  \item Implemented servant leadership principles from "The Servant" to empower and uplift team members, creating a collaborative and growth-oriented environment.
   \item Optimized SEO strategies, achieving an average website position of 8.5 and a click-through rate (CTR) of 6.5\%, significantly enhancing online visibility.
   \item Directed a team to launch an early version of our website's Accelerated Mobile Pages (AMP), resulting in a 70\% increase in traffic.
-  \item Conducted computer science and software engineering workshops, covering a wide array of technologies and empowering participants with new skills.
-  \item Oversaw key operations including marketing, content creation, administration, student engagement, system development, and orchestration, driving comprehensive organizational growth.
+  \item Conducted computer science and software engineering workshops, covering a wide array of technologies.
+  \item Oversaw key operations including marketing, content creation, administration, student engagement, system development, and orchestration.
   \item Regularly developed, maintained, and enhanced pouyaraveshan.org, ensuring an engaging user interface and robust backend functionality.
-  \item Implemented and fine-tuned a Learning Management System (LMS), both improving client experience and streamlining organizational processes through automation.
-  \item Implemented an online learning system using Adobe Connect and custom built backends. I have then integrated this system with our LMS, and POS systems. 
+  \item Implemented and fine-tuned a Learning Management System (LMS), improving client experience and streamlining organizational processes.
+  \item Implemented an online learning system using Adobe Connect and custom built backends, integrated with LMS and POS systems.
 \end{itemize}
-
-
 
 \vspace{0.5cm}
 
@@ -528,14 +453,12 @@ different regions.
 \cvevent{Full Stack Developer}{Cake Creative Digital Lab}{June 2015-- Nov 2016}{Kuala Lumpur, Malaysia}
 
 \begin{itemize}
-  \item Engaged in diverse web development projects, including front-end design and e-commerce, enhancing system customization and exclusivity.
+  \item Engaged in diverse web development projects, including front-end design and e-commerce, enhancing system customization.
   \item Reduced rework by 22\% and cut costs by 15\% by engineering a reusable utilities library.
-  \item Achieved high user experience scores across all web development projects, ensuring an intuitive and effective user interface.
+  \item Achieved high user experience scores across all web development projects.
   \item Optimized project performance to consistently meet or exceed a 95\% Google Pagespeed score.
-  \item Conceptualized and prototyped an average of 25 new product features annually, significantly contributing to product enhancement.
-  \item Led the development of a website that garnered the 2015 Malaysia Website Award for outstanding UI/UX and structure.
-  \item Played a key role in the full project lifecycle, from development and maintenance to deployment, emphasizing robust and scalable solutions.
-  \item Collaborated with the development team to ascertain user requirements, formulate use cases, prioritize tasks, and draft comprehensive documentation.
+  \item Led the development of a website that garnered the 2015 Malaysia Website Award for outstanding UI/UX.
+  \item Played a key role in the full project lifecycle, from development and maintenance to deployment.
   \item Conducted thorough analyses of web-based systems to identify and rectify defects, bolster performance, and fortify security measures.
 \end{itemize}
 
@@ -545,42 +468,31 @@ different regions.
 
 \divider
 
-\cvevent{Workshop Assistant, Python Developer }{Kidocode}{Feb 2015-- May 2015}{Kuala Lumpur, Malaysia}
-
+\cvevent{Workshop Assistant, Python Developer}{Kidocode}{Feb 2015-- May 2015}{Kuala Lumpur, Malaysia}
 
 \begin{itemize}
-  \item Completed a 3-month internship, during which I facilitated Python, NoSQL, Cloud, and Web Development workshops at various universities in Kuala Lumpur, enhancing educational outreach and technology adoption.
-  \item Diagnosed and resolved student's coding issues during workshop sessions, ensuring smooth and effective learning experiences.
-  \item Played a role in the development of the company's loyalty campaign platform, coding various aspects from database to frontend.
-  \item Engaged in youth education initiatives, teaching programming fundamentals through both hands-on (plugged) and theoretical (unplugged) methods, fostering early interest in technology.
+  \item Completed a 3-month internship, facilitating Python, NoSQL, Cloud, and Web Development workshops at various universities.
+  \item Diagnosed and resolved student's coding issues during workshop sessions.
+  \item Played a role in the development of the company's loyalty campaign platform.
+  \item Engaged in youth education initiatives, teaching programming fundamentals.
 \end{itemize}
-
 
 \vspace{0.5cm}
 
 \textit{Tech \& Tools: Django, NumPy, Matplotlib, AngularJS, Mongo, Python}
 
-
 \vspace{0.5cm}
-
-
 
 \renewcommand{\cvevent}[4]{%
   \noindent
   \begin{tabular}{@{}p{0.4\linewidth}p{0.28\linewidth}p{0.2433\linewidth}@{}}
-    \small\textbf{#1} & % Degree
-    \small{#2} & % Location
-    \raggedleft\arraybackslash\small{#3} % Date (right-aligned)
+    \small\textbf{#1} &
+    \small{#2} &
+    \raggedleft\arraybackslash\small{#3}
   \end{tabular}
-  \par % End the tabular line and provide some space before the next line
-  \vspace{0.5em} % Adjust the vertical space after the event
+  \par
+  \vspace{0.5em}
 }
-
-
-
-
-
-
 
 \cvsection[\faGraduationCap]{Education}
 
@@ -602,8 +514,6 @@ different regions.
 
 \cvevent{Nano Degree\ in Data Architecture}{Udacity}{Dec 2022 -- Feb 2023}{}
 
-
-
 \vspace{0.5cm}
 
 \cvsection[\faCertificate]{Certificates}
@@ -622,26 +532,21 @@ different regions.
 
 \cvevent{Data Streaming Engineer}{Confluent}{December 2025}{}
 
-
-
 \vspace{0.5cm}
 
 \cvsection[\faFlask]{Publications}
 
-
-
 \nocite{*}
 
-  \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
-  \divider
+\divider
 
- \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
 
- \divider
+\divider
 
 \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-
 
 \vspace{0.5cm}
 
@@ -654,13 +559,11 @@ different regions.
         Academic Contributor \hfill May 2019 - Present
 \end{itemize}
 
-\vspace{5mm} % Adjusted for better spacing
+\vspace{5mm}
 
 \cvsection[\faFilePowerpoint]{Presentations Delivered}
 
 \begin{itemize}
- 
-
   \item International Conference on Control, Electronics and Computer Technology - ICCEIT 2017, India \hfill 2017
   \item International Conference on Control, Electronics, and Computer Technology - ICCECT 2017, Malaysia \hfill 2017
   \item Australasian Conference on Information Systems - ACIS, New Zealand \hfill 2019
@@ -669,18 +572,7 @@ different regions.
   \item Kafka and Terraform Meetup - Confluent, New Zealand \hfill 2023 
   \item Geekle- World Global React Conference \hfill Multiple (Latest in 2023)
   \item American Conference on Information Systems - AMCIS, USA \hfill 2024
-  \item Many other conferences. 
-
+  \item Many other conferences.
 \end{itemize}
-
-
-
-
-
-
-
-
-
-
 
 \end{document}
