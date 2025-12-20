@@ -1,0 +1,17 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'resume.blg'
+[45] biber:342> INFO - === Sat Dec 20, 2025, 19:08:37
+[56] Biber.pm:421> INFO - Reading 'resume.bcf'
+[98] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[108] Biber.pm:4487> INFO - Processing section 0
+[114] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
+[115] bibtex.pm:1713> INFO - LaTeX decoding ...
+[124] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
+[247] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[247] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[247] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[247] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[261] bbl.pm:676> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[267] bbl.pm:779> INFO - Output to resume.bbl
+[267] Biber.pm:132> WARN - legacy month field 'dec' in entry 'AtaeiApsec' is not an integer - this will probably not sort properly.
+[267] Biber.pm:134> INFO - WARNINGS: 1
