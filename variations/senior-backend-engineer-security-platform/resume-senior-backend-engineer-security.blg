@@ -1,0 +1,17 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'resume-senior-backend-engineer-security.blg'
+[31] biber:342> INFO - === Fri Feb  6, 2026, 20:24:24
+[39] Biber.pm:421> INFO - Reading 'resume-senior-backend-engineer-security.bcf'
+[76] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[83] Biber.pm:4487> INFO - Processing section 0
+[87] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
+[88] bibtex.pm:1713> INFO - LaTeX decoding ...
+[95] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
+[176] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[176] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[176] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[176] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[188] bbl.pm:676> INFO - Writing 'resume-senior-backend-engineer-security.bbl' with encoding 'UTF-8'
+[192] bbl.pm:779> INFO - Output to resume-senior-backend-engineer-security.bbl
+[192] Biber.pm:132> WARN - legacy month field 'dec' in entry 'AtaeiApsec' is not an integer - this will probably not sort properly.
+[192] Biber.pm:134> INFO - WARNINGS: 1

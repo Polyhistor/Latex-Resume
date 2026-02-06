@@ -1,0 +1,363 @@
+%%%%%%%%%%%%%%%%%
+% Resume tailored for Senior Backend Engineer - Security Platform roles
+% Emphasis on: Backend engineering, Cloud platforms, Distributed systems, Security, Tech leadership
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\usepackage[none]{hyphenat}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+
+\renewcommand{\cvevent}[4]{%
+  \textbf{#1}
+  \hfill
+  \begin{minipage}[t]{.5\linewidth}
+    \raggedleft
+    \small#3
+    \\
+    #4
+  \end{minipage}
+  \vspace{\baselineskip}
+}
+
+\newlength{\mylen}
+
+\makeatletter
+\RenewDocumentCommand{\cvsection}{o m}{%
+  \IfValueTF{#1}{%
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#1\hspace{0.0em}#2}
+    \vspace{1.5ex}
+    {\Large\bfseries\color{heading}#1\hspace{0.2em}#2}\\[-1ex]
+  }{%
+    \settowidth{\mylen}{\Large\bfseries\color{heading}#2}
+    \vspace{1.5ex}
+    {\Large\bfseries\color{heading}#2}\\[-1ex]
+  }
+  \makebox[\mylen]{\rule{\mylen}{0.0pt}}
+  \vspace{2ex}
+}
+\makeatother
+
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\input{pubs-authoryear}
+\addbibresource{sample.bib}
+
+\begin{document}
+
+\name{Dr. Pouya Ataei}
+\tagline{Senior Backend Engineer | Platform \& Security | PhD in Distributed Systems}
+
+\photoR{3cm}{profile-photo.png}
+
+\personalinfo{%
+  \email{pouya.ataei.7@gmail.com}
+  \linkedin{pouya-ataei-bb1254ba}
+  \github{polyhistor} 
+  \NewInfoField{researchgate}{\faResearchgate}[https://www.researchgate.net/profile/]
+  \researchgate{Pouya-Ataei}
+}
+
+\makecvheader
+
+\AtBeginEnvironment{itemize}{\small}
+
+\columnratio{0.6}
+
+\cvsection[\faHandHoldingHeart]{What I Have to Offer}
+
+\begin{raggedright}
+I am a hands-on backend engineer and technical leader with 10+ years building and operating \textbf{high-scale platform services} for enterprise organisations. My expertise spans \textbf{cloud-native architectures} (Kubernetes, AWS, GCP, Azure), \textbf{distributed systems}, and \textbf{security-focused infrastructure} that powers mission-critical products.
+
+\vspace{0.5cm}
+With a \textbf{PhD in Big Data} and deep experience in \textbf{event-driven architectures}, I bring a profound engineering mindset to platform development. I excel at driving technical direction, coaching engineers, and establishing engineering excellence across teams. I'm passionate about \textbf{reducing operational burden}, improving system health, and building cloud-agnostic solutions that scale.
+\end{raggedright}
+
+\vspace{0.4cm}
+
+\cvsection[\faHandshake]{What I'm Looking For}
+
+\begin{raggedright}
+- Hands-on backend engineering with high-scale platform services and security infrastructure.
+
+- Opportunity to drive technical vision, architecture decisions, and engineering best practices.
+
+- Collaborative environment where I can coach engineers and promote healthy engineering culture.
+\end{raggedright}
+
+\vspace{0.5cm}
+
+\cvsection[\faCode]{Technical Expertise}
+
+\columnratio{0.5}
+
+\begin{paracol}{2}
+  \cvskill{Distributed Systems}{4.5}
+  \divider
+  \cvskill{Kubernetes}{4}
+  \divider
+  \cvskill{AWS (Lambda, DynamoDB, EKS)}{4.5}
+  \divider
+  \cvskill{GCP / Azure}{3.5}
+  \divider
+  \cvskill{Backend Architecture \& Design}{4.5}
+  \divider
+  \cvskill{Python}{4.5}
+  \divider
+  \cvskill{Golang}{3.5}
+  \divider
+  \cvskill{Java / Spring}{3.5}
+  \divider
+  \cvskill{Event-Driven Architecture}{4.5}
+  \divider
+  \cvskill{Kafka / Stream Processing}{4}
+  \divider
+  
+  \switchcolumn
+  \cvskill{Terraform / Infrastructure as Code}{4}
+  \divider
+  \cvskill{CI/CD Pipelines \& Automation}{4}
+  \divider
+  \cvskill{Security \& Compliance}{4}
+  \divider
+  \cvskill{Observability (OpenTelemetry)}{4}
+  \divider
+  \cvskill{SQL / NoSQL Databases}{4}
+  \divider
+  \cvskill{System Reliability \& Scalability}{4.5}
+  \divider
+  \cvskill{Technical Leadership}{4.5}
+  \divider
+  \cvskill{API Design (REST, GraphQL)}{4}
+  \divider
+  \cvskill{Microservices Architecture}{4.5}
+  \divider
+  \cvskill{Performance Optimisation}{4}
+  \divider
+\end{paracol}
+
+\vspace{0.5cm}
+
+\columnratio{0.6}
+
+\makeatletter
+\RenewDocumentCommand{\cvevent}{m m m m}{%
+  \vspace{1.5ex}
+  {\bfseries\large #1} at {\bfseries\large #2}
+  \hfill
+  {\small\itshape\faCalendar #3}
+  \\
+  {\small\itshape #4}
+  \par
+  \vspace{1ex}
+}
+\makeatother
+
+\cvsection[\faBriefcase]{Relevant Experience}
+
+\cvevent{Principal Data Engineer}{Vector Limited}{May 2025 -- Current}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item \textbf{Architect and operate high-scale platform services} processing 2 billion daily data intervals from 2.7 million smart meters---critical infrastructure for New Zealand's energy grid.
+  \item Design \textbf{serverless backend architectures} on AWS (Lambda, DynamoDB, S3, Glue, Athena) with focus on \textbf{security, reliability, and performance} at scale.
+  \item Implement \textbf{event-driven systems} for real-time data processing with automated validation, lineage tracking, and compliance monitoring.
+  \item Drive \textbf{operational excellence} through CI/CD automation, observability, and proactive system health monitoring.
+  \item Establish \textbf{security standards} and data governance practices ensuring regulatory compliance.
+  \item \textbf{Mentor junior engineers}, fostering engineering culture and driving continuous improvement.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: AWS (Lambda, DynamoDB, S3), Python, Event-Driven Architecture, CI/CD, Security \& Compliance}
+
+\divider
+
+\cvevent{Engineering Manager \& Principal Architect}{Invenco by GVR}{Sep 2024 -- May 2025}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item \textbf{Led technical direction} for 'Engage' platform---high-throughput distributed system serving 8 out of 10 petrol stations across the USA with stringent security requirements.
+  \item Managed 35 engineers across 4 teams as \textbf{sole principal architect}, driving architecture decisions and engineering best practices.
+  \item Designed \textbf{cloud-native backend services} using Kubernetes, Kafka, and AWS EventBridge for real-time processing at scale.
+  \item Architected \textbf{advanced observability solutions} using OpenTelemetry for anomaly detection, system health monitoring, and operational maturity.
+  \item Implemented \textbf{security-focused architecture} with Clean Architecture, Domain-Driven Design, and comprehensive coding standards.
+  \item Drove \textbf{tech debt reduction} initiatives, improving feature velocity and system reliability.
+  \item \textbf{Coached and developed} engineers at all levels, promoting healthy engineering team culture.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: AWS, Kubernetes, Kafka, OpenTelemetry, Terraform, Go, Node.js, Python, Snowflake}
+
+\divider
+
+\cvevent{Lead Development Architect}{Idexx Laboratories}{Sep 2021 -- July 2024}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Served as \textbf{company-wide lead architect}, driving critical technical decisions across multiple regions and coordinating engineering teams.
+  \item Architected \textbf{event-driven distributed systems} using Kafka, deploying and testing archetypes with Confluent consultants.
+  \item \textbf{Influenced leadership team} on technical vision, proposing solutions for future scalability and security needs.
+  \item Created \textbf{scientific methodology for software delivery} with data-driven approaches to architecture decisions.
+  \item Designed \textbf{infrastructure, applications, and integrations} across AWS with Terraform for Infrastructure as Code.
+  \item \textbf{Drove engineering excellence} through thoughtful code review, best practices documentation, and hands-on coaching.
+  \item Engaged with \textbf{Databricks, Confluent, AWS, and other vendors} to evaluate and implement platform solutions.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: AWS, Kafka, Terraform, Kubernetes, Go, Elasticsearch, TOGAF, Domain-Driven Design}
+
+\divider
+
+\cvevent{Tech Lead}{Idexx Laboratories}{Jun 2021 -- Sep 2021}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Designed and deployed \textbf{distributed data layer} with declarative, client-driven APIs for high-performance service integration.
+  \item Engineered \textbf{event-driven architecture prototypes} with Kafka in collaboration with Confluent consultants.
+  \item Drove \textbf{technical decisions} and unblocked teams on complex implementation challenges.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: Kafka, AWS, Terraform, Go, Python, Kubernetes, GraphQL}
+
+\divider
+
+\cvevent{Senior Fullstack Developer / Tech Lead}{ezyVet}{Jul 2020 -- Jun 2021}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Elevated to \textbf{Tech Lead}, taking comprehensive responsibility for platform engineering and backend services.
+  \item \textbf{Reduced operational burden} by optimizing deployment pipeline---cutting build times from 45 to 8 minutes.
+  \item \textbf{Drove automation initiatives} for CI/CD, testing, and infrastructure provisioning.
+  \item \textbf{Mentored new hires}, playing pivotal role in recruitment, onboarding, and team development.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: React, TypeScript, AWS, Kubernetes, Terraform, Go, PHP}
+
+\divider
+
+\cvevent{Fullstack Developer}{Infosys (deployed to Vodafone)}{Feb 2020 -- Jul 2020}{Auckland, New Zealand}
+
+\begin{itemize}
+  \item Built \textbf{customer-facing e-commerce services} with robust operational focus on service health and performance.
+  \item Developed \textbf{integration and anti-corruption layers} for legacy Oracle systems.
+  \item Collaborated with diverse stakeholders on \textbf{feature development and incident resolution}.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textit{Key Technologies: React, Python, Flask, AWS, DynamoDB, Java}
+
+\divider
+
+\cvevent{Founder \& Lead Engineer}{Pouyaraveshan Academy}{Feb 2017 -- June 2019}{Tehran, Iran}
+
+\begin{itemize}
+  \item \textbf{Founded and led} technology education organisation, demonstrating entrepreneurial and leadership capabilities.
+  \item Built \textbf{scalable backend platforms} including LMS, analytics, and payment integration systems.
+  \item Conducted workshops on Python, cloud technologies, and software engineering.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\renewcommand{\cvevent}[4]{%
+  \noindent
+  \begin{tabular}{@{}p{0.4\linewidth}p{0.28\linewidth}p{0.2433\linewidth}@{}}
+    \small\textbf{#1} &
+    \small{#2} &
+    \raggedleft\arraybackslash\small{#3}
+  \end{tabular}
+  \par
+  \vspace{0.5em}
+}
+
+\cvsection[\faGraduationCap]{Education}
+
+\cvevent{PhD in Computer Science (Big Data / Distributed Systems)}{Auckland University of Technology}{Feb 2019 -- Sep 2024}{}
+
+\divider
+
+\cvevent{M.Sc in Software Engineering}{Staffordshire University}{Sep 2015 -- Feb 2017}{}
+
+\divider
+
+\cvevent{B.Sc in Software Engineering (Dual)}{Staffordshire / APU}{Jan 2012 -- April 2015}{}
+
+\divider
+
+\cvevent{Nano Degree in Data Architecture}{Udacity}{Dec 2022 -- Feb 2023}{}
+
+\vspace{0.5cm}
+
+\cvsection[\faCertificate]{Certifications}
+
+\cvevent{Data Streaming Engineer}{Confluent}{December 2025}{}
+
+\divider
+
+\cvevent{MCPS: Microsoft Certified Professional}{Microsoft}{October 2015}{}
+
+\divider
+
+\cvevent{PyResearcher (Python, MongoDB, NumPy, Pandas)}{Pycademy}{April 2015}{}
+
+\vspace{0.5cm}
+
+\cvsection[\faFlask]{Publications \& Thought Leadership}
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+\vspace{0.5cm}
+
+\cvsection[\faAtom]{Community \& Industry Engagement}
+
+\begin{itemize}
+  \item \textbf{IEEE Computer Society} -- Academic Contributor \hfill Jan 2021 - Present
+  \item \textbf{Association for Information Systems (AIS)} -- Academic Contributor \hfill May 2019 - Present
+  \item \textbf{Confluent Kafka Meetup} -- Speaker, Auckland \hfill 2023
+  \item \textbf{Geekle Global Conferences} -- Speaker, Multiple Events \hfill 2021-2023
+\end{itemize}
+
+\vspace{3mm}
+
+\cvsection[\faFilePowerpoint]{Selected Presentations}
+
+\begin{itemize}
+  \item American Conference on Information Systems (AMCIS), USA \hfill 2020, 2024
+  \item Asia-Pacific Software Engineering Conference (APSEC), Taiwan \hfill 2021
+  \item Australasian Conference on Information Systems (ACIS), NZ \hfill 2019
+  \item Kafka and Terraform Meetup - Confluent, New Zealand \hfill 2023
+\end{itemize}
+
+\end{document}

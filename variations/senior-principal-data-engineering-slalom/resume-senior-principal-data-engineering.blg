@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'resume-senior-principal-data-engineering.blg'
-[33] biber:342> INFO - === Fri Feb  6, 2026, 19:58:55
-[40] Biber.pm:421> INFO - Reading 'resume-senior-principal-data-engineering.bcf'
-[79] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[86] Biber.pm:4487> INFO - Processing section 0
-[91] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
-[91] bibtex.pm:1713> INFO - LaTeX decoding ...
-[98] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
-[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[189] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[189] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[204] bbl.pm:676> INFO - Writing 'resume-senior-principal-data-engineering.bbl' with encoding 'UTF-8'
-[209] bbl.pm:779> INFO - Output to resume-senior-principal-data-engineering.bbl
-[210] Biber.pm:132> WARN - legacy month field 'dec' in entry 'AtaeiApsec' is not an integer - this will probably not sort properly.
-[210] Biber.pm:134> INFO - WARNINGS: 1
+[32] biber:342> INFO - === Fri Feb  6, 2026, 20:23:13
+[38] Biber.pm:421> INFO - Reading 'resume-senior-principal-data-engineering.bcf'
+[80] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[88] Biber.pm:4487> INFO - Processing section 0
+[93] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
+[94] bibtex.pm:1713> INFO - LaTeX decoding ...
+[103] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
+[235] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[235] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[235] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[235] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[254] bbl.pm:676> INFO - Writing 'resume-senior-principal-data-engineering.bbl' with encoding 'UTF-8'
+[266] bbl.pm:779> INFO - Output to resume-senior-principal-data-engineering.bbl
+[266] Biber.pm:132> WARN - legacy month field 'dec' in entry 'AtaeiApsec' is not an integer - this will probably not sort properly.
+[267] Biber.pm:134> INFO - WARNINGS: 1
