@@ -1,0 +1,17 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'resume-head-data-engineering-platforms.blg'
+[35] biber:342> INFO - === Fri Feb  6, 2026, 20:31:13
+[43] Biber.pm:421> INFO - Reading 'resume-head-data-engineering-platforms.bcf'
+[83] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[90] Biber.pm:4487> INFO - Processing section 0
+[95] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
+[95] bibtex.pm:1713> INFO - LaTeX decoding ...
+[103] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
+[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[189] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[189] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[202] bbl.pm:676> INFO - Writing 'resume-head-data-engineering-platforms.bbl' with encoding 'UTF-8'
+[207] bbl.pm:779> INFO - Output to resume-head-data-engineering-platforms.bbl
+[207] Biber.pm:132> WARN - legacy month field 'dec' in entry 'AtaeiApsec' is not an integer - this will probably not sort properly.
+[207] Biber.pm:134> INFO - WARNINGS: 1

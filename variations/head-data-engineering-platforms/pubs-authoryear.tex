@@ -1,0 +1,43 @@
+% Custom simplified bibliography for resume - shows title, year, publication only
+\usepackage[backend=biber,style=apa6,sorting=ydnt]{biblatex}
+\defbibheading{pubtype}{\cvsubsection{#1}}
+\renewcommand{\bibsetup}{\vspace*{-\baselineskip}}
+\AtEveryBibitem{\makebox[\bibhang][l]{\itemmarker}}
+\setlength{\bibitemsep}{0.25\baselineskip}
+\setlength{\bibhang}{1.25em}
+
+% Hide author names
+\AtEveryBibitem{%
+  \clearname{author}%
+  \clearname{editor}%
+  \clearname{translator}%
+}
+
+% Hide unnecessary fields for cleaner display
+\AtEveryBibitem{%
+  \clearfield{doi}%
+  \clearfield{isbn}%
+  \clearfield{issn}%
+  \clearfield{url}%
+  \clearfield{urldate}%
+  \clearfield{eprint}%
+  \clearfield{eprinttype}%
+  \clearfield{pages}%
+  \clearfield{pagetotal}%
+  \clearfield{volume}%
+  \clearfield{number}%
+  \clearfield{issue}%
+  \clearfield{month}%
+  \clearfield{day}%
+  \clearfield{note}%
+  \clearfield{abstract}%
+  \clearfield{annotation}%
+  \clearlist{location}%
+  \clearlist{publisher}%
+  \clearfield{address}%
+}
+
+% Keep booktitle for conference proceedings
+% Keep journaltitle for journal articles
+% Keep year
+% Keep title

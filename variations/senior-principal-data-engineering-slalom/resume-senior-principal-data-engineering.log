@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  6 FEB 2026 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  6 FEB 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1524,31 +1524,47 @@ Overfull \hbox (6.02806pt too wide) in paragraph at lines 192--193
 
 
 [2]
-Underfull \hbox (badness 3260) in paragraph at lines 301--301
- []|\T1/lato-TLF/m/n/9 December 2025|
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-goDB -
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 305--305
+Underfull \hbox (badness 8000) in paragraph at lines 305--305
+ []|\T1/lato-TLF/m/n/9 April 2015|
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 309--309
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 309--309
- []|\T1/lato-TLF/m/n/9 April 2015|
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 325.
-(/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Overfull \hbox (12.06381pt too wide) in paragraph at lines 325--325
+
+Underfull \hbox (badness 4673) in paragraph at lines 313--313
+ []|\T1/lato-TLF/m/n/9 October 2015|
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 317--317
+ []|\T1/lato-TLF/m/n/9 December 2025|
+ []
+
+
+
+[3]
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 333.
+ (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
+Overfull \hbox (12.06381pt too wide) in paragraph at lines 333--333
 [][][][]\T1/lato-TLF/m/n/10 NeoMycelia: A soft-ware ref-er-ence ar-chi-tec-ture-for big data sys-tems. (2021, De-cem-ber), In \T1/lato-TLF/m/it/10 2021 28th asia-pacific soft-ware 
  []
 
 
 
-[3{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
-
-[4] (./resume-senior-principal-data-engineering.aux)
+[4{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume-senior-principal-data-engineering.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1568,7 +1584,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  125i,8n,121p,1307b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume-senior-principal-data-engineering.pdf (4 pages, 469689 bytes).
+Output written on resume-senior-principal-data-engineering.pdf (4 pages, 470981 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)

@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/pouyaataei/Desktop/projects/resume/variations/senior-backend-engineer-security-platform/resume-senior-backend-engineer-security
-(/Users/pouyaataei/Desktop/projects/resume/variations/senior-backend-engineer-security-platform/resume-senior-backend-engineer-security.tex
+**/Users/pouyaataei/Desktop/projects/resume/variations/head-data-engineering-platforms/resume-head-data-engineering-platforms
+(/Users/pouyaataei/Desktop/projects/resume/variations/head-data-engineering-platforms/resume-head-data-engineering-platforms.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./altacv.cls
@@ -194,7 +194,7 @@ Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A supp
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/colorprofiles/colorprofiles.tex)) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
-** pdfx: No file resume-senior-backend-engineer-security.xmpdata . Metadata will be incomplete!
+** pdfx: No file resume-head-data-engineering-platforms.xmpdata . Metadata will be incomplete!
 <<sRGB.icc>> (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 ) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pdfx/glyphtounicode-ntx.tex) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/ifthen.sty
@@ -1332,8 +1332,8 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 66.
- (./resume-senior-backend-engineer-security.aux)
-\openout1 = `resume-senior-backend-engineer-security.aux'.
+ (./resume-head-data-engineering-platforms.aux)
+\openout1 = `resume-head-data-engineering-platforms.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -1373,9 +1373,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 66.
- (./resume-senior-backend-engineer-security.out) (./resume-senior-backend-engineer-security.out)
+ (./resume-head-data-engineering-platforms.out) (./resume-head-data-engineering-platforms.out)
 \@outlinefile=\write6
-\openout6 = `resume-senior-backend-engineer-security.out'.
+\openout6 = `resume-head-data-engineering-platforms.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1439,11 +1439,11 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `resume-senior-backend-engineer-security.bcf'.
+\openout5 = `resume-head-data-engineering-platforms.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume-senior-backend-engineer-security.bbl' found.
- (./resume-senior-backend-engineer-security.bbl)
+Package biblatex Info: ... file 'resume-head-data-engineering-platforms.bbl' found.
+ (./resume-head-data-engineering-platforms.bbl)
 Package biblatex Info: Reference section=0 on input line 66.
 Package biblatex Info: Reference segment=0 on input line 66.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1488,8 +1488,8 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on in
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 90.
 
-Overfull \hbox (7.83287pt too wide) in paragraph at lines 90--91
-[]\T1/lato-TLF/m/n/10 I am a hands-on back-end en-gi-neer and tech-ni-cal leader with 10+ years build-ing and op-er-at-ing \T1/lato-TLF/b/n/10 high-scale plat-form ser-vices 
+Overfull \hbox (5.11304pt too wide) in paragraph at lines 90--91
+\T1/lato-TLF/m/n/10 My ex-per-tise spans \T1/lato-TLF/b/n/10 AWS, Snowflake\T1/lato-TLF/m/n/10 , and mod-ern data en-gi-neer-ing tools, with proven ex-pe-ri-ence lead-ing \T1/lato-TLF/b/n/10 cloud mi-gra-tion 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1509,81 +1509,91 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 [1
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./profile-photo.png>]
-Overfull \hbox (12.74525pt too wide) in paragraph at lines 183--184
-[]\T1/lato-TLF/m/n/9 Implement \T1/lato-TLF/b/n/9 event-driven sys-tems \T1/lato-TLF/m/n/9 for real-time data pro-cess-ing with au-to-mated val-i-da-tion, lin-eage track-ing, and com-pli-ance mon-i-tor-ing.  
+Overfull \hbox (22.38431pt too wide) in paragraph at lines 183--184
+[]\T1/lato-TLF/m/n/9 Drive de-vel-op-ment of \T1/lato-TLF/b/n/9 server-less data plat-forms \T1/lato-TLF/m/n/9 pro-cess-ing high-frequency en-ergy and IoT data at scale, op-ti-mis-ing net-work per-for-mance 
+ []
+
+
+Overfull \hbox (17.47481pt too wide) in paragraph at lines 184--185
+[]\T1/lato-TLF/m/n/9 Lead \T1/lato-TLF/b/n/9 DataOps prac-tices\T1/lato-TLF/m/n/9 ---embedding au-toma-tion, CI/CD, data val-i-da-tion, lin-eage track-ing, and ob-serv-abil-ity into en-gi-neer-ing work-flows.  
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 191.
+(Font)              scaled to size 10.0pt on input line 192.
 
-Overfull \hbox (6.45436pt too wide) in paragraph at lines 201--202
-[]\T1/lato-TLF/m/n/9 Architected \T1/lato-TLF/b/n/9 ad-vanced ob-serv-abil-ity so-lu-tions \T1/lato-TLF/m/n/9 us-ing Open-Teleme-try for anomaly de-tec-tion, sys-tem health mon-i-tor-ing, and op-er-a-tional 
+Overfull \hbox (11.81819pt too wide) in paragraph at lines 200--201
+[]\T1/lato-TLF/m/n/9 Served as \T1/lato-TLF/b/n/9 sole prin-ci-pal ar-chi-tect \T1/lato-TLF/m/n/9 for the 'En-gage' do-main, driv-ing all ar-chi-tec-ture de-ci-sions and tech-ni-cal di-rec-tion for high-throughput 
+ []
+
+
+Overfull \hbox (2.10286pt too wide) in paragraph at lines 203--204
+[]\T1/lato-TLF/m/n/9 Architected \T1/lato-TLF/b/n/9 ad-vanced ob-serv-abil-ity so-lu-tions \T1/lato-TLF/m/n/9 us-ing Open-Teleme-try for real-time sys-tem health mon-i-tor-ing and op-er-a-tional ma-tu-rity.  
  []
 
 
 
 [2{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []|\T1/lato-TLF/b/n/9 PyResearcher - Sixty Hours (Python - Mon-goDB -
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 319--319
+Underfull \hbox (badness 8000) in paragraph at lines 306--306
  []|\T1/lato-TLF/m/n/9 April 2015|
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 323--323
+Underfull \hbox (badness 4673) in paragraph at lines 310--310
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []|\T1/lato-TLF/b/n/9 MS: Pro-gram-ming in HTML5 with JavaScript and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 327--327
+Underfull \hbox (badness 4673) in paragraph at lines 314--314
  []|\T1/lato-TLF/m/n/9 October 2015|
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 331--331
+Underfull \hbox (badness 3260) in paragraph at lines 318--318
  []|\T1/lato-TLF/m/n/9 December 2025|
  []
 
 
 
 [3]
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 347.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 334.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
-Overfull \hbox (12.06381pt too wide) in paragraph at lines 347--347
+Overfull \hbox (12.06381pt too wide) in paragraph at lines 334--334
 [][][][]\T1/lato-TLF/m/n/10 NeoMycelia: A soft-ware ref-er-ence ar-chi-tec-ture-for big data sys-tems. (2021, De-cem-ber), In \T1/lato-TLF/m/it/10 2021 28th asia-pacific soft-ware 
  []
 
 
 
-[4{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume-senior-backend-engineer-security.aux)
+[4{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}] (./resume-head-data-engineering-platforms.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `resume-senior-backend-engineer-security.out' has not changed.
+Package rerunfilecheck Info: File `resume-head-data-engineering-platforms.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'resume-senior-backend-engineer-security.run.xml'.
-\openout1 = `resume-senior-backend-engineer-security.run.xml'.
+Package logreq Info: Writing requests to 'resume-head-data-engineering-platforms.run.xml'.
+\openout1 = `resume-head-data-engineering-platforms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  40851 strings out of 473190
- 825148 string characters out of 5704335
- 1647652 words of memory out of 5000000
+ 825090 string characters out of 5704335
+ 1647647 words of memory out of 5000000
  63435 multiletter control sequences out of 15000+600000
  874621 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,8n,121p,1307b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,8n,121p,1296b,4295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on resume-senior-backend-engineer-security.pdf (4 pages, 472192 bytes).
+Output written on resume-head-data-engineering-platforms.pdf (4 pages, 471234 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
